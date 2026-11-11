@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ein schlichtes "L" mit einem terrakottafarbenen Punkt. 108x108, sichtbarer Bereich ca. 21–87. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FAF7F2"
+        android:pathData="M38,32 h10 v34 h22 v10 h-32 z" />
+    <path
+        android:fillColor="#E39A7F"
+        android:pathData="M58,40 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 z" />
+</vector>

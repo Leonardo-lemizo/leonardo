@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hintergrund">#FAF7F2</color>
+    <color name="ic_launcher_hintergrund">#2F6B52</color>
+
+    <!-- Nur für den Start, bis Compose übernimmt (verhindert weißes/schwarzes Aufblitzen). -->
+    <style name="Theme.Leonardo" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/hintergrund</item>
+    </style>
+</resources>

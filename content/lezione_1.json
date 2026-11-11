@@ -1,0 +1,530 @@
+{
+  "kapitel_id": "lezione_1",
+  "nummer": 1,
+  "titel": "Lezione 1 – Primi contatti",
+  "untertitel": "Begrüßen, vorstellen, Herkunft, Zahlen bis 20",
+  "emoji": "👋",
+  "quellen": ["Nuovo Espresso LEZIONE 1.pdf", "Wiederholung L 1.pdf", "Scheda di Lavoro pronuncia di c e g.pdf", "Lehrerhandbuch Nuovo Espresso 1 (Hueber, frei online)"],
+  "einheiten": [
+    {
+      "id": "l1-e1",
+      "titel": "Ciao oder Buongiorno?",
+      "emoji": "👋",
+      "ziel": "Du kannst Leute zur passenden Tageszeit begrüßen und verabschieden – per du und per Sie.",
+      "erklaerung": [
+        {
+          "titel": "Du oder Sie?",
+          "punkte": [
+            "tu = du: für Freunde, Familie und junge Leute.",
+            "Lei = Sie: für Fremde, ältere Leute und im Beruf.",
+            "Lei mit großem L heißt „Sie“. lei mit kleinem l heißt „sie“ (eine Frau)."
+          ],
+          "beispiele": [
+            {"it": "Ciao, Anna!", "de": "Hallo, Anna! (du)"},
+            {"it": "Buongiorno, signora!", "de": "Guten Tag! (Sie, zu einer Frau)"}
+          ]
+        },
+        {
+          "titel": "Grüßen nach Tageszeit",
+          "punkte": [
+            "Buongiorno: morgens bis etwa 13 Uhr.",
+            "Buonasera: ab dem Nachmittag.",
+            "Buonanotte: nur ganz spät, wenn man schlafen geht.",
+            "Ciao passt immer – aber nur per du. Es heißt „hallo“ und „tschüss“."
+          ],
+          "tabelle": [
+            ["", "ankommen", "gehen"],
+            ["du", "Ciao!", "Ciao! / A presto!"],
+            ["Sie, morgens", "Buongiorno!", "Arrivederci! / ArrivederLa!"],
+            ["Sie, ab Nachmittag", "Buonasera!", "Arrivederci! / Buonasera!"],
+            ["spät abends", "–", "Buonanotte!"]
+          ]
+        },
+        {
+          "titel": "Herr Doktor, Herr Professor",
+          "punkte": [
+            "Vor einem Namen fällt das -e weg: signore → signor Rossi.",
+            "Genauso: dottore → dottor Visconti, professore → professor Bassi."
+          ],
+          "beispiele": [
+            {"it": "Buonasera, signor Rossi!", "de": "Guten Abend, Herr Rossi!"},
+            {"it": "Buongiorno, professore!", "de": "Guten Morgen, Herr Professor!"}
+          ],
+          "merke": "Ohne Namen bleibt das -e: Buongiorno, dottore!"
+        }
+      ],
+      "vokabeln": [
+        {"it": "ciao", "de": "hallo; tschüss", "wortart": "Wendung"},
+        {"it": "buongiorno", "de": "guten Morgen, guten Tag", "wortart": "Wendung"},
+        {"it": "buonasera", "de": "guten Abend", "wortart": "Wendung"},
+        {"it": "buonanotte", "de": "gute Nacht", "wortart": "Wendung"},
+        {"it": "salve", "de": "hallo, grüß Sie", "wortart": "Wendung"},
+        {"it": "arrivederci", "de": "auf Wiedersehen", "wortart": "Wendung"},
+        {"it": "arrivederLa", "de": "auf Wiedersehen (Sie-Form)", "wortart": "Wendung"},
+        {"it": "a presto", "de": "bis bald", "wortart": "Wendung"},
+        {"it": "a domani", "de": "bis morgen", "wortart": "Wendung"},
+        {"it": "alla prossima volta", "de": "bis zum nächsten Mal", "wortart": "Wendung"},
+        {"it": "ci vediamo", "de": "wir sehen uns", "wortart": "Wendung"},
+        {"it": "buona giornata", "de": "schönen Tag", "wortart": "Wendung"},
+        {"it": "il signore", "de": "der Herr", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la signora", "de": "die Frau, die Dame", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il dottore", "de": "der Doktor", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il professore", "de": "der Professor, der Lehrer", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la mattina", "de": "der Morgen, Vormittag", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il pomeriggio", "de": "der Nachmittag", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la sera", "de": "der Abend", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la notte", "de": "die Nacht", "wortart": "Substantiv", "genus": "f"}
+      ],
+      "uebungen": [
+        {"id": "l1-01", "typ": "multiple_choice", "aufgabe": "„Buona sera, signora!“ – Die Frau antwortet einem Arzt. Was passt?", "optionen": ["Ciao, Giorgio!", "Buona sera, dottore!", "Oh, ciao Francesca!", "Buonanotte!"], "loesung": "Buona sera, dottore!", "loesung_de": "Guten Abend, Herr Doktor!", "loesung_generiert": false, "quelle": "L1, S. 6, Nr. 1 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-02", "typ": "multiple_choice", "aufgabe": "Welcher Gruß ist per du und passt zu jeder Tageszeit?", "optionen": ["Buongiorno", "Buona sera", "Ciao", "ArrivederLa"], "loesung": "Ciao", "loesung_de": "hallo / tschüss", "loesung_generiert": false, "quelle": "L1, S. 6, Nr. 1 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-03", "typ": "multiple_choice", "aufgabe": "Wie begrüßt du deinen Professor am Vormittag?", "optionen": ["Ciao, professore!", "Buongiorno, professore!", "Buonanotte, professore!", "A presto, professore!"], "loesung": "Buongiorno, professore!", "loesung_de": "Guten Morgen, Herr Professor!", "loesung_generiert": false, "quelle": "L1, S. 6, Nr. 1"},
+        {"id": "l1-04", "typ": "multiple_choice", "aufgabe": "Wann sagt man „Buonanotte“?", "optionen": ["Zur Begrüßung am Abend", "Beim Weggehen spät in der Nacht", "Zur Begrüßung am Morgen", "Am Nachmittag"], "loesung": "Beim Weggehen spät in der Nacht", "loesung_generiert": false, "quelle": "L1, S. 16, Caffè culturale"},
+        {"id": "l1-05", "typ": "multiple_choice", "aufgabe": "Ab wann grüßt man beim Ankommen mit „Buona sera“?", "optionen": ["ab ca. 5 Uhr", "ab ca. 13 Uhr", "ab ca. 19 Uhr", "ab ca. 23 Uhr"], "loesung": "ab ca. 13 Uhr", "loesung_generiert": false, "quelle": "L1, S. 16, Caffè culturale"},
+        {"id": "l1-06", "typ": "multiple_choice", "aufgabe": "Verabschiedung in der Sie-Form:", "optionen": ["Arrivederci!", "ArrivederLa!", "Ciao!", "Salve!"], "loesung": "ArrivederLa!", "loesung_de": "Auf Wiedersehen! (Sie)", "loesung_generiert": false, "quelle": "L1, S. 16, Caffè culturale"},
+        {"id": "l1-07", "typ": "multiple_choice", "aufgabe": "Du oder Sie? „Come ti chiami?“", "aufgabe_de": "Wie heißt du?", "optionen": ["tu (du)", "Lei (Sie)"], "loesung": "tu (du)", "hinweis": "„ti“ gehört zu tu. Bei Lei hieße es: Come si chiama?", "loesung_generiert": true, "quelle": "eigene Übung zu L1, Nr. 10"},
+        {"id": "l1-08", "typ": "multiple_choice", "aufgabe": "Du oder Sie? „Lei è il signor Bianchi?“", "aufgabe_de": "Sind Sie Herr Bianchi?", "optionen": ["tu (du)", "Lei (Sie)"], "loesung": "Lei (Sie)", "loesung_generiert": true, "quelle": "eigene Übung zu L1, Nr. 10"},
+        {"id": "l1-09", "typ": "multiple_choice", "aufgabe": "Du oder Sie? „Di dove sei?“", "aufgabe_de": "Woher kommst du?", "optionen": ["tu (du)", "Lei (Sie)"], "loesung": "tu (du)", "hinweis": "„sei“ ist die tu-Form von essere. Bei Lei: Di dov'è?", "loesung_generiert": true, "quelle": "eigene Übung zu L1, Nr. 10"},
+        {"id": "l1-19", "typ": "multiple_choice", "aufgabe": "Du oder Sie? „Buongiorno, signora!“", "aufgabe_de": "Guten Tag! (zu einer Frau)", "optionen": ["tu (du)", "Lei (Sie)"], "loesung": "Lei (Sie)", "loesung_generiert": true, "quelle": "eigene Übung zu L1, Nr. 10"},
+        {"id": "l1-51", "typ": "multiple_choice", "aufgabe": "Buongiorno, ___ Visconti.", "aufgabe_de": "Guten Tag, Herr Doktor Visconti.", "optionen": ["dottore", "dottor"], "loesung": "dottor", "loesung_de": "Doktor (vor einem Namen ohne -e)", "loesung_generiert": false, "quelle": "L1, S. 13"},
+        {"id": "l1-100", "typ": "multiple_choice", "aufgabe": "Es ist 8 Uhr und du siezt die Person. Wie grüßt du?", "optionen": ["Ciao!", "Buongiorno!", "Buona sera!", "Buonanotte!"], "loesung": "Buongiorno!", "loesung_de": "Guten Morgen!", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 1"},
+        {"id": "l1-101", "typ": "multiple_choice", "aufgabe": "Es ist 19 Uhr und du siezt die Person. Wie grüßt du?", "optionen": ["Ciao!", "Buongiorno!", "Buona sera!", "Buonanotte!"], "loesung": "Buona sera!", "loesung_de": "Guten Abend!", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 1"},
+        {"id": "l1-102", "typ": "multiple_choice", "aufgabe": "Es ist 19 Uhr und du duzt die Person. Wie grüßt du?", "optionen": ["Ciao!", "Buongiorno!", "ArrivederLa!", "Buonanotte!"], "loesung": "Ciao!", "loesung_de": "Hallo!", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 1"},
+        {"id": "l1-84", "typ": "uebersetzung", "aufgabe": "Übersetze: Bis morgen!", "loesung": "A domani!", "loesung_generiert": false, "quelle": "L1, S. 13"},
+        {"id": "l1-85", "typ": "uebersetzung", "aufgabe": "Übersetze: Bis bald!", "loesung": "A presto!", "loesung_generiert": false, "quelle": "L1, S. 13"}
+      ]
+    },
+    {
+      "id": "l1-e2",
+      "titel": "Come ti chiami? – Sich vorstellen",
+      "emoji": "🙋",
+      "ziel": "Du kannst sagen, wie du heißt, und nach dem Namen fragen.",
+      "verben": ["essere", "chiamarsi"],
+      "erklaerung": [
+        {
+          "titel": "Zwei Wege, den Namen zu sagen",
+          "punkte": [
+            "Mi chiamo Paola. = Ich heiße Paola.",
+            "Sono Paola. = Ich bin Paola.",
+            "Beides ist richtig und ganz normal."
+          ],
+          "beispiele": [
+            {"it": "Mi chiamo Luca.", "de": "Ich heiße Luca."},
+            {"it": "Sono Paola.", "de": "Ich bin Paola."}
+          ]
+        },
+        {
+          "titel": "Nach dem Namen fragen",
+          "punkte": [
+            "Per du: Come ti chiami?",
+            "Per Sie: Come si chiama?",
+            "Höflich davor: Scusi! (Sie) oder Scusa! (du) = Entschuldigung!"
+          ],
+          "beispiele": [
+            {"it": "Come ti chiami?", "de": "Wie heißt du?"},
+            {"it": "Scusi, Lei come si chiama?", "de": "Entschuldigen Sie, wie heißen Sie?"},
+            {"it": "Piacere!", "de": "Freut mich!"}
+          ]
+        },
+        {
+          "titel": "Ich, du, Sie – darf weg",
+          "punkte": [
+            "Die Verbform zeigt schon, wer gemeint ist.",
+            "Darum kann man io, tu, Lei oft weglassen.",
+            "(Io) sono Paola. – (Tu) sei Luca?"
+          ],
+          "tabelle": [
+            ["", "essere (sein)", "chiamarsi (heißen)"],
+            ["io (ich)", "sono", "mi chiamo"],
+            ["tu (du)", "sei", "ti chiami"],
+            ["lui / lei / Lei", "è", "si chiama"]
+          ],
+          "merke": "è mit Akzent heißt „ist“. e ohne Akzent heißt „und“."
+        }
+      ],
+      "vokabeln": [
+        {"it": "Come ti chiami?", "de": "Wie heißt du?", "wortart": "Wendung"},
+        {"it": "Come si chiama?", "de": "Wie heißen Sie?", "wortart": "Wendung"},
+        {"it": "Mi chiamo …", "de": "Ich heiße …", "wortart": "Wendung"},
+        {"it": "chiamarsi", "de": "heißen", "wortart": "Verb"},
+        {"it": "essere", "de": "sein", "wortart": "Verb"},
+        {"it": "Sono …", "de": "Ich bin …", "wortart": "Wendung"},
+        {"it": "Sì, sono io.", "de": "Ja, das bin ich.", "wortart": "Wendung"},
+        {"it": "Piacere.", "de": "Angenehm. / Freut mich.", "wortart": "Wendung"},
+        {"it": "Scusi!", "de": "Entschuldigen Sie!", "wortart": "Wendung"},
+        {"it": "Scusa!", "de": "Entschuldige!", "wortart": "Wendung"},
+        {"it": "E tu?", "de": "Und du?", "wortart": "Wendung"},
+        {"it": "E Lei?", "de": "Und Sie?", "wortart": "Wendung"},
+        {"it": "anch'io", "de": "ich auch", "wortart": "Wendung"},
+        {"it": "io", "de": "ich", "wortart": "Pronomen"},
+        {"it": "tu", "de": "du", "wortart": "Pronomen"},
+        {"it": "Lei", "de": "Sie (Höflichkeitsform)", "wortart": "Pronomen"},
+        {"it": "lui", "de": "er", "wortart": "Pronomen"},
+        {"it": "lei", "de": "sie (eine Frau)", "wortart": "Pronomen"},
+        {"it": "sì", "de": "ja", "wortart": "Partikel"},
+        {"it": "no", "de": "nein", "wortart": "Partikel"}
+      ],
+      "uebungen": [
+        {"id": "l1-10", "typ": "uebersetzung", "aufgabe": "Frag nach dem Namen (per du).", "loesung": "Come ti chiami?", "alternativen": ["Tu come ti chiami?"], "loesung_de": "Wie heißt du?", "loesung_generiert": false, "quelle": "L1, S. 7, Nr. 2 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-11", "typ": "uebersetzung", "aufgabe": "Frag nach dem Namen (per Sie).", "loesung": "Come si chiama?", "alternativen": ["Lei come si chiama?", "Scusi, Lei come si chiama?", "Scusi, come si chiama?"], "loesung_de": "Wie heißen Sie?", "loesung_generiert": false, "quelle": "L1, S. 7, Nr. 2 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-12", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich heiße Paola.", "loesung": "Mi chiamo Paola.", "alternativen": ["Io mi chiamo Paola.", "Sono Paola.", "Io sono Paola."], "loesung_generiert": false, "quelle": "L1, S. 7, Nr. 2 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-103", "typ": "lueckentext", "aufgabe": "___ sera. Sono Alberta Peci. E Lei?", "aufgabe_de": "Guten ___. Ich bin Alberta Peci. Und Sie?", "loesung": "Buona", "loesung_de": "Guten (Abend)", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 2"},
+        {"id": "l1-104", "typ": "lueckentext", "aufgabe": "Buona sera. Sono Alberta Peci. E ___? (Sie-Form)", "aufgabe_de": "Guten Abend. Ich bin Alberta Peci. Und ___?", "loesung": "Lei", "loesung_de": "Sie", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 2"},
+        {"id": "l1-105", "typ": "lueckentext", "aufgabe": "– Sono Alberta Peci. – Carli, ___.", "aufgabe_de": "– Ich bin Alberta Peci. – Carli, ___. (freut mich)", "loesung": "piacere", "loesung_de": "freut mich", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 2"},
+        {"id": "l1-106", "typ": "lueckentext", "aufgabe": "Buongiorno. Io ___ Sara Patti.", "aufgabe_de": "Guten Tag. Ich ___ Sara Patti.", "loesung": "sono", "loesung_de": "bin", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 2"},
+        {"id": "l1-107", "typ": "lueckentext", "aufgabe": "E tu ___ ti chiami?", "aufgabe_de": "Und du, ___ heißt du?", "loesung": "come", "loesung_de": "wie", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 2"},
+        {"id": "l1-108", "typ": "lueckentext", "aufgabe": "E tu come ti ___?", "aufgabe_de": "Und du, wie ___ du?", "loesung": "chiami", "loesung_de": "heißt", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 2"},
+        {"id": "l1-109", "typ": "lueckentext", "aufgabe": "Io ___ ___ Andrea. E tu? (zwei Wörter)", "aufgabe_de": "Ich ___ Andrea. Und du?", "loesung": "mi chiamo", "loesung_de": "heiße", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 2"},
+        {"id": "l1-110", "typ": "lueckentext", "aufgabe": "___, Lei come si chiama?", "aufgabe_de": "___, wie heißen Sie? (Entschuldigen Sie)", "loesung": "Scusi", "loesung_de": "Entschuldigen Sie", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 2"},
+        {"id": "l1-111", "typ": "lueckentext", "aufgabe": "Io mi ___ Roberto Rossi.", "aufgabe_de": "Ich ___ Roberto Rossi.", "loesung": "chiamo", "loesung_de": "heiße", "loesung_generiert": true, "quelle": "Wiederholung L1, S. 145, Nr. 2"},
+        {"id": "l1-54", "typ": "lueckentext", "aufgabe": "___ ti chiami?", "aufgabe_de": "___ heißt du?", "loesung": "Come", "loesung_de": "Wie", "loesung_generiert": false, "quelle": "L1, S. 13"},
+        {"id": "l1-56", "typ": "multiple_choice", "aufgabe": "Du lernst jemanden kennen. Was sagst du?", "optionen": ["Piacere!", "Buonanotte!", "Come, scusi?", "A domani!"], "loesung": "Piacere!", "loesung_de": "Freut mich!", "loesung_generiert": false, "quelle": "L1, S. 7"}
+      ]
+    },
+    {
+      "id": "l1-e3",
+      "titel": "Di dove sei? – Herkunft",
+      "emoji": "🌍",
+      "ziel": "Du kannst fragen und sagen, woher jemand kommt.",
+      "erklaerung": [
+        {
+          "titel": "Woher kommst du?",
+          "punkte": [
+            "Per du: Di dove sei?",
+            "Per Sie: Di dov'è?",
+            "Antwort mit Stadt: Sono di Genova. (di = aus)",
+            "Antwort mit Land: Vengo dalla Germania."
+          ],
+          "beispiele": [
+            {"it": "Di dove sei?", "de": "Woher kommst du?"},
+            {"it": "Sono di Chemnitz.", "de": "Ich komme aus Chemnitz."},
+            {"it": "Vengo dalla Germania.", "de": "Ich komme aus Deutschland."}
+          ]
+        },
+        {
+          "titel": "Nationalität: Mann oder Frau?",
+          "punkte": [
+            "Endet das Wort auf -o, wird es für Frauen -a: italiano → italiana.",
+            "Endet es auf -e, bleibt es gleich: inglese, francese.",
+            "Nationalitäten schreibt man klein."
+          ],
+          "tabelle": [
+            ["Land", "Mann", "Frau"],
+            ["Italia", "italiano", "italiana"],
+            ["Germania", "tedesco", "tedesca"],
+            ["Austria", "austriaco", "austriaca"],
+            ["Inghilterra", "inglese", "inglese"],
+            ["Francia", "francese", "francese"]
+          ]
+        },
+        {
+          "titel": "Der, die: il und la",
+          "punkte": [
+            "il steht vor männlichen Wörtern: il signore.",
+            "la steht vor weiblichen Wörtern: la signora.",
+            "Mehr dazu kommt in Lektion 2."
+          ],
+          "beispiele": [
+            {"it": "il signore", "de": "der Herr"},
+            {"it": "la signora", "de": "die Dame"}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "Di dove sei?", "de": "Woher kommst du?", "wortart": "Wendung"},
+        {"it": "Di dov'è?", "de": "Woher kommen Sie? / Woher ist er/sie?", "wortart": "Wendung"},
+        {"it": "Sono di Genova.", "de": "Ich komme aus Genua.", "wortart": "Wendung"},
+        {"it": "Vengo dalla Germania.", "de": "Ich komme aus Deutschland.", "wortart": "Wendung"},
+        {"it": "la nazionalità", "de": "die Nationalität", "wortart": "Substantiv", "genus": "f"},
+        {"it": "l'Italia", "de": "Italien", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la Germania", "de": "Deutschland", "wortart": "Substantiv", "genus": "f"},
+        {"it": "l'Austria", "de": "Österreich", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la Svizzera", "de": "die Schweiz", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la Spagna", "de": "Spanien", "wortart": "Substantiv", "genus": "f"},
+        {"it": "l'Inghilterra", "de": "England", "wortart": "Substantiv", "genus": "f"},
+        {"it": "l'Irlanda", "de": "Irland", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il Portogallo", "de": "Portugal", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la Francia", "de": "Frankreich", "wortart": "Substantiv", "genus": "f"},
+        {"it": "italiano / italiana", "de": "italienisch; Italiener / Italienerin", "wortart": "Adjektiv"},
+        {"it": "tedesco / tedesca", "de": "deutsch; Deutscher / Deutsche", "wortart": "Adjektiv"},
+        {"it": "austriaco / austriaca", "de": "österreichisch; Österreicher / Österreicherin", "wortart": "Adjektiv"},
+        {"it": "svizzero / svizzera", "de": "schweizerisch; Schweizer / Schweizerin", "wortart": "Adjektiv"},
+        {"it": "spagnolo / spagnola", "de": "spanisch; Spanier / Spanierin", "wortart": "Adjektiv"},
+        {"it": "inglese", "de": "englisch; Engländer / Engländerin", "wortart": "Adjektiv"},
+        {"it": "irlandese", "de": "irisch; Ire / Irin", "wortart": "Adjektiv"},
+        {"it": "portoghese", "de": "portugiesisch; Portugiese / Portugiesin", "wortart": "Adjektiv"},
+        {"it": "francese", "de": "französisch; Franzose / Französin", "wortart": "Adjektiv"},
+        {"it": "americano / americana", "de": "amerikanisch; Amerikaner / Amerikanerin", "wortart": "Adjektiv"}
+      ],
+      "uebungen": [
+        {"id": "l1-40", "typ": "lueckentext", "aufgabe": "Sì, sono di Dublino. E Lei, ___? (Sie-Form)", "aufgabe_de": "Ja, ich bin aus Dublin. Und Sie, ___?", "loesung": "di dov'è", "alternativen": ["di dove è"], "loesung_de": "woher kommen Sie", "loesung_generiert": true, "quelle": "L1, S. 10, Nr. 8"},
+        {"id": "l1-41", "typ": "lueckentext", "aufgabe": "No, sono austriaco. E tu, ___? (Du-Form)", "aufgabe_de": "Nein, ich bin Österreicher. Und du, ___?", "loesung": "di dove sei", "loesung_de": "woher kommst du", "loesung_generiert": true, "quelle": "L1, S. 10, Nr. 8"},
+        {"id": "l1-42", "typ": "lueckentext", "aufgabe": "Germania → Maria è ___.", "aufgabe_de": "Deutschland → Maria ist ___.", "loesung": "tedesca", "loesung_de": "Deutsche", "loesung_generiert": false, "quelle": "L1, S. 10"},
+        {"id": "l1-43", "typ": "lueckentext", "aufgabe": "Austria → Karl è ___.", "aufgabe_de": "Österreich → Karl ist ___.", "loesung": "austriaco", "loesung_de": "Österreicher", "loesung_generiert": false, "quelle": "L1, S. 10"},
+        {"id": "l1-44", "typ": "lueckentext", "aufgabe": "Inghilterra → Ann è ___.", "aufgabe_de": "England → Ann ist ___.", "loesung": "inglese", "loesung_de": "Engländerin", "loesung_generiert": false, "quelle": "L1, S. 10"},
+        {"id": "l1-45", "typ": "lueckentext", "aufgabe": "Svizzera → Heidi è ___.", "aufgabe_de": "Schweiz → Heidi ist ___.", "loesung": "svizzera", "loesung_de": "Schweizerin", "loesung_generiert": false, "quelle": "L1, S. 10"},
+        {"id": "l1-46", "typ": "lueckentext", "aufgabe": "Francia → Pierre è ___.", "aufgabe_de": "Frankreich → Pierre ist ___.", "loesung": "francese", "loesung_de": "Franzose", "loesung_generiert": false, "quelle": "L1, S. 10"},
+        {"id": "l1-47", "typ": "lueckentext", "aufgabe": "Spagna → Carmen è ___.", "aufgabe_de": "Spanien → Carmen ist ___.", "loesung": "spagnola", "loesung_de": "Spanierin", "loesung_generiert": false, "quelle": "L1, S. 10"},
+        {"id": "l1-48", "typ": "lueckentext", "aufgabe": "Portogallo → João è ___.", "aufgabe_de": "Portugal → João ist ___.", "loesung": "portoghese", "loesung_de": "Portugiese", "loesung_generiert": false, "quelle": "L1, S. 10"},
+        {"id": "l1-49", "typ": "multiple_choice", "aufgabe": "„Sei svizzera?“ – Welche Antwort passt?", "aufgabe_de": "„Bist du Schweizerin?“", "optionen": ["No, sono austriaca.", "Sì. E Lei è italiana?", "Io sono tedesco."], "loesung": "No, sono austriaca.", "loesung_de": "Nein, ich bin Österreicherin.", "loesung_generiert": true, "quelle": "L1, S. 10, Nr. 9"},
+        {"id": "l1-50", "typ": "multiple_choice", "aufgabe": "Sono ___ Genova.", "aufgabe_de": "Ich komme ___ Genua.", "optionen": ["di", "a", "in", "da"], "loesung": "di", "loesung_de": "aus", "loesung_generiert": false, "quelle": "L1, S. 13"},
+        {"id": "l1-52", "typ": "multiple_choice", "aufgabe": "Artikel: ___ signora", "aufgabe_de": "___ Dame", "optionen": ["il", "la"], "loesung": "la", "loesung_de": "die", "loesung_generiert": false, "quelle": "L1, S. 13"},
+        {"id": "l1-53", "typ": "multiple_choice", "aufgabe": "Artikel: ___ signore", "aufgabe_de": "___ Herr", "optionen": ["il", "la"], "loesung": "il", "loesung_de": "der", "loesung_generiert": false, "quelle": "L1, S. 13"},
+        {"id": "l1-82", "typ": "uebersetzung", "aufgabe": "Übersetze (per du): Woher kommst du?", "loesung": "Di dove sei?", "alternativen": ["Tu di dove sei?"], "loesung_generiert": false, "quelle": "L1, S. 13"},
+        {"id": "l1-83", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich bin Deutscher, aus Chemnitz.", "loesung": "Sono tedesco, di Chemnitz.", "alternativen": ["Io sono tedesco, di Chemnitz."], "loesung_generiert": true, "quelle": "L1, S. 10"},
+        {"id": "l1-57", "typ": "multiple_choice", "aufgabe": "Eine Frau aus Italien ist …", "optionen": ["italiano", "italiana", "italiane"], "loesung": "italiana", "loesung_de": "Italienerin", "hinweis": "-o wird bei Frauen zu -a.", "loesung_generiert": true, "quelle": "eigene Übung zu L1, S. 10"},
+        {"id": "l1-58", "typ": "multiple_choice", "aufgabe": "Ein Mann aus Frankreich ist …", "optionen": ["franceso", "francese", "francesa"], "loesung": "francese", "loesung_de": "Franzose", "hinweis": "Wörter auf -e bleiben für Mann und Frau gleich.", "loesung_generiert": true, "quelle": "eigene Übung zu L1, S. 10"}
+      ]
+    },
+    {
+      "id": "l1-e4",
+      "titel": "Alphabet und Aussprache",
+      "emoji": "🔤",
+      "ziel": "Du kannst buchstabieren und c und g richtig aussprechen.",
+      "erklaerung": [
+        {
+          "titel": "c und g: weich oder hart?",
+          "punkte": [
+            "Vor e und i klingen c und g weich: ciao [tschao], gelato [dschelato].",
+            "Vor a, o und u klingen sie hart: casa [kasa], gatto [gatto].",
+            "Das gilt für jedes Wort – du kannst es dir ableiten."
+          ],
+          "beispiele": [
+            {"it": "ciao", "de": "c weich wie „tsch“"},
+            {"it": "gelato", "de": "g weich wie „dsch“"},
+            {"it": "casa", "de": "c hart wie „k“"},
+            {"it": "gatto", "de": "g hart wie in „gut“"}
+          ]
+        },
+        {
+          "titel": "Das h macht es hart",
+          "punkte": [
+            "Ein h nach c oder g macht den Laut hart – auch vor e und i.",
+            "chi, che klingen wie „ki, ke“: chitarra, perché.",
+            "ghi, ghe klingen wie „gi, ge“: spaghetti, funghi."
+          ],
+          "tabelle": [
+            ["", "weich", "hart"],
+            ["c", "ce, ci: cena, cinema", "ca, co, cu, che, chi: caffè, chitarra"],
+            ["g", "ge, gi: gelato, giornale", "ga, go, gu, ghe, ghi: gatto, spaghetti"]
+          ],
+          "merke": "Das h selbst spricht man nie: hotel klingt wie „otel“."
+        },
+        {
+          "titel": "Buchstabieren",
+          "punkte": [
+            "Frage: Come si scrive? = Wie schreibt man das?",
+            "Einige Namen: h = acca, r = erre, g = gi, j = i lunga, w = doppia vu, y = ipsilon.",
+            "Italiener buchstabieren gern mit Städten: A come Ancona, B come Bari."
+          ],
+          "beispiele": [
+            {"it": "Come si scrive?", "de": "Wie schreibt man das?"},
+            {"it": "Come, scusi?", "de": "Wie bitte? (Sie)"}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "l'alfabeto", "de": "das Alphabet", "wortart": "Substantiv", "genus": "m"},
+        {"it": "Come si scrive?", "de": "Wie schreibt man das?", "wortart": "Wendung"},
+        {"it": "il nome", "de": "der Vorname, der Name", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il cognome", "de": "der Nachname", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il caffè", "de": "der Kaffee", "wortart": "Substantiv", "genus": "m"},
+        {"it": "gli spaghetti", "de": "die Spaghetti", "wortart": "Substantiv", "genus": "m (Plural)"},
+        {"it": "il gatto", "de": "die Katze, der Kater", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il cinema", "de": "das Kino", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la chitarra", "de": "die Gitarre", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il gelato", "de": "das Eis (Speiseeis)", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il giornale", "de": "die Zeitung", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il formaggio", "de": "der Käse", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il cane", "de": "der Hund", "wortart": "Substantiv", "genus": "m"},
+        {"it": "lo zucchero", "de": "der Zucker", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il medico", "de": "der Arzt", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il fungo", "de": "der Pilz", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il cuore", "de": "das Herz", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il lago", "de": "der See", "wortart": "Substantiv", "genus": "m"},
+        {"it": "gli alberghi", "de": "die Hotels", "wortart": "Substantiv", "genus": "m (Plural)"},
+        {"it": "la cena", "de": "das Abendessen", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la chiave", "de": "der Schlüssel", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la giacca", "de": "die Jacke", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il gioco", "de": "das Spiel", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la macchina", "de": "das Auto", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il ghiaccio", "de": "das Eis (gefrorenes Wasser)", "wortart": "Substantiv", "genus": "m"},
+        {"it": "dolce", "de": "süß", "wortart": "Adjektiv"},
+        {"it": "il cugino", "de": "der Cousin", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la chiesa", "de": "die Kirche", "wortart": "Substantiv", "genus": "f"},
+        {"it": "giallo", "de": "gelb", "wortart": "Adjektiv"},
+        {"it": "il regalo", "de": "das Geschenk", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il cioccolato", "de": "die Schokolade", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la gonna", "de": "der Rock", "wortart": "Substantiv", "genus": "f"},
+        {"it": "giugno", "de": "Juni", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il gusto", "de": "der Geschmack", "wortart": "Substantiv", "genus": "m"},
+        {"it": "giusto", "de": "richtig", "wortart": "Adjektiv"},
+        {"it": "la cosa", "de": "die Sache, das Ding", "wortart": "Substantiv", "genus": "f"}
+      ],
+      "uebungen": [
+        {"id": "l1-30", "typ": "multiple_choice", "aufgabe": "Wie spricht man das „c“ in „ciao“ und „cinema“?", "optionen": ["[tʃ] wie in „tschüss“", "[k] wie in „Kaffee“"], "loesung": "[tʃ] wie in „tschüss“", "loesung_generiert": false, "quelle": "L1, S. 9, Nr. 6 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-31", "typ": "multiple_choice", "aufgabe": "Wie spricht man das „ch“ in „chitarra“ und „zucchero“?", "optionen": ["[tʃ] wie in „tschüss“", "[k] wie in „Kaffee“"], "loesung": "[k] wie in „Kaffee“", "loesung_generiert": false, "quelle": "L1, S. 9, Nr. 6 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-32", "typ": "multiple_choice", "aufgabe": "Wie spricht man das „g“ in „gelato“ und „giornale“?", "optionen": ["[dʒ] wie in „Dschungel“", "[g] wie in „gut“"], "loesung": "[dʒ] wie in „Dschungel“", "loesung_generiert": false, "quelle": "L1, S. 9, Nr. 6 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-33", "typ": "multiple_choice", "aufgabe": "Wie spricht man das „g“ in „gatto“ und „spaghetti“?", "optionen": ["[dʒ] wie in „Dschungel“", "[g] wie in „gut“"], "loesung": "[g] wie in „gut“", "loesung_generiert": false, "quelle": "L1, S. 9, Nr. 6 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-34", "typ": "multiple_choice", "aufgabe": "Regel: „c“ klingt weich [tʃ] vor …", "optionen": ["e und i", "a, o, u", "h", "allen Vokalen"], "loesung": "e und i", "loesung_generiert": false, "quelle": "L1, S. 9, Nr. 6 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-35", "typ": "multiple_choice", "aufgabe": "Regel: „g“ klingt hart [g] vor …", "optionen": ["e und i", "a, o, u sowie he, hi", "nur i", "allen Vokalen"], "loesung": "a, o, u sowie he, hi", "loesung_generiert": false, "quelle": "L1, S. 9, Nr. 6 · Lösung: Lehrerhandbuch"},
+        {"id": "l1-36", "typ": "multiple_choice", "aufgabe": "Wie heißt der Buchstabe „H“ auf Italienisch?", "optionen": ["acca", "hache", "effe", "gi"], "loesung": "acca", "loesung_generiert": false, "quelle": "L1, S. 8, Nr. 5"},
+        {"id": "l1-37", "typ": "multiple_choice", "aufgabe": "Welcher Buchstabe heißt „erre“?", "optionen": ["R", "E", "L", "S"], "loesung": "R", "loesung_generiert": false, "quelle": "L1, S. 8, Nr. 5"},
+        {"id": "l1-38", "typ": "multiple_choice", "aufgabe": "Welcher Buchstabe heißt „gi“?", "optionen": ["G", "J", "I", "Y"], "loesung": "G", "loesung_generiert": false, "quelle": "L1, S. 8, Nr. 5"},
+        {"id": "l1-39", "typ": "multiple_choice", "aufgabe": "Wie heißt der Buchstabe „W“?", "optionen": ["doppia vu", "ipsilon", "i lunga", "kappa"], "loesung": "doppia vu", "loesung_generiert": false, "quelle": "L1, S. 8, Nr. 5"},
+        {"id": "gr-120", "typ": "multiple_choice", "aufgabe": "Wie klingt das C in „cena“?", "aufgabe_de": "cena = das Abendessen", "optionen": ["weich [tʃ]", "hart [k]"], "loesung": "weich [tʃ]", "loesung_generiert": false, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-121", "typ": "multiple_choice", "aufgabe": "Wie klingt das CH in „chiave“?", "aufgabe_de": "chiave = der Schlüssel", "optionen": ["weich [tʃ]", "hart [k]"], "loesung": "hart [k]", "loesung_generiert": false, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-122", "typ": "multiple_choice", "aufgabe": "Wie klingt das C in „amico“?", "aufgabe_de": "amico = der Freund", "optionen": ["weich [tʃ]", "hart [k]"], "loesung": "hart [k]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-124", "typ": "multiple_choice", "aufgabe": "Wie klingt das C in „cinque“?", "aufgabe_de": "cinque = fünf", "optionen": ["weich [tʃ]", "hart [k]"], "loesung": "weich [tʃ]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-125", "typ": "multiple_choice", "aufgabe": "Wie klingt das C in „dolce“?", "aufgabe_de": "dolce = süß", "optionen": ["weich [tʃ]", "hart [k]"], "loesung": "weich [tʃ]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-127", "typ": "multiple_choice", "aufgabe": "Wie klingt das CH in „perché“?", "aufgabe_de": "perché = warum; weil", "optionen": ["weich [tʃ]", "hart [k]"], "loesung": "hart [k]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-128", "typ": "multiple_choice", "aufgabe": "Wie klingt das C in „cuore“?", "aufgabe_de": "cuore = das Herz", "optionen": ["weich [tʃ]", "hart [k]"], "loesung": "hart [k]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-129", "typ": "multiple_choice", "aufgabe": "Wie klingt das CH in „chiesa“?", "aufgabe_de": "chiesa = die Kirche", "optionen": ["weich [tʃ]", "hart [k]"], "loesung": "hart [k]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-130", "typ": "multiple_choice", "aufgabe": "Wie klingt das G in „lago“?", "aufgabe_de": "lago = der See", "optionen": ["weich [dʒ]", "hart [g]"], "loesung": "hart [g]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-131", "typ": "multiple_choice", "aufgabe": "Wie klingt das GG in „formaggio“?", "aufgabe_de": "formaggio = der Käse", "optionen": ["weich [dʒ]", "hart [g]"], "loesung": "weich [dʒ]", "loesung_generiert": false, "quelle": "Arbeitsblatt Aussprache c und g, A · Lösung: Lehrerhandbuch"},
+        {"id": "gr-132", "typ": "multiple_choice", "aufgabe": "Wie klingt das GH in „funghi“?", "aufgabe_de": "funghi = die Pilze", "optionen": ["weich [dʒ]", "hart [g]"], "loesung": "hart [g]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-133", "typ": "multiple_choice", "aufgabe": "Wie klingt das G in „cugino“?", "aufgabe_de": "cugino = der Cousin", "optionen": ["weich [dʒ]", "hart [g]"], "loesung": "weich [dʒ]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-134", "typ": "multiple_choice", "aufgabe": "Wie klingt das G in „giallo“?", "aufgabe_de": "giallo = gelb", "optionen": ["weich [dʒ]", "hart [g]"], "loesung": "weich [dʒ]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-135", "typ": "multiple_choice", "aufgabe": "Wie klingt das G in „regalo“?", "aufgabe_de": "regalo = das Geschenk", "optionen": ["weich [dʒ]", "hart [g]"], "loesung": "hart [g]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-136", "typ": "multiple_choice", "aufgabe": "Wie klingt das G in „gonna“?", "aufgabe_de": "gonna = der Rock", "optionen": ["weich [dʒ]", "hart [g]"], "loesung": "hart [g]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-138", "typ": "multiple_choice", "aufgabe": "Wie klingt das GH in „ghiaccio“?", "aufgabe_de": "ghiaccio = das Eis", "optionen": ["weich [dʒ]", "hart [g]"], "loesung": "hart [g]", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, A"},
+        {"id": "gr-140", "typ": "multiple_choice", "aufgabe": "Ergänze: ___ena (das Abendessen)", "optionen": ["C", "CH", "G", "GH"], "loesung": "C", "loesung_de": "cena", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, B"},
+        {"id": "gr-141", "typ": "multiple_choice", "aufgabe": "Ergänze: ___iave (der Schlüssel)", "optionen": ["C", "CH", "G", "GH"], "loesung": "CH", "loesung_de": "chiave", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, B"},
+        {"id": "gr-142", "typ": "multiple_choice", "aufgabe": "Ergänze: spa___etti", "optionen": ["C", "CH", "G", "GH"], "loesung": "GH", "loesung_de": "spaghetti", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, B"},
+        {"id": "gr-143", "typ": "multiple_choice", "aufgabe": "Ergänze: ___atto (die Katze)", "optionen": ["C", "CH", "G", "GH"], "loesung": "G", "loesung_de": "gatto", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, B"},
+        {"id": "gr-144", "typ": "multiple_choice", "aufgabe": "Ergänze: ___elato (das Eis)", "optionen": ["C", "CH", "G", "GH"], "loesung": "G", "loesung_de": "gelato", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, B"},
+        {"id": "gr-145", "typ": "multiple_choice", "aufgabe": "Ergänze: mac___ina (das Auto)", "optionen": ["C", "CH", "G", "GH"], "loesung": "CH", "loesung_de": "macchina", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, B"},
+        {"id": "gr-147", "typ": "multiple_choice", "aufgabe": "Ergänze: fun___i (die Pilze)", "optionen": ["C", "CH", "G", "GH"], "loesung": "GH", "loesung_de": "funghi", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, B"},
+        {"id": "gr-149", "typ": "multiple_choice", "aufgabe": "Ergänze: ___itarra (die Gitarre)", "optionen": ["C", "CH", "G", "GH"], "loesung": "CH", "loesung_de": "chitarra", "loesung_generiert": true, "quelle": "Arbeitsblatt Aussprache c und g, B"}
+      ]
+    },
+    {
+      "id": "l1-e5",
+      "titel": "Zahlen bis 20 und Telefonnummer",
+      "emoji": "🔢",
+      "ziel": "Du kannst bis 20 zählen und nach Telefonnummer und Adresse fragen.",
+      "verben": ["avere"],
+      "erklaerung": [
+        {
+          "titel": "Zahlen von 0 bis 20",
+          "punkte": [
+            "0 zero · 1 uno · 2 due · 3 tre · 4 quattro · 5 cinque",
+            "6 sei · 7 sette · 8 otto · 9 nove · 10 dieci",
+            "11 undici · 12 dodici · 13 tredici · 14 quattordici · 15 quindici · 16 sedici",
+            "17 diciassette · 18 diciotto · 19 diciannove · 20 venti"
+          ],
+          "merke": "Ab 17 dreht es sich: dicia-ssette = „zehn und sieben“."
+        },
+        {
+          "titel": "Nach der Nummer fragen",
+          "punkte": [
+            "Per du: Qual è il tuo numero di telefono?",
+            "Per Sie: Qual è il Suo numero di telefono?",
+            "Nicht verstanden? Come, scusa? (du) / Come, scusi? (Sie)"
+          ],
+          "beispiele": [
+            {"it": "Qual è il tuo numero di telefono?", "de": "Wie ist deine Telefonnummer?"},
+            {"it": "Qual è il Suo indirizzo?", "de": "Wie ist Ihre Adresse?"},
+            {"it": "Ho anche il cellulare.", "de": "Ich habe auch ein Handy."}
+          ]
+        },
+        {
+          "titel": "Das Verb avere (haben)",
+          "punkte": [
+            "io ho, tu hai, lui/lei/Lei ha.",
+            "Das h spricht man nicht: ho klingt wie „o“."
+          ],
+          "beispiele": [
+            {"it": "Ho un cellulare.", "de": "Ich habe ein Handy."},
+            {"it": "Hai un cellulare?", "de": "Hast du ein Handy?"}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "zero", "de": "0", "wortart": "Zahl"},
+        {"it": "uno", "de": "1", "wortart": "Zahl"},
+        {"it": "due", "de": "2", "wortart": "Zahl"},
+        {"it": "tre", "de": "3", "wortart": "Zahl"},
+        {"it": "quattro", "de": "4", "wortart": "Zahl"},
+        {"it": "cinque", "de": "5", "wortart": "Zahl"},
+        {"it": "sei", "de": "6", "wortart": "Zahl"},
+        {"it": "sette", "de": "7", "wortart": "Zahl"},
+        {"it": "otto", "de": "8", "wortart": "Zahl"},
+        {"it": "nove", "de": "9", "wortart": "Zahl"},
+        {"it": "dieci", "de": "10", "wortart": "Zahl"},
+        {"it": "undici", "de": "11", "wortart": "Zahl"},
+        {"it": "dodici", "de": "12", "wortart": "Zahl"},
+        {"it": "tredici", "de": "13", "wortart": "Zahl"},
+        {"it": "quattordici", "de": "14", "wortart": "Zahl"},
+        {"it": "quindici", "de": "15", "wortart": "Zahl"},
+        {"it": "sedici", "de": "16", "wortart": "Zahl"},
+        {"it": "diciassette", "de": "17", "wortart": "Zahl"},
+        {"it": "diciotto", "de": "18", "wortart": "Zahl"},
+        {"it": "diciannove", "de": "19", "wortart": "Zahl"},
+        {"it": "venti", "de": "20", "wortart": "Zahl"},
+        {"it": "avere", "de": "haben", "wortart": "Verb"},
+        {"it": "il numero di telefono", "de": "die Telefonnummer", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il cellulare", "de": "das Handy", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'indirizzo", "de": "die Adresse", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la via", "de": "die Straße", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la piazza", "de": "der Platz", "wortart": "Substantiv", "genus": "f"},
+        {"it": "Qual è il tuo numero di telefono?", "de": "Wie ist deine Telefonnummer?", "wortart": "Wendung"},
+        {"it": "Qual è il Suo indirizzo?", "de": "Wie ist Ihre Adresse?", "wortart": "Wendung"},
+        {"it": "Come, scusi?", "de": "Wie bitte? (Sie-Form)", "wortart": "Wendung"},
+        {"it": "Come, scusa?", "de": "Wie bitte? (Du-Form)", "wortart": "Wendung"},
+        {"it": "però", "de": "aber, jedoch", "wortart": "Konjunktion"},
+        {"it": "anche", "de": "auch", "wortart": "Adverb"}
+      ],
+      "uebungen": [
+        {"id": "l1-60", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 3", "loesung": "tre", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-61", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 5", "loesung": "cinque", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-62", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 7", "loesung": "sette", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-63", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 9", "loesung": "nove", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-64", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 11", "loesung": "undici", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-65", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 12", "loesung": "dodici", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-66", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 14", "loesung": "quattordici", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-67", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 15", "loesung": "quindici", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-68", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 16", "loesung": "sedici", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-69", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 17", "loesung": "diciassette", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-70", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 18", "loesung": "diciotto", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-71", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 19", "loesung": "diciannove", "loesung_generiert": false, "quelle": "L1, S. 11"},
+        {"id": "l1-80", "typ": "uebersetzung", "aufgabe": "Übersetze (per Sie): Wie ist Ihre Telefonnummer?", "loesung": "Qual è il Suo numero di telefono?", "loesung_generiert": false, "quelle": "L1, S. 12"},
+        {"id": "l1-81", "typ": "uebersetzung", "aufgabe": "Übersetze (per du): Wie ist deine Telefonnummer?", "loesung": "Qual è il tuo numero di telefono?", "loesung_generiert": false, "quelle": "L1, S. 12"},
+        {"id": "l1-55", "typ": "lueckentext", "aufgabe": "___ è il tuo numero di telefono?", "aufgabe_de": "___ ist deine Telefonnummer?", "loesung": "Qual", "loesung_de": "Wie / Welche", "hinweis": "Vor è wird quale zu qual – ohne Apostroph.", "loesung_generiert": false, "quelle": "L1, S. 13"},
+        {"id": "l1-86", "typ": "lueckentext", "aufgabe": "Come, ___? (Sie-Form)", "aufgabe_de": "Wie bitte? (Sie-Form)", "loesung": "scusi", "loesung_de": "Entschuldigung (Sie)", "loesung_generiert": false, "quelle": "L1, S. 12 · Lehrerhandbuch"},
+        {"id": "l1-87", "typ": "multiple_choice", "aufgabe": "Ich habe ein Handy:", "optionen": ["Ho un cellulare.", "Hai un cellulare.", "Ha un cellulare."], "loesung": "Ho un cellulare.", "loesung_de": "Ich habe ein Handy.", "hinweis": "io ho – tu hai – lui/lei/Lei ha", "loesung_generiert": true, "quelle": "eigene Übung zu L1, S. 12"}
+      ]
+    },
+    {
+      "id": "l1-e6",
+      "titel": "Wiederholung Lektion 1",
+      "emoji": "🔁",
+      "ziel": "Du übst alles aus Lektion 1 gemischt.",
+      "mix": true,
+      "erklaerung": [
+        {
+          "titel": "Das kannst du jetzt",
+          "punkte": [
+            "Grüßen: Ciao! · Buongiorno! · Buonasera!",
+            "Vorstellen: Mi chiamo … · Come ti chiami? · Piacere!",
+            "Herkunft: Di dove sei? · Sono di …",
+            "Zahlen bis 20 und deine Telefonnummer."
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "la bicicletta", "de": "das Fahrrad", "wortart": "Substantiv", "genus": "f"},
+        {"it": "guardare", "de": "schauen, ansehen", "wortart": "Verb"}
+      ],
+      "uebungen": [
+        {"id": "l1-112", "typ": "uebersetzung", "aufgabe": "Wie heißt „Fahrrad“ auf Italienisch? (mit Artikel)", "loesung": "la bicicletta", "alternativen": ["bicicletta"], "loesung_generiert": true, "quelle": "Wiederholung L1, S. 146, Nr. 4"},
+        {"id": "l1-113", "typ": "uebersetzung", "aufgabe": "Wie heißt „Zeitung“ auf Italienisch? (mit Artikel)", "loesung": "il giornale", "alternativen": ["giornale"], "loesung_generiert": true, "quelle": "Wiederholung L1, S. 146, Nr. 4"},
+        {"id": "l1-114", "typ": "uebersetzung", "aufgabe": "Wie heißt „Zucker“ auf Italienisch? (mit Artikel)", "loesung": "lo zucchero", "alternativen": ["zucchero"], "loesung_generiert": true, "quelle": "Wiederholung L1, S. 146, Nr. 4"},
+        {"id": "l1-115", "typ": "uebersetzung", "aufgabe": "Wie heißt „Gitarre“ auf Italienisch? (mit Artikel)", "loesung": "la chitarra", "alternativen": ["chitarra"], "loesung_generiert": true, "quelle": "Wiederholung L1, S. 146, Nr. 4"},
+        {"id": "l1-116", "typ": "uebersetzung", "aufgabe": "Wie heißt „Arzt“ auf Italienisch? (mit Artikel)", "loesung": "il medico", "alternativen": ["medico"], "loesung_generiert": true, "quelle": "Wiederholung L1, S. 146, Nr. 4"},
+        {"id": "l1-117", "typ": "uebersetzung", "aufgabe": "Wie heißt „Katze“ auf Italienisch? (mit Artikel)", "loesung": "il gatto", "alternativen": ["gatto"], "loesung_generiert": true, "quelle": "Wiederholung L1, S. 146, Nr. 4"},
+        {"id": "l1-118", "typ": "multiple_choice", "aufgabe": "Der Vorname „Andrea“ ist in Italien …", "optionen": ["männlich", "weiblich"], "loesung": "männlich", "loesung_generiert": false, "quelle": "Wiederholung L1, S. 146, Infobox"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Geheim – niemals hochladen (Signaturschlüssel der Android-App)
+keystore.properties
+*.jks
+*.keystore
+
+# Kursunterlagen (urheberrechtlich geschützt, groß)
+pdfs/
+
+# Build-Ergebnisse
+_site/
+build/
+app/build/
+.gradle/
+.kotlin/
+local.properties
+*.apk
+
+# Editor / System
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

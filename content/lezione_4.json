@@ -1,0 +1,520 @@
+{
+  "kapitel_id": "lezione_4",
+  "nummer": 4,
+  "titel": "Lezione 4 – Tempo libero",
+  "untertitel": "Freizeit, wie oft, mi piace, Wochentage, Uhrzeit",
+  "emoji": "⚽",
+  "quellen": ["Nuovo Espresso 1 Lezione/Unità 4.pdf", "video piacere esercizi.pdf", "Lehrerhandbuch Nuovo Espresso 1 (Hueber, frei online)"],
+  "einheiten": [
+    {
+      "id": "l4-e1",
+      "titel": "Il tempo libero – Freizeit",
+      "emoji": "🎸",
+      "ziel": "Du kannst sagen, was du in deiner Freizeit machst.",
+      "verben": ["giocare", "fare"],
+      "erklaerung": [
+        {
+          "titel": "Was machst du in der Freizeit?",
+          "punkte": [
+            "Frage: Che cosa fai nel tempo libero?",
+            "Antwort: Leggo, cucino, faccio sport …"
+          ],
+          "beispiele": [
+            {"it": "Che cosa fai nel tempo libero?", "de": "Was machst du in der Freizeit?"},
+            {"it": "Di solito faccio sport.", "de": "Normalerweise treibe ich Sport."}
+          ]
+        },
+        {
+          "titel": "Spielen ist nicht gleich spielen",
+          "tabelle": [
+            ["", "wofür", "Beispiel"],
+            ["giocare a …", "Sport und Spiele", "giocare a tennis, a calcio, a carte"],
+            ["suonare …", "Instrumente", "suonare la chitarra, il pianoforte"],
+            ["fare …", "Sport allgemein", "fare sport, fare ginnastica"]
+          ],
+          "merke": "Klavier spielen heißt suonare, nicht giocare!"
+        },
+        {
+          "titel": "giocare mit h",
+          "punkte": [
+            "Bei tu und noi kommt ein h dazu, damit das c hart bleibt.",
+            "io gioco · tu giochi · lui gioca · noi giochiamo · voi giocate · loro giocano"
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "il tempo libero", "de": "die Freizeit", "wortart": "Substantiv", "genus": "m"},
+        {"it": "Che cosa fai nel tempo libero?", "de": "Was machst du in der Freizeit?", "wortart": "Wendung"},
+        {"it": "giocare", "de": "spielen", "wortart": "Verb"},
+        {"it": "ballare", "de": "tanzen", "wortart": "Verb"},
+        {"it": "correre", "de": "laufen, rennen", "wortart": "Verb"},
+        {"it": "chattare", "de": "chatten", "wortart": "Verb"},
+        {"it": "viaggiare", "de": "reisen", "wortart": "Verb"},
+        {"it": "sciare", "de": "Ski fahren", "wortart": "Verb"},
+        {"it": "guardare la TV", "de": "fernsehen", "wortart": "Wendung"},
+        {"it": "fare ginnastica", "de": "Gymnastik machen", "wortart": "Wendung"},
+        {"it": "fare sport", "de": "Sport treiben", "wortart": "Wendung"},
+        {"it": "giocare a tennis", "de": "Tennis spielen", "wortart": "Wendung"},
+        {"it": "giocare a calcio", "de": "Fußball spielen", "wortart": "Wendung"},
+        {"it": "giocare a carte", "de": "Karten spielen", "wortart": "Wendung"},
+        {"it": "giocare con il computer", "de": "am Computer spielen", "wortart": "Wendung"},
+        {"it": "fare la spesa", "de": "einkaufen (Lebensmittel)", "wortart": "Wendung"},
+        {"it": "fare una passeggiata", "de": "einen Spaziergang machen", "wortart": "Wendung"},
+        {"it": "ascoltare musica", "de": "Musik hören", "wortart": "Wendung"},
+        {"it": "lavorare in giardino", "de": "im Garten arbeiten", "wortart": "Wendung"},
+        {"it": "suonare il pianoforte", "de": "Klavier spielen", "wortart": "Wendung"},
+        {"it": "suonare la chitarra", "de": "Gitarre spielen", "wortart": "Wendung"},
+        {"it": "suonare la batteria", "de": "Schlagzeug spielen", "wortart": "Wendung"},
+        {"it": "leggere il giornale", "de": "Zeitung lesen", "wortart": "Wendung"},
+        {"it": "il calcio", "de": "der Fußball (Sport)", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il libro", "de": "das Buch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il libro giallo", "de": "der Krimi (Buch)", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il film giallo", "de": "der Krimi (Film)", "wortart": "Substantiv", "genus": "m"},
+        {"it": "i fumetti", "de": "die Comics", "wortart": "Substantiv", "genus": "m (Plural)"},
+        {"it": "la rivista", "de": "die Zeitschrift", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la musica", "de": "die Musik", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la musica classica", "de": "die klassische Musik", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la canzone", "de": "das Lied", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il ballo", "de": "der Tanz", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'arte moderna", "de": "die moderne Kunst", "wortart": "Substantiv", "genus": "f"}
+      ],
+      "uebungen": [
+        {"id": "l4-120", "typ": "multiple_choice", "aufgabe": "Gitarre spielen heißt …", "optionen": ["giocare la chitarra", "suonare la chitarra", "fare la chitarra"], "loesung": "suonare la chitarra", "hinweis": "Instrumente: suonare. Sport und Spiele: giocare.", "loesung_generiert": false, "quelle": "L4, S. 48"},
+        {"id": "l4-121", "typ": "multiple_choice", "aufgabe": "Tennis spielen heißt …", "optionen": ["suonare a tennis", "giocare a tennis", "fare il tennis"], "loesung": "giocare a tennis", "loesung_generiert": false, "quelle": "L4, S. 48"},
+        {"id": "l4-122", "typ": "multiple_choice", "aufgabe": "Was bedeutet „guardare la TV“?", "optionen": ["fernsehen", "Radio hören", "ins Kino gehen", "am Computer spielen"], "loesung": "fernsehen", "loesung_generiert": false, "quelle": "L4, S. 49, Nr. 2"},
+        {"id": "l4-123", "typ": "multiple_choice", "aufgabe": "Was bedeutet „fare la spesa“?", "optionen": ["Lebensmittel einkaufen", "Geld ausgeben", "Sport treiben", "kochen"], "loesung": "Lebensmittel einkaufen", "loesung_generiert": true, "quelle": "eigene Übung zu L4, S. 48"},
+        {"id": "l4-124", "typ": "lueckentext", "aufgabe": "Il sabato ___ a calcio con gli amici. (giocare, io)", "aufgabe_de": "Samstags ___ ich mit Freunden Fußball.", "loesung": "gioco", "loesung_de": "spiele", "loesung_generiert": true, "quelle": "eigene Übung zu L4, S. 49"},
+        {"id": "l4-125", "typ": "lueckentext", "aufgabe": "Tu ___ a carte? (giocare)", "aufgabe_de": "___ du Karten?", "loesung": "giochi", "loesung_de": "Spielst", "hinweis": "Mit h, damit das c hart klingt.", "loesung_generiert": false, "quelle": "L4, S. 49 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-90", "typ": "uebersetzung", "aufgabe": "Übersetze: Was machst du in der Freizeit?", "loesung": "Che cosa fai nel tempo libero?", "alternativen": ["Cosa fai nel tempo libero?"], "loesung_generiert": false, "quelle": "L4, S. 47"},
+        {"id": "l4-91", "typ": "uebersetzung", "aufgabe": "Übersetze: Normalerweise treibe ich Sport.", "loesung": "Di solito faccio sport.", "loesung_generiert": false, "quelle": "L4, S. 47"},
+        {"id": "l4-126", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich spiele Klavier.", "loesung": "Suono il pianoforte.", "alternativen": ["Io suono il pianoforte."], "loesung_generiert": true, "quelle": "eigene Übung zu L4, S. 48"}
+      ]
+    },
+    {
+      "id": "l4-e2",
+      "titel": "Andare al cinema – wohin?",
+      "emoji": "🚲",
+      "ziel": "Du kannst sagen, wohin du gehst – mit der richtigen Präposition.",
+      "verben": ["andare", "uscire"],
+      "erklaerung": [
+        {
+          "titel": "andare + a, al oder in?",
+          "tabelle": [
+            ["Präposition", "Beispiele"],
+            ["a", "a teatro · a casa · a sciare · a Roma"],
+            ["al / all'", "al cinema · al ristorante · all'opera"],
+            ["in", "in palestra · in discoteca · in piscina · in Italia"],
+            ["con", "con gli amici (mit)"]
+          ],
+          "merke": "Mit Fahrzeugen immer in: in bicicletta, in macchina."
+        },
+        {
+          "titel": "andare und uscire sind unregelmäßig",
+          "punkte": [
+            "andare: vado, vai, va, andiamo, andate, vanno",
+            "uscire: esco, esci, esce, usciamo, uscite, escono"
+          ],
+          "beispiele": [
+            {"it": "Vado al cinema.", "de": "Ich gehe ins Kino."},
+            {"it": "Esco con gli amici.", "de": "Ich gehe mit Freunden aus."}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "andare", "de": "gehen, fahren", "wortart": "Verb"},
+        {"it": "uscire", "de": "ausgehen, hinausgehen", "wortart": "Verb"},
+        {"it": "andare in bicicletta", "de": "Fahrrad fahren", "wortart": "Wendung"},
+        {"it": "andare al cinema", "de": "ins Kino gehen", "wortart": "Wendung"},
+        {"it": "andare a teatro", "de": "ins Theater gehen", "wortart": "Wendung"},
+        {"it": "andare all'opera", "de": "in die Oper gehen", "wortart": "Wendung"},
+        {"it": "andare in discoteca", "de": "in die Disco gehen", "wortart": "Wendung"},
+        {"it": "andare in piscina", "de": "ins Schwimmbad gehen", "wortart": "Wendung"},
+        {"it": "andare a sciare", "de": "Ski fahren gehen", "wortart": "Wendung"},
+        {"it": "mangiare fuori", "de": "auswärts essen", "wortart": "Wendung"},
+        {"it": "uscire con gli amici", "de": "mit Freunden ausgehen", "wortart": "Wendung"},
+        {"it": "stare a casa", "de": "zu Hause bleiben", "wortart": "Wendung"},
+        {"it": "la palestra", "de": "das Fitnessstudio, die Turnhalle", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la casa", "de": "das Haus, das Zuhause", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il giardino", "de": "der Garten", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'albergo", "de": "das Hotel", "wortart": "Substantiv", "genus": "m"},
+        {"it": "visitare", "de": "besichtigen, besuchen", "wortart": "Verb"},
+        {"it": "arrivare", "de": "ankommen", "wortart": "Verb"}
+      ],
+      "uebungen": [
+        {"id": "l4-60", "typ": "multiple_choice", "aufgabe": "Vado ___ cinema.", "aufgabe_de": "Ich gehe ins Kino.", "optionen": ["al", "in", "a", "all'"], "loesung": "al", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-61", "typ": "multiple_choice", "aufgabe": "Vado ___ opera.", "aufgabe_de": "Ich gehe in die Oper.", "optionen": ["al", "in", "a", "all'"], "loesung": "all'", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-62", "typ": "multiple_choice", "aufgabe": "Vado ___ palestra.", "aufgabe_de": "Ich gehe ins Fitnessstudio.", "optionen": ["al", "in", "a", "all'"], "loesung": "in", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-63", "typ": "multiple_choice", "aufgabe": "Sto quasi sempre ___ casa.", "aufgabe_de": "Ich bin fast immer zu Hause.", "optionen": ["al", "in", "a", "all'"], "loesung": "a", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-64", "typ": "multiple_choice", "aufgabe": "Esco ___ gli amici.", "aufgabe_de": "Ich gehe mit Freunden aus.", "optionen": ["a", "in", "con", "di"], "loesung": "con", "loesung_de": "mit", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-65", "typ": "multiple_choice", "aufgabe": "Vado ___ bicicletta.", "aufgabe_de": "Ich fahre Fahrrad.", "optionen": ["a", "in", "con", "al"], "loesung": "in", "loesung_generiert": false, "quelle": "L4, S. 48"},
+        {"id": "l4-66", "typ": "multiple_choice", "aufgabe": "Gioco ___ tennis.", "aufgabe_de": "Ich spiele Tennis.", "optionen": ["a", "in", "con", "il"], "loesung": "a", "loesung_generiert": false, "quelle": "L4, S. 48"},
+        {"id": "l4-67", "typ": "multiple_choice", "aufgabe": "Andiamo spesso ___ discoteca.", "aufgabe_de": "Wir gehen oft in die Disco.", "optionen": ["a", "in", "al", "all'"], "loesung": "in", "loesung_generiert": false, "quelle": "L4, S. 50"},
+        {"id": "l4-127", "typ": "multiple_choice", "aufgabe": "Stasera vado ___ teatro.", "aufgabe_de": "Heute Abend gehe ich ins Theater.", "optionen": ["a", "al", "in", "all'"], "loesung": "a", "hinweis": "Ausnahme, die man lernen muss: andare a teatro.", "loesung_generiert": false, "quelle": "L4, S. 50, Nr. 6 · Lehrerhandbuch"},
+        {"id": "l4-128", "typ": "lueckentext", "aufgabe": "Il sabato sera io ___ con gli amici. (uscire)", "aufgabe_de": "Samstagabends ___ ich mit Freunden aus.", "loesung": "esco", "loesung_de": "gehe (aus)", "loesung_generiert": false, "quelle": "L4, S. 50 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-129", "typ": "lueckentext", "aufgabe": "Noi ___ al cinema. (andare)", "aufgabe_de": "Wir ___ ins Kino.", "loesung": "andiamo", "loesung_de": "gehen", "loesung_generiert": false, "quelle": "L4, S. 49 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-130", "typ": "lueckentext", "aufgabe": "Loro ___ in piscina. (andare)", "aufgabe_de": "Sie ___ ins Schwimmbad.", "loesung": "vanno", "loesung_de": "gehen", "loesung_generiert": false, "quelle": "L4, S. 49 · Lösung: Lehrerhandbuch"}
+      ]
+    },
+    {
+      "id": "l4-e3",
+      "titel": "Sempre o mai? – Wie oft?",
+      "emoji": "📅",
+      "ziel": "Du kannst sagen, wie oft du etwas machst und an welchem Tag.",
+      "erklaerung": [
+        {
+          "titel": "Wie oft?",
+          "tabelle": [
+            ["", "italienisch", "deutsch"],
+            ["+++", "sempre", "immer"],
+            ["++", "spesso", "oft"],
+            ["+", "qualche volta", "manchmal"],
+            ["–", "non … mai", "nie"]
+          ],
+          "punkte": [
+            "di solito = normalerweise."
+          ]
+        },
+        {
+          "titel": "„Nie“ braucht zwei Wörter",
+          "punkte": [
+            "non steht vor dem Verb, mai danach.",
+            "Non vado mai al cinema. = Ich gehe nie ins Kino."
+          ],
+          "beispiele": [
+            {"it": "Non faccio mai ginnastica.", "de": "Ich mache nie Gymnastik."},
+            {"it": "Qualche volta vado al cinema.", "de": "Manchmal gehe ich ins Kino."}
+          ]
+        },
+        {
+          "titel": "Die Wochentage",
+          "punkte": [
+            "lunedì · martedì · mercoledì · giovedì · venerdì · sabato · domenica",
+            "Ohne Artikel: sabato = (diesen) Samstag.",
+            "Mit Artikel: il sabato = jeden Samstag, samstags."
+          ],
+          "merke": "Die Wochentage schreibt man klein. Die Tage auf -dì haben den Akzent am Ende."
+        }
+      ],
+      "vokabeln": [
+        {"it": "di solito", "de": "gewöhnlich, normalerweise", "wortart": "Adverb"},
+        {"it": "sempre", "de": "immer", "wortart": "Adverb"},
+        {"it": "quasi sempre", "de": "fast immer", "wortart": "Adverb"},
+        {"it": "spesso", "de": "oft", "wortart": "Adverb"},
+        {"it": "qualche volta", "de": "manchmal", "wortart": "Adverb"},
+        {"it": "non … mai", "de": "nie", "wortart": "Adverb"},
+        {"it": "volentieri", "de": "gern", "wortart": "Adverb"},
+        {"it": "il fine settimana", "de": "das Wochenende", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la settimana", "de": "die Woche", "wortart": "Substantiv", "genus": "f"},
+        {"it": "lunedì", "de": "Montag", "wortart": "Substantiv", "genus": "m"},
+        {"it": "martedì", "de": "Dienstag", "wortart": "Substantiv", "genus": "m"},
+        {"it": "mercoledì", "de": "Mittwoch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "giovedì", "de": "Donnerstag", "wortart": "Substantiv", "genus": "m"},
+        {"it": "venerdì", "de": "Freitag", "wortart": "Substantiv", "genus": "m"},
+        {"it": "sabato", "de": "Samstag", "wortart": "Substantiv", "genus": "m"},
+        {"it": "domenica", "de": "Sonntag", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il sabato sera", "de": "samstagabends", "wortart": "Wendung"},
+        {"it": "domani", "de": "morgen", "wortart": "Adverb"},
+        {"it": "domani sera", "de": "morgen Abend", "wortart": "Wendung"},
+        {"it": "il giorno", "de": "der Tag", "wortart": "Substantiv", "genus": "m"},
+        {"it": "Che giorno è oggi?", "de": "Welcher Tag ist heute?", "wortart": "Wendung"}
+      ],
+      "uebungen": [
+        {"id": "l4-30", "typ": "multiple_choice", "aufgabe": "Was heißt „am häufigsten“ (+++)?", "optionen": ["qualche volta", "sempre", "spesso", "non … mai"], "loesung": "sempre", "loesung_de": "immer", "loesung_generiert": false, "quelle": "L4, S. 50 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-31", "typ": "multiple_choice", "aufgabe": "Was heißt „manchmal“?", "optionen": ["qualche volta", "sempre", "spesso", "di solito"], "loesung": "qualche volta", "loesung_generiert": false, "quelle": "L4, S. 50 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-32", "typ": "lueckentext", "aufgabe": "Non vado ___ a sciare.", "aufgabe_de": "Ich gehe ___ Ski fahren.", "loesung": "mai", "loesung_de": "nie", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-33", "typ": "lueckentext", "aufgabe": "___ faccio mai ginnastica.", "aufgabe_de": "Ich mache ___ Gymnastik.", "loesung": "Non", "loesung_de": "nie (non … mai)", "loesung_generiert": false, "quelle": "L4, S. 51, Nr. 6"},
+        {"id": "l4-34", "typ": "lueckentext", "aufgabe": "Esco ___ con gli amici.", "aufgabe_de": "Ich gehe ___ mit Freunden aus.", "loesung": "sempre", "loesung_de": "immer", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-35", "typ": "lueckentext", "aufgabe": "___ la sera guardo la TV. (zwei Wörter)", "aufgabe_de": "___ sehe ich abends fern.", "loesung": "Di solito", "loesung_de": "Normalerweise", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-70", "typ": "lueckentext", "aufgabe": "Nach Sonntag kommt …", "loesung": "lunedì", "loesung_de": "Montag", "loesung_generiert": true, "quelle": "L4, S. 50"},
+        {"id": "l4-71", "typ": "lueckentext", "aufgabe": "Zwischen martedì und giovedì liegt …", "loesung": "mercoledì", "loesung_de": "Mittwoch", "loesung_generiert": true, "quelle": "L4, S. 50"},
+        {"id": "l4-72", "typ": "lueckentext", "aufgabe": "Zwischen giovedì und sabato liegt …", "loesung": "venerdì", "loesung_de": "Freitag", "loesung_generiert": true, "quelle": "L4, S. 50"},
+        {"id": "l4-131", "typ": "multiple_choice", "aufgabe": "„Il sabato vado in palestra.“ Was heißt das?", "aufgabe_de": "il sabato = mit Artikel", "optionen": ["Jeden Samstag gehe ich ins Fitnessstudio.", "Nur diesen Samstag gehe ich ins Fitnessstudio."], "loesung": "Jeden Samstag gehe ich ins Fitnessstudio.", "loesung_generiert": false, "quelle": "L4, S. 50 · Lehrerhandbuch"},
+        {"id": "l4-93", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich gehe nie Ski fahren.", "loesung": "Non vado mai a sciare.", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-94", "typ": "uebersetzung", "aufgabe": "Übersetze: Manchmal gehe ich ins Kino.", "loesung": "Qualche volta vado al cinema.", "alternativen": ["Vado qualche volta al cinema."], "loesung_generiert": false, "quelle": "L4, S. 55"}
+      ]
+    },
+    {
+      "id": "l4-e4",
+      "titel": "Mi piace! – Was gefällt dir?",
+      "emoji": "❤️",
+      "ziel": "Du kannst sagen, was dir gefällt, und zustimmen oder widersprechen.",
+      "erklaerung": [
+        {
+          "titel": "mi piace oder mi piacciono?",
+          "punkte": [
+            "Auf Italienisch „gefällt“ dir etwas: Mi piace la pizza = Mir gefällt die Pizza.",
+            "Eine Sache oder ein Verb: mi piace. → Mi piace leggere.",
+            "Mehrere Sachen: mi piacciono. → Mi piacciono i film gialli."
+          ],
+          "beispiele": [
+            {"it": "Mi piace la musica italiana.", "de": "Ich mag italienische Musik."},
+            {"it": "Mi piacciono le canzoni italiane.", "de": "Ich mag italienische Lieder."},
+            {"it": "Ti piace cucinare?", "de": "Kochst du gern?"}
+          ],
+          "merke": "Die Sache bestimmt die Form – nicht die Person!"
+        },
+        {
+          "titel": "Zustimmen oder widersprechen",
+          "tabelle": [
+            ["Der andere sagt", "du auch", "du nicht"],
+            ["Mi piace …", "Anche a me!", "A me no."],
+            ["Non mi piace …", "Neanche a me.", "A me invece sì."]
+          ]
+        },
+        {
+          "titel": "mi oder a me?",
+          "tabelle": [
+            ["kurz", "betont", "deutsch"],
+            ["mi", "a me", "mir"],
+            ["ti", "a te", "dir"],
+            ["gli", "a lui", "ihm"],
+            ["le", "a lei", "ihr"],
+            ["Le", "a Lei", "Ihnen"]
+          ],
+          "punkte": [
+            "Beides bedeutet dasselbe. a me betont: Mir (aber nicht dir) …"
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "mi piace", "de": "mir gefällt, ich mag (+ Einzahl / Verb)", "wortart": "Wendung"},
+        {"it": "mi piacciono", "de": "mir gefallen, ich mag (+ Mehrzahl)", "wortart": "Wendung"},
+        {"it": "Ti piace …?", "de": "Magst du …?", "wortart": "Wendung"},
+        {"it": "Le piace …?", "de": "Mögen Sie …?", "wortart": "Wendung"},
+        {"it": "anche a me", "de": "mir auch", "wortart": "Wendung"},
+        {"it": "neanche a me", "de": "mir auch nicht", "wortart": "Wendung"},
+        {"it": "a me no", "de": "mir nicht", "wortart": "Wendung"},
+        {"it": "a me invece sì", "de": "mir dagegen schon", "wortart": "Wendung"},
+        {"it": "moltissimo", "de": "sehr, sehr gern", "wortart": "Adverb"},
+        {"it": "non molto", "de": "nicht sehr", "wortart": "Wendung"},
+        {"it": "per niente", "de": "überhaupt nicht", "wortart": "Wendung"},
+        {"it": "soprattutto", "de": "vor allem", "wortart": "Adverb"},
+        {"it": "odiare", "de": "hassen", "wortart": "Verb"},
+        {"it": "a me / a te", "de": "mir / dir (betont)", "wortart": "Pronomen"},
+        {"it": "a lui / a lei", "de": "ihm / ihr (betont)", "wortart": "Pronomen"},
+        {"it": "gli / le", "de": "ihm / ihr (kurz)", "wortart": "Pronomen"},
+        {"it": "il mare", "de": "das Meer", "wortart": "Substantiv", "genus": "m"},
+        {"it": "le lingue straniere", "de": "die Fremdsprachen", "wortart": "Substantiv", "genus": "f (Plural)"},
+        {"it": "la lezione", "de": "die Unterrichtsstunde", "wortart": "Substantiv", "genus": "f"},
+        {"it": "l'esercizio", "de": "die Übung", "wortart": "Substantiv", "genus": "m"},
+        {"it": "le vacanze", "de": "die Ferien, der Urlaub", "wortart": "Substantiv", "genus": "f (Plural)"}
+      ],
+      "uebungen": [
+        {"id": "l4-40", "typ": "multiple_choice", "aufgabe": "Mi ___ leggere.", "aufgabe_de": "Ich lese gern.", "optionen": ["piace", "piacciono"], "loesung": "piace", "hinweis": "Ein Verb → piace.", "loesung_generiert": false, "quelle": "L4, S. 52"},
+        {"id": "l4-41", "typ": "multiple_choice", "aufgabe": "Mi ___ la musica italiana.", "aufgabe_de": "Ich mag italienische Musik.", "optionen": ["piace", "piacciono"], "loesung": "piace", "loesung_generiert": false, "quelle": "L4, S. 52"},
+        {"id": "l4-42", "typ": "multiple_choice", "aufgabe": "Mi ___ le canzoni italiane.", "aufgabe_de": "Ich mag italienische Lieder.", "optionen": ["piace", "piacciono"], "loesung": "piacciono", "hinweis": "Mehrere Lieder → piacciono.", "loesung_generiert": false, "quelle": "L4, S. 52"},
+        {"id": "l4-43", "typ": "multiple_choice", "aufgabe": "Ti ___ i film gialli?", "aufgabe_de": "Magst du Krimis?", "optionen": ["piace", "piacciono"], "loesung": "piacciono", "loesung_generiert": true, "quelle": "L4, S. 52, Nr. 10"},
+        {"id": "l4-44", "typ": "multiple_choice", "aufgabe": "Le ___ l'arte moderna?", "aufgabe_de": "Mögen Sie moderne Kunst?", "optionen": ["piace", "piacciono"], "loesung": "piace", "loesung_generiert": true, "quelle": "L4, S. 52, Nr. 10"},
+        {"id": "l4-45", "typ": "multiple_choice", "aufgabe": "A me ___ gli spaghetti.", "aufgabe_de": "Ich mag Spaghetti.", "optionen": ["piace", "piacciono"], "loesung": "piacciono", "loesung_generiert": false, "quelle": "L4, S. 53, Nr. 11"},
+        {"id": "l4-46", "typ": "multiple_choice", "aufgabe": "„A me piace il rock.“ – Du magst ihn auch:", "aufgabe_de": "„Ich mag Rock.“", "optionen": ["Anche a me.", "Neanche a me.", "A me no.", "A me invece sì."], "loesung": "Anche a me.", "loesung_de": "Ich auch.", "loesung_generiert": false, "quelle": "L4, S. 53, Nr. 11"},
+        {"id": "l4-47", "typ": "multiple_choice", "aufgabe": "„A me non piacciono i libri gialli.“ – Du magst sie auch nicht:", "aufgabe_de": "„Ich mag keine Krimis.“", "optionen": ["Anche a me.", "Neanche a me.", "A me no.", "A me invece sì."], "loesung": "Neanche a me.", "loesung_de": "Ich auch nicht.", "loesung_generiert": false, "quelle": "L4, S. 53, Nr. 11"},
+        {"id": "l4-48", "typ": "multiple_choice", "aufgabe": "„A me non piace ballare.“ – Du tanzt aber gern:", "aufgabe_de": "„Ich tanze nicht gern.“", "optionen": ["Anche a me.", "Neanche a me.", "A me no.", "A me invece sì."], "loesung": "A me invece sì.", "loesung_de": "Ich dagegen schon.", "loesung_generiert": false, "quelle": "L4, S. 53, Nr. 11"},
+        {"id": "l4-49", "typ": "multiple_choice", "aufgabe": "„A me piacciono gli spaghetti.“ – Du magst sie nicht:", "aufgabe_de": "„Ich mag Spaghetti.“", "optionen": ["Anche a me.", "Neanche a me.", "A me no.", "A me invece sì."], "loesung": "A me no.", "loesung_de": "Ich nicht.", "loesung_generiert": false, "quelle": "L4, S. 53, Nr. 11"},
+        {"id": "l4-50", "typ": "multiple_choice", "aufgabe": "___ non piace sciare. E a te?", "aufgabe_de": "___ fahre nicht gern Ski. Und du?", "optionen": ["Mi", "A me", "Io", "Me"], "loesung": "A me", "loesung_de": "Ich (betont: mir)", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-51", "typ": "multiple_choice", "aufgabe": "Sie-Form: ___ piace leggere?", "aufgabe_de": "Lesen Sie gern?", "optionen": ["Ti", "Le", "Mi", "Lei"], "loesung": "Le", "loesung_de": "Ihnen", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-132", "typ": "lueckentext", "aufgabe": "Ti ___ ballare? – Sì, ma ___ l'opera. (piacere / odiare)", "aufgabe_de": "Tanzt du gern? – Ja, aber ich ___ die Oper.", "loesung": "piace odio", "alternativen": ["piace, odio"], "hinweis": "Zwei Wörter mit Leerzeichen eingeben.", "loesung_de": "gefällt … hasse", "loesung_generiert": false, "quelle": "L4, S. 53, Nr. 9 · Lösung: Lehrerhandbuch"},
+        {"id": "gr-70", "typ": "lueckentext", "aufgabe": "Mi piace il gelato. → ___ piace il gelato.", "aufgabe_de": "Mir schmeckt Eis. (betont)", "loesung": "A me", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, a)"},
+        {"id": "gr-71", "typ": "lueckentext", "aufgabe": "Ti piace la pizza. → ___ piace la pizza.", "aufgabe_de": "Dir schmeckt Pizza. (betont)", "loesung": "A te", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, a)"},
+        {"id": "gr-72", "typ": "lueckentext", "aufgabe": "Gli piace il calcio. → ___ piace il calcio.", "aufgabe_de": "Ihm gefällt Fußball. (betont)", "loesung": "A lui", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, a)"},
+        {"id": "gr-73", "typ": "lueckentext", "aufgabe": "Le piace il mare. → ___ piace il mare.", "aufgabe_de": "Ihr gefällt das Meer. (betont)", "loesung": "A lei", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, a)"},
+        {"id": "gr-74", "typ": "lueckentext", "aufgabe": "Ci piace Milano. → ___ piace Milano.", "aufgabe_de": "Uns gefällt Mailand. (betont)", "loesung": "A noi", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, a)"},
+        {"id": "gr-75", "typ": "lueckentext", "aufgabe": "Vi piace il caffè. → ___ piace il caffè.", "aufgabe_de": "Euch schmeckt der Kaffee. (betont)", "loesung": "A voi", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, a)"},
+        {"id": "gr-78", "typ": "multiple_choice", "aufgabe": "Mi ___ i gelati italiani.", "aufgabe_de": "Ich mag italienisches Eis.", "optionen": ["piace", "piacciono"], "loesung": "piacciono", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, b)"},
+        {"id": "gr-81", "typ": "multiple_choice", "aufgabe": "Ci ___ studiare italiano.", "aufgabe_de": "Wir lernen gern Italienisch.", "optionen": ["piace", "piacciono"], "loesung": "piace", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, b)"},
+        {"id": "gr-82", "typ": "multiple_choice", "aufgabe": "Ci ___ le lingue straniere.", "aufgabe_de": "Wir mögen Fremdsprachen.", "optionen": ["piace", "piacciono"], "loesung": "piacciono", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, b)"},
+        {"id": "gr-83", "typ": "multiple_choice", "aufgabe": "Vi ___ questa lezione?", "aufgabe_de": "Gefällt euch diese Stunde?", "optionen": ["piace", "piacciono"], "loesung": "piace", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, b)"},
+        {"id": "gr-84", "typ": "multiple_choice", "aufgabe": "Vi ___ questi esercizi?", "aufgabe_de": "Gefallen euch diese Übungen?", "optionen": ["piace", "piacciono"], "loesung": "piacciono", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, b)"},
+        {"id": "gr-86", "typ": "multiple_choice", "aufgabe": "Gli ___ le pizze napoletane.", "aufgabe_de": "Er mag neapolitanische Pizzen.", "optionen": ["piace", "piacciono"], "loesung": "piacciono", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, b)"},
+        {"id": "gr-87", "typ": "uebersetzung", "aufgabe": "Antworte mit „Sì“ im ganzen Satz: Ti piace il caffè?", "aufgabe_de": "Magst du Kaffee?", "loesung": "Sì, mi piace il caffè.", "alternativen": ["Sì, mi piace.", "Sì, il caffè mi piace."], "loesung_de": "Ja, ich mag Kaffee.", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, c)"},
+        {"id": "gr-89", "typ": "uebersetzung", "aufgabe": "Antworte mit „No“ im ganzen Satz: Ti piace cucinare?", "aufgabe_de": "Kochst du gern?", "loesung": "No, non mi piace cucinare.", "alternativen": ["No, non mi piace."], "loesung_de": "Nein, ich koche nicht gern.", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, c)"},
+        {"id": "gr-91", "typ": "uebersetzung", "aufgabe": "Korrigiere den Fehler: Mi piacciono il caffè.", "aufgabe_de": "Ich mag den Kaffee.", "loesung": "Mi piace il caffè.", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, d)"},
+        {"id": "gr-92", "typ": "uebersetzung", "aufgabe": "Korrigiere den Fehler: Ti piace i film italiani.", "aufgabe_de": "Magst du italienische Filme?", "loesung": "Ti piacciono i film italiani.", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, d)"},
+        {"id": "gr-94", "typ": "uebersetzung", "aufgabe": "Korrigiere den Fehler: Vi piace le vacanze?", "aufgabe_de": "Gefallen euch die Ferien?", "loesung": "Vi piacciono le vacanze?", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, d)"},
+        {"id": "gr-95", "typ": "uebersetzung", "aufgabe": "Korrigiere den Fehler: Ci piacciono studiare italiano.", "aufgabe_de": "Wir lernen gern Italienisch.", "loesung": "Ci piace studiare italiano.", "loesung_generiert": true, "quelle": "Arbeitsblatt piacere, d)"},
+        {"id": "l4-92", "typ": "uebersetzung", "aufgabe": "Übersetze: Kochst du gern?", "loesung": "Ti piace cucinare?", "loesung_generiert": false, "quelle": "L4, S. 47"}
+      ]
+    },
+    {
+      "id": "l4-e5",
+      "titel": "Che ore sono? – Die Uhrzeit",
+      "emoji": "🕒",
+      "ziel": "Du kannst nach der Uhrzeit fragen und sie sagen.",
+      "erklaerung": [
+        {
+          "titel": "Wie spät ist es?",
+          "punkte": [
+            "Che ora è? und Che ore sono? bedeuten genau dasselbe.",
+            "Bei 1 Uhr, Mittag und Mitternacht: È l'una. · È mezzogiorno. · È mezzanotte.",
+            "Sonst immer: Sono le … → Sono le tre."
+          ],
+          "beispiele": [
+            {"it": "Che ore sono?", "de": "Wie spät ist es?"},
+            {"it": "È l'una.", "de": "Es ist ein Uhr."},
+            {"it": "Sono le due.", "de": "Es ist zwei Uhr."}
+          ]
+        },
+        {
+          "titel": "Viertel, halb und Minuten",
+          "tabelle": [
+            ["Uhrzeit", "italienisch"],
+            ["2:10", "le due e dieci"],
+            ["2:15", "le due e un quarto"],
+            ["2:30", "le due e mezza"],
+            ["2:40", "le tre meno venti"],
+            ["2:45", "le tre meno un quarto / le due e tre quarti"]
+          ],
+          "merke": "Anders als im Deutschen: „halb drei“ ist le due e mezza (zwei und halb)!"
+        },
+        {
+          "titel": "Offizielle Uhrzeit",
+          "punkte": [
+            "Im Radio, im Fernsehen und am Bahnhof zählt man bis 24.",
+            "23:00 = le ventitré · 18:30 = le diciotto e trenta"
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "Che ora è? / Che ore sono?", "de": "Wie spät ist es?", "wortart": "Wendung"},
+        {"it": "È l'una.", "de": "Es ist ein Uhr.", "wortart": "Wendung"},
+        {"it": "Sono le due.", "de": "Es ist zwei Uhr.", "wortart": "Wendung"},
+        {"it": "e mezza", "de": "halb (… Uhr dreißig)", "wortart": "Wendung"},
+        {"it": "e un quarto", "de": "Viertel nach", "wortart": "Wendung"},
+        {"it": "meno un quarto", "de": "Viertel vor", "wortart": "Wendung"},
+        {"it": "il mezzogiorno", "de": "der Mittag, 12 Uhr", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la mezzanotte", "de": "die Mitternacht", "wortart": "Substantiv", "genus": "f"},
+        {"it": "adesso", "de": "jetzt", "wortart": "Adverb"},
+        {"it": "già", "de": "schon", "wortart": "Adverb"},
+        {"it": "devo andare", "de": "ich muss gehen", "wortart": "Wendung"}
+      ],
+      "uebungen": [
+        {"id": "l4-73", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist 1:00 Uhr.", "loesung": "È l'una.", "loesung_generiert": false, "quelle": "L4, S. 54"},
+        {"id": "l4-74", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist 2:00 Uhr.", "loesung": "Sono le due.", "loesung_generiert": false, "quelle": "L4, S. 54"},
+        {"id": "l4-75", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist 2:30 Uhr.", "loesung": "Sono le due e mezza.", "alternativen": ["Sono le due e trenta.", "Sono le due e mezzo."], "loesung_generiert": false, "quelle": "L4, S. 54"},
+        {"id": "l4-76", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist 2:15 Uhr.", "loesung": "Sono le due e un quarto.", "alternativen": ["Sono le due e quindici."], "loesung_generiert": false, "quelle": "L4, S. 54"},
+        {"id": "l4-77", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist 2:45 Uhr.", "loesung": "Sono le tre meno un quarto.", "alternativen": ["Sono le due e tre quarti.", "Sono le due e quarantacinque."], "loesung_generiert": false, "quelle": "L4, S. 54 · Lehrerhandbuch"},
+        {"id": "l4-78", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist 2:40 Uhr.", "loesung": "Sono le tre meno venti.", "alternativen": ["Sono le due e quaranta."], "loesung_generiert": false, "quelle": "L4, S. 54 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-79", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist 2:25 Uhr.", "loesung": "Sono le due e venticinque.", "loesung_generiert": false, "quelle": "L4, S. 54"},
+        {"id": "l4-80", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist 12 Uhr mittags.", "loesung": "È mezzogiorno.", "loesung_generiert": false, "quelle": "L4, S. 54"},
+        {"id": "l4-81", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist Mitternacht.", "loesung": "È mezzanotte.", "loesung_generiert": false, "quelle": "L4, S. 54"},
+        {"id": "l4-133", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist 5:10 Uhr.", "loesung": "Sono le cinque e dieci.", "loesung_generiert": false, "quelle": "L4, S. 54, Nr. 3 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-134", "typ": "uebersetzung", "aufgabe": "Sag auf Italienisch: Es ist 11:15 Uhr.", "loesung": "Sono le undici e un quarto.", "alternativen": ["Sono le undici e quindici."], "loesung_generiert": false, "quelle": "L4, S. 54, Nr. 3 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-135", "typ": "multiple_choice", "aufgabe": "Am Bahnhof hörst du: „Il treno parte alle ventitré.“ Wann fährt der Zug?", "aufgabe_de": "Der Zug fährt um … ab.", "optionen": ["um 23 Uhr", "um 13 Uhr", "um 20:03 Uhr", "um 3 Uhr"], "loesung": "um 23 Uhr", "loesung_generiert": false, "quelle": "L4, S. 54 · Lehrerhandbuch"},
+        {"id": "l4-136", "typ": "multiple_choice", "aufgabe": "„Halb drei“ (2:30) heißt auf Italienisch …", "optionen": ["le due e mezza", "le tre e mezza", "le tre meno mezza"], "loesung": "le due e mezza", "hinweis": "Italienisch zählt von der vollen Stunde weiter: zwei und halb.", "loesung_generiert": true, "quelle": "eigene Übung zu L4, S. 54"},
+        {"id": "l4-82", "typ": "uebersetzung", "aufgabe": "Übersetze: Entschuldigen Sie, wie spät ist es?", "loesung": "Scusi, che ora è?", "alternativen": ["Scusi, che ore sono?"], "loesung_generiert": false, "quelle": "L4, S. 47"}
+      ]
+    },
+    {
+      "id": "l4-e6",
+      "titel": "Verben auf -ire und Gespräche",
+      "emoji": "🧩",
+      "ziel": "Du kannst die Verben der Lektion in kleinen Geschichten benutzen.",
+      "verben": ["dormire", "leggere"],
+      "erklaerung": [
+        {
+          "titel": "Verben auf -ire: dormire",
+          "punkte": [
+            "Fast wie -ere – nur bei voi steht -ite.",
+            "io dormo · tu dormi · lui dorme · noi dormiamo · voi dormite · loro dormono"
+          ],
+          "beispiele": [
+            {"it": "La domenica dormo fino alle dieci.", "de": "Sonntags schlafe ich bis zehn."}
+          ]
+        },
+        {
+          "titel": "leggere: Aussprache wechselt",
+          "punkte": [
+            "leggo, leggono: gg vor o klingt hart [g].",
+            "leggi, legge, leggiamo: gg vor e und i klingt weich [dsch].",
+            "Das passt genau zur Regel aus Lektion 1."
+          ]
+        },
+        {
+          "titel": "Umgangssprache",
+          "punkte": [
+            "vabbè = va bene (na gut)",
+            "boh = non so (keine Ahnung)",
+            "anzi = oder vielmehr"
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "dormire", "de": "schlafen", "wortart": "Verb"},
+        {"it": "leggere", "de": "lesen", "wortart": "Verb"},
+        {"it": "imparare", "de": "lernen", "wortart": "Verb"},
+        {"it": "insegnare", "de": "unterrichten", "wortart": "Verb"},
+        {"it": "chiedere", "de": "fragen, bitten", "wortart": "Verb"},
+        {"it": "rispondere", "de": "antworten", "wortart": "Verb"},
+        {"it": "decidere", "de": "entscheiden", "wortart": "Verb"},
+        {"it": "continuare", "de": "weitermachen", "wortart": "Verb"},
+        {"it": "il ragazzo", "de": "der Junge; der (feste) Freund", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la ragazza", "de": "das Mädchen; die (feste) Freundin", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la domanda", "de": "die Frage", "wortart": "Substantiv", "genus": "f"},
+        {"it": "l'età", "de": "das Alter", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il paese", "de": "das Land; das Dorf", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la professione", "de": "der Beruf", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la studentessa", "de": "die Studentin", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il turista", "de": "der Tourist", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il corso d'italiano", "de": "der Italienischkurs", "wortart": "Substantiv", "genus": "m"},
+        {"it": "perché", "de": "warum; weil", "wortart": "Konjunktion"},
+        {"it": "vabbè", "de": "na gut, schon gut", "wortart": "Wendung"},
+        {"it": "boh", "de": "keine Ahnung", "wortart": "Wendung"},
+        {"it": "anzi", "de": "oder vielmehr", "wortart": "Adverb"},
+        {"it": "giusto", "de": "richtig", "wortart": "Adjektiv"},
+        {"it": "sbagliato", "de": "falsch", "wortart": "Adjektiv"},
+        {"it": "bravo", "de": "gut, tüchtig", "wortart": "Adjektiv"}
+      ],
+      "uebungen": [
+        {"id": "l4-100", "typ": "lueckentext", "aufgabe": "Federico ___ con il cellulare. (giocare)", "aufgabe_de": "Federico ___ mit dem Handy.", "loesung": "gioca", "loesung_de": "spielt", "loesung_generiert": false, "quelle": "L4, S. 57, Nr. 5 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-101", "typ": "lueckentext", "aufgabe": "Laura ___ una rivista. (leggere)", "aufgabe_de": "Laura ___ eine Zeitschrift.", "loesung": "legge", "loesung_de": "liest", "loesung_generiert": false, "quelle": "L4, S. 57, Nr. 5 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-102", "typ": "lueckentext", "aufgabe": "Laura e Federico ___ in un bar. (essere)", "aufgabe_de": "Laura und Federico ___ in einer Bar.", "loesung": "sono", "loesung_de": "sind", "loesung_generiert": false, "quelle": "L4, S. 57, Nr. 5 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-103", "typ": "lueckentext", "aufgabe": "A Laura ___ i quiz. (piacere)", "aufgabe_de": "Laura ___ Quizze.", "loesung": "piacciono", "loesung_de": "mag (gefallen)", "loesung_generiert": false, "quelle": "L4, S. 57, Nr. 5 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-104", "typ": "lueckentext", "aufgabe": "Federico non ___ giocare. (volere)", "aufgabe_de": "Federico ___ nicht spielen.", "loesung": "vuole", "loesung_de": "will", "loesung_generiert": false, "quelle": "L4, S. 57, Nr. 5 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-105", "typ": "lueckentext", "aufgabe": "Quante volte Federico ___ con gli amici? (uscire)", "aufgabe_de": "Wie oft ___ Federico mit Freunden aus?", "loesung": "esce", "loesung_de": "geht", "loesung_generiert": false, "quelle": "L4, S. 57, Nr. 5 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-106", "typ": "lueckentext", "aufgabe": "Alla fine ___ la cameriera. (arrivare)", "aufgabe_de": "Am Ende ___ die Kellnerin.", "loesung": "arriva", "loesung_de": "kommt", "loesung_generiert": false, "quelle": "L4, S. 57, Nr. 5 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-107", "typ": "lueckentext", "aufgabe": "Tu cosa ___, Laura? (prendere)", "aufgabe_de": "Was ___ du, Laura?", "loesung": "prendi", "loesung_de": "nimmst", "loesung_generiert": false, "quelle": "L4, S. 57, Nr. 5 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-137", "typ": "lueckentext", "aufgabe": "La domenica io ___ fino alle dieci. (dormire)", "aufgabe_de": "Sonntags ___ ich bis zehn.", "loesung": "dormo", "loesung_de": "schlafe", "loesung_generiert": false, "quelle": "L4, S. 49 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-138", "typ": "lueckentext", "aufgabe": "Voi ___ molto? (dormire)", "aufgabe_de": "___ ihr viel?", "loesung": "dormite", "loesung_de": "Schlaft", "loesung_generiert": false, "quelle": "L4, S. 49 · Lösung: Lehrerhandbuch"},
+        {"id": "l4-108", "typ": "multiple_choice", "aufgabe": "Was bedeutet „vabbè“?", "optionen": ["Non importa.", "Va bene.", "Non mi piace."], "loesung": "Va bene.", "loesung_de": "na gut", "loesung_generiert": true, "quelle": "L4, S. 57, Nr. 4"},
+        {"id": "l4-109", "typ": "multiple_choice", "aufgabe": "Was bedeutet „boh“?", "optionen": ["Non voglio.", "Non so.", "Non mi piace."], "loesung": "Non so.", "loesung_de": "Ich weiß nicht.", "loesung_generiert": true, "quelle": "L4, S. 57, Nr. 4"},
+        {"id": "l4-68", "typ": "lueckentext", "aufgabe": "___ studi l'italiano? – Per lavoro.", "aufgabe_de": "___ lernst du Italienisch? – Für die Arbeit.", "loesung": "Perché", "loesung_de": "Warum", "loesung_generiert": false, "quelle": "L4, S. 55"},
+        {"id": "l4-95", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich lerne Italienisch, weil ich Italien liebe.", "loesung": "Studio l'italiano perché amo l'Italia.", "alternativen": ["Imparo l'italiano perché amo l'Italia."], "loesung_generiert": false, "quelle": "L4, S. 55"}
+      ]
+    },
+    {
+      "id": "l4-e7",
+      "titel": "Italien entdecken",
+      "emoji": "🏛️",
+      "ziel": "Du kennst berühmte Orte in Italien und wiederholst Lektion 4.",
+      "mix": true,
+      "erklaerung": [
+        {
+          "titel": "Die meistbesuchten Städte",
+          "punkte": [
+            "Rom, Florenz und Venedig sind die Städte mit den meisten Besuchern.",
+            "Rom: Kolosseum und Sixtinische Kapelle (im Vatikan).",
+            "Florenz: Uffizien und der Dom. Venedig: Markusplatz.",
+            "Pompeji liegt bei Neapel."
+          ],
+          "beispiele": [
+            {"it": "il Colosseo", "de": "das Kolosseum (Rom)"},
+            {"it": "la Galleria degli Uffizi", "de": "die Uffizien (Florenz)"},
+            {"it": "piazza San Marco", "de": "der Markusplatz (Venedig)"}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "il duomo", "de": "der Dom", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la piazza", "de": "der Platz", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il museo", "de": "das Museum", "wortart": "Substantiv", "genus": "m"}
+      ],
+      "uebungen": [
+        {"id": "l4-110", "typ": "multiple_choice", "aufgabe": "In welcher Stadt steht das Kolosseum?", "optionen": ["Roma", "Firenze", "Milano", "Venezia"], "loesung": "Roma", "loesung_de": "Rom", "loesung_generiert": false, "quelle": "L4, S. 58, Caffè culturale · Lösung: Lehrerhandbuch"},
+        {"id": "l4-111", "typ": "multiple_choice", "aufgabe": "In welcher Stadt sind die Uffizien?", "optionen": ["Roma", "Firenze", "Torino", "Venezia"], "loesung": "Firenze", "loesung_de": "Florenz", "loesung_generiert": false, "quelle": "L4, S. 58, Caffè culturale · Lösung: Lehrerhandbuch"},
+        {"id": "l4-112", "typ": "multiple_choice", "aufgabe": "In welcher Stadt liegt der Markusplatz?", "optionen": ["Roma", "Milano", "Venezia", "Pompei"], "loesung": "Venezia", "loesung_de": "Venedig", "loesung_generiert": false, "quelle": "L4, S. 58, Caffè culturale · Lösung: Lehrerhandbuch"},
+        {"id": "l4-113", "typ": "multiple_choice", "aufgabe": "Welche Stadt hat nach Kairo das wichtigste Ägyptische Museum?", "optionen": ["Torino", "Milano", "Napoli", "Firenze"], "loesung": "Torino", "loesung_de": "Turin", "loesung_generiert": false, "quelle": "L4, S. 58, Caffè culturale"},
+        {"id": "l4-114", "typ": "multiple_choice", "aufgabe": "Welche drei Städte werden am meisten besucht?", "optionen": ["Roma, Firenze, Venezia", "Milano, Torino, Napoli", "Bologna, Genova, Bari"], "loesung": "Roma, Firenze, Venezia", "loesung_generiert": false, "quelle": "L4, S. 58, Caffè culturale · Lösung: Lehrerhandbuch"},
+        {"id": "l4-115", "typ": "multiple_choice", "aufgabe": "In welcher Stadt ist die Sixtinische Kapelle?", "optionen": ["Roma", "Firenze", "Venezia", "Napoli"], "loesung": "Roma", "hinweis": "Genauer: im Vatikan, mitten in Rom.", "loesung_generiert": false, "quelle": "L4, S. 58, Caffè culturale · Lösung: Lehrerhandbuch"}
+      ]
+    }
+  ]
+}

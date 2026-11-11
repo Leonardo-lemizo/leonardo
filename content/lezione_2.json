@@ -1,0 +1,615 @@
+{
+  "kapitel_id": "lezione_2",
+  "nummer": 2,
+  "titel": "Lezione 2 – Io e gli altri",
+  "untertitel": "Befinden, vorstellen, Sprachen, Berufe, Zahlen bis 100",
+  "emoji": "🤝",
+  "quellen": ["NUOVO ESPRESSO 1 L 2.pdf", "Nuovo Espresso L2.pdf (mit Kursnotizen)", "Wiederholung UNITA 2.pdf", "Zwischentest.pdf", "conoscersi.pdf", "Lehrerhandbuch Nuovo Espresso 1 (Hueber, frei online)"],
+  "einheiten": [
+    {
+      "id": "l2-e1",
+      "titel": "Come stai? – Wie geht's?",
+      "emoji": "🙂",
+      "ziel": "Du kannst fragen, wie es jemandem geht, und antworten.",
+      "verben": ["stare"],
+      "erklaerung": [
+        {
+          "titel": "Wie geht's?",
+          "punkte": [
+            "Per du: Come stai?",
+            "Per Sie: Come sta?",
+            "Passt immer: Come va?"
+          ],
+          "beispiele": [
+            {"it": "Ciao, come stai?", "de": "Hallo, wie geht es dir?"},
+            {"it": "Buongiorno, come sta?", "de": "Guten Tag, wie geht es Ihnen?"},
+            {"it": "Bene, grazie. E tu?", "de": "Gut, danke. Und dir?"}
+          ]
+        },
+        {
+          "titel": "Von super bis schlecht",
+          "tabelle": [
+            ["", "italienisch", "deutsch"],
+            ["+++", "benissimo", "sehr gut"],
+            ["++", "bene", "gut"],
+            ["+", "non c'è male", "nicht schlecht"],
+            ["~", "così così", "so lala"],
+            ["–", "male", "schlecht"]
+          ],
+          "merke": "Geht es jemandem schlecht, sagst du: Mi dispiace! (Das tut mir leid!)"
+        },
+        {
+          "titel": "stare = sich fühlen",
+          "punkte": [
+            "Beim Befinden benutzt man stare, nicht essere.",
+            "Sto bene = Mir geht es gut. Wörtlich: Ich stehe gut."
+          ],
+          "beispiele": [
+            {"it": "Oggi sto proprio male.", "de": "Heute geht es mir richtig schlecht."},
+            {"it": "Mi dispiace.", "de": "Das tut mir leid."}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "Come va?", "de": "Wie geht's?", "wortart": "Wendung"},
+        {"it": "Come stai?", "de": "Wie geht es dir?", "wortart": "Wendung"},
+        {"it": "Come sta?", "de": "Wie geht es Ihnen?", "wortart": "Wendung"},
+        {"it": "benissimo", "de": "sehr gut, ausgezeichnet", "wortart": "Adverb"},
+        {"it": "molto bene", "de": "sehr gut", "wortart": "Adverb"},
+        {"it": "bene", "de": "gut (Adverb)", "wortart": "Adverb"},
+        {"it": "non c'è male", "de": "nicht schlecht", "wortart": "Wendung"},
+        {"it": "così così", "de": "so lala, es geht", "wortart": "Wendung"},
+        {"it": "male", "de": "schlecht (Adverb)", "wortart": "Adverb"},
+        {"it": "malissimo", "de": "sehr schlecht", "wortart": "Adverb"},
+        {"it": "oggi", "de": "heute", "wortart": "Adverb"},
+        {"it": "proprio", "de": "wirklich, richtig", "wortart": "Adverb"},
+        {"it": "Mi dispiace.", "de": "Das tut mir leid.", "wortart": "Wendung"},
+        {"it": "grazie", "de": "danke", "wortart": "Wendung"},
+        {"it": "stare", "de": "sich befinden, (wie) gehen; bleiben", "wortart": "Verb"}
+      ],
+      "uebungen": [
+        {"id": "l2-04", "typ": "multiple_choice", "aufgabe": "Welche Antwort heißt „sehr gut“ (+++)?", "optionen": ["non c'è male", "benissimo", "così così", "male"], "loesung": "benissimo", "loesung_de": "sehr gut", "loesung_generiert": false, "quelle": "L2, S. 18, Nr. 1 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-08", "typ": "multiple_choice", "aufgabe": "Welche Antwort ist „nicht schlecht“ (+)?", "optionen": ["benissimo", "bene", "non c'è male", "male"], "loesung": "non c'è male", "loesung_de": "nicht schlecht", "loesung_generiert": false, "quelle": "L2, S. 18, Nr. 1 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-09", "typ": "multiple_choice", "aufgabe": "„Oggi sto proprio male.“ – Was antwortest du?", "aufgabe_de": "„Heute geht es mir richtig schlecht.“", "optionen": ["Oh, mi dispiace.", "Benissimo, grazie.", "Piacere!", "A domani!"], "loesung": "Oh, mi dispiace.", "loesung_de": "Oh, das tut mir leid.", "loesung_generiert": false, "quelle": "L2, S. 18, Nr. 1"},
+        {"id": "l2-100", "typ": "uebersetzung", "aufgabe": "Übersetze: Wie geht es Ihnen?", "loesung": "Come sta?", "alternativen": ["Come va?", "Lei come sta?"], "loesung_generiert": false, "quelle": "L2, S. 27 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-10", "typ": "uebersetzung", "aufgabe": "Übersetze (per du): Wie geht es dir?", "loesung": "Come stai?", "alternativen": ["Come va?", "Tu come stai?"], "loesung_generiert": false, "quelle": "L2, S. 27 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-101", "typ": "uebersetzung", "aufgabe": "Übersetze: Heute geht es mir schlecht.", "loesung": "Oggi sto male.", "alternativen": ["Oggi io sto male.", "Sto male oggi."], "loesung_generiert": true, "quelle": "L2, S. 27"},
+        {"id": "l2-108", "typ": "uebersetzung", "aufgabe": "Übersetze: Das tut mir leid.", "loesung": "Mi dispiace.", "loesung_generiert": false, "quelle": "L2, S. 18"},
+        {"id": "l2-120", "typ": "uebersetzung", "aufgabe": "Trenne die Wörter und setze Satzzeichen: Ciaocomevabenissimograzie", "loesung": "Ciao, come va? Benissimo, grazie.", "loesung_de": "Hallo, wie geht's? Sehr gut, danke.", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 1"},
+        {"id": "l2-121", "typ": "uebersetzung", "aufgabe": "Trenne die Wörter und setze Satzzeichen: ComestasignorabenegrazieeLei", "loesung": "Come sta, signora? Bene, grazie. E Lei?", "loesung_de": "Wie geht es Ihnen? Gut, danke. Und Ihnen?", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 1"}
+      ]
+    },
+    {
+      "id": "l2-e2",
+      "titel": "Ti presento … – Jemanden vorstellen",
+      "emoji": "🤝",
+      "ziel": "Du kannst Freunde vorstellen und höflich reagieren.",
+      "erklaerung": [
+        {
+          "titel": "Jemanden vorstellen",
+          "punkte": [
+            "Per du: Ti presento Carlo.",
+            "Per Sie: Le presento il signor Rossi.",
+            "Antwort: Piacere! oder Molto lieto (Mann) / Molto lieta (Frau)."
+          ],
+          "beispiele": [
+            {"it": "Ti presento Katia.", "de": "Ich stelle dir Katia vor."},
+            {"it": "Le presento la signora Vinci.", "de": "Ich stelle Ihnen Frau Vinci vor."},
+            {"it": "Molto lieta.", "de": "Sehr erfreut. (sagt eine Frau)"}
+          ]
+        },
+        {
+          "titel": "questo oder questa?",
+          "punkte": [
+            "Questo è … für einen Mann: Questo è Carlo.",
+            "Questa è … für eine Frau: Questa è Carla.",
+            "Ein Freund von mir: un mio amico / una mia amica."
+          ],
+          "beispiele": [
+            {"it": "Questo è Massimo, un mio amico.", "de": "Das ist Massimo, ein Freund von mir."},
+            {"it": "Questa è Susana, una mia amica.", "de": "Das ist Susana, eine Freundin von mir."}
+          ]
+        },
+        {
+          "titel": "signor Rossi oder il signor Rossi?",
+          "punkte": [
+            "Du sprichst die Person direkt an: ohne Artikel. Buongiorno, signora Vinci!",
+            "Du sprichst über die Person: mit Artikel. Le presento la signora Vinci."
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "Piacere.", "de": "Angenehm. / Freut mich.", "wortart": "Wendung"},
+        {"it": "Molto lieto. / Molto lieta.", "de": "Sehr erfreut. (m. / w.)", "wortart": "Wendung"},
+        {"it": "Ti presento …", "de": "Ich stelle dir … vor", "wortart": "Wendung"},
+        {"it": "Le presento …", "de": "Ich stelle Ihnen … vor", "wortart": "Wendung"},
+        {"it": "questo / questa", "de": "dieser / diese; das ist …", "wortart": "Demonstrativ"},
+        {"it": "un mio amico", "de": "ein Freund von mir", "wortart": "Wendung"},
+        {"it": "una mia amica", "de": "eine Freundin von mir", "wortart": "Wendung"},
+        {"it": "l'amico", "de": "der Freund", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'amica", "de": "die Freundin", "wortart": "Substantiv", "genus": "f"},
+        {"it": "lo straniero", "de": "der Ausländer", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la straniera", "de": "die Ausländerin", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la festa", "de": "die Party, das Fest", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la conversazione", "de": "die Unterhaltung", "wortart": "Substantiv", "genus": "f"},
+        {"it": "invece", "de": "dagegen, hingegen", "wortart": "Adverb"},
+        {"it": "purtroppo", "de": "leider", "wortart": "Adverb"},
+        {"it": "un po'", "de": "ein bisschen", "wortart": "Wendung"},
+        {"it": "Pronto?", "de": "Hallo? (am Telefon)", "wortart": "Wendung"}
+      ],
+      "uebungen": [
+        {"id": "l2-01", "typ": "lueckentext", "aufgabe": "Buonasera signora Vinci. Come ___?", "aufgabe_de": "Guten Abend, Frau Vinci. Wie ___ es Ihnen?", "loesung": "sta", "loesung_de": "geht (Sie-Form)", "loesung_generiert": false, "quelle": "L2, S. 19, Nr. 2 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-02", "typ": "lueckentext", "aufgabe": "Bene, grazie. E ___?", "aufgabe_de": "Gut, danke. Und ___? (Sie-Form)", "loesung": "Lei", "loesung_de": "Ihnen", "loesung_generiert": false, "quelle": "L2, S. 19, Nr. 2 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-03", "typ": "multiple_choice", "aufgabe": "Du stellst einer Person, die du siezt, jemanden vor. Was sagst du?", "optionen": ["Ti presento il signor Lucchetti.", "Le presento il signor Lucchetti.", "Mi presento il signor Lucchetti."], "loesung": "Le presento il signor Lucchetti.", "loesung_de": "Ich stelle Ihnen Herrn Lucchetti vor.", "loesung_generiert": false, "quelle": "L2, S. 19, Nr. 2"},
+        {"id": "l2-05", "typ": "multiple_choice", "aufgabe": "Eine Frau wird vorgestellt und antwortet höflich. Was sagt sie?", "optionen": ["Molto lieto.", "Molto lieta.", "Molto lieti."], "loesung": "Molto lieta.", "loesung_de": "Sehr erfreut.", "loesung_generiert": false, "quelle": "L2, S. 25, Nr. 13"},
+        {"id": "l2-06", "typ": "lueckentext", "aufgabe": "___ è una mia amica.", "aufgabe_de": "___ ist eine Freundin von mir.", "loesung": "Questa", "loesung_de": "Das (für eine Frau)", "loesung_generiert": false, "quelle": "L2, S. 20"},
+        {"id": "l2-07", "typ": "lueckentext", "aufgabe": "___ è un mio amico.", "aufgabe_de": "___ ist ein Freund von mir.", "loesung": "Questo", "loesung_de": "Das (für einen Mann)", "loesung_generiert": false, "quelle": "L2, S. 20"},
+        {"id": "l2-123", "typ": "uebersetzung", "aufgabe": "Trenne die Wörter und setze Satzzeichen: LepresentoilsignorBlasipiacereMonti", "loesung": "Le presento il signor Blasi. Piacere, Monti.", "loesung_de": "Ich stelle Ihnen Herrn Blasi vor. Freut mich, Monti.", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 1"},
+        {"id": "l2-124", "typ": "lueckentext", "aufgabe": "Weibliche Form: un mio amico → ___", "aufgabe_de": "ein Freund von mir → ___", "loesung": "una mia amica", "loesung_de": "eine Freundin von mir", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 2"},
+        {"id": "l2-125", "typ": "lueckentext", "aufgabe": "Männliche Form: la signora Vinci → ___", "aufgabe_de": "Frau Vinci → ___", "loesung": "il signor Vinci", "loesung_de": "Herr Vinci", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 2"},
+        {"id": "l2-128", "typ": "lueckentext", "aufgabe": "Weibliche Form: molto lieto → ___", "aufgabe_de": "sehr erfreut (Mann) → ___", "loesung": "molto lieta", "loesung_de": "sehr erfreut (Frau)", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 2"},
+        {"id": "l2-129", "typ": "lueckentext", "aufgabe": "Männliche Form: questa → ___", "aufgabe_de": "diese → ___", "loesung": "questo", "loesung_de": "dieser", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 2"},
+        {"id": "l2-130", "typ": "multiple_choice", "aufgabe": "Questa è Paloma, ___ mia amica di Madrid.", "aufgabe_de": "Das ist Paloma, ___ Freundin von mir aus Madrid.", "optionen": ["un", "una", "la", "l'"], "loesung": "una", "loesung_de": "eine", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 3"},
+        {"id": "l2-131", "typ": "multiple_choice", "aufgabe": "Lei è ___ signora Ghezzi.", "aufgabe_de": "Sie ist ___ Frau Ghezzi. (über sie sprechen)", "optionen": ["il", "lo", "la", "una"], "loesung": "la", "loesung_de": "die (mit Artikel, weil man über sie spricht)", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 3"},
+        {"id": "l2-134", "typ": "multiple_choice", "aufgabe": "Questo è Jean, ___ mio amico francese.", "aufgabe_de": "Das ist Jean, ___ französischer Freund von mir.", "optionen": ["un", "uno", "una", "il"], "loesung": "un", "loesung_de": "ein", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 3"},
+        {"id": "l2-135", "typ": "multiple_choice", "aufgabe": "Le presento ___ signor Dini.", "aufgabe_de": "Ich stelle Ihnen ___ Herrn Dini vor.", "optionen": ["il", "lo", "un", "l'"], "loesung": "il", "loesung_de": "(den) Herrn – mit Artikel", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 3"}
+      ]
+    },
+    {
+      "id": "l2-e3",
+      "titel": "Che lingue parli? – Sprachen",
+      "emoji": "🗣️",
+      "ziel": "Du kannst sagen, welche Sprachen du sprichst – mit dem richtigen Artikel.",
+      "verben": ["parlare"],
+      "erklaerung": [
+        {
+          "titel": "Sprachen mit Artikel",
+          "punkte": [
+            "Im Italienischen steht vor der Sprache meist ein Artikel.",
+            "Parlo il tedesco. = Ich spreche Deutsch.",
+            "Sprachen schreibt man klein."
+          ],
+          "beispiele": [
+            {"it": "Parlo l'italiano.", "de": "Ich spreche Italienisch."},
+            {"it": "Parli lo spagnolo?", "de": "Sprichst du Spanisch?"}
+          ]
+        },
+        {
+          "titel": "Der bestimmte Artikel (Einzahl)",
+          "punkte": [
+            "Welcher Artikel passt, hängt vom Anfang des Wortes ab."
+          ],
+          "tabelle": [
+            ["Wortanfang", "männlich", "weiblich"],
+            ["Konsonant", "il tedesco", "la signora"],
+            ["Vokal", "l'inglese", "l'amica"],
+            ["s + Konsonant, z", "lo spagnolo, lo zio", "la straniera"]
+          ],
+          "merke": "lo steht vor s + Konsonant (sp, st, sv …) und vor z."
+        },
+        {
+          "titel": "Verben auf -are: parlare",
+          "punkte": [
+            "Nimm parl- und häng die Endung an.",
+            "io parlo · tu parli · lui/lei/Lei parla",
+            "noi parliamo · voi parlate · loro parlano"
+          ],
+          "beispiele": [
+            {"it": "Susana parla molto bene l'italiano.", "de": "Susana spricht sehr gut Italienisch."}
+          ]
+        },
+        {
+          "titel": "Nein und nicht",
+          "punkte": [
+            "no = nein.",
+            "non = nicht. Es steht immer direkt vor dem Verb."
+          ],
+          "beispiele": [
+            {"it": "No, non parlo il russo.", "de": "Nein, ich spreche kein Russisch."}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "parlare", "de": "sprechen", "wortart": "Verb"},
+        {"it": "la lingua", "de": "die Sprache", "wortart": "Substantiv", "genus": "f"},
+        {"it": "Che lingue parli?", "de": "Welche Sprachen sprichst du?", "wortart": "Wendung"},
+        {"it": "l'italiano", "de": "Italienisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il tedesco", "de": "Deutsch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'inglese", "de": "Englisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il francese", "de": "Französisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "lo spagnolo", "de": "Spanisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il portoghese", "de": "Portugiesisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il russo", "de": "Russisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il greco", "de": "Griechisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'olandese", "de": "Niederländisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "lo svedese", "de": "Schwedisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il turco", "de": "Türkisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "non", "de": "nicht", "wortart": "Partikel"}
+      ],
+      "uebungen": [
+        {"id": "l2-64", "typ": "multiple_choice", "aufgabe": "Artikel: ___ straniero", "aufgabe_de": "___ Ausländer", "optionen": ["il", "lo", "la", "l'"], "loesung": "lo", "loesung_de": "der", "hinweis": "s + Konsonant → lo", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-65", "typ": "multiple_choice", "aufgabe": "Artikel: ___ amica", "aufgabe_de": "___ Freundin", "optionen": ["il", "lo", "la", "l'"], "loesung": "l'", "loesung_de": "die", "hinweis": "Vokal am Anfang → l'", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-66", "typ": "multiple_choice", "aufgabe": "Artikel: ___ signore", "aufgabe_de": "___ Herr", "optionen": ["il", "lo", "la", "l'"], "loesung": "il", "loesung_de": "der", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-67", "typ": "multiple_choice", "aufgabe": "Artikel: ___ spagnolo (die Sprache)", "aufgabe_de": "Spanisch", "optionen": ["il", "lo", "la", "l'"], "loesung": "lo", "hinweis": "sp… = s + Konsonant → lo", "loesung_generiert": false, "quelle": "L2, S. 21, Nr. 5"},
+        {"id": "l2-68", "typ": "multiple_choice", "aufgabe": "Artikel: ___ inglese (die Sprache)", "aufgabe_de": "Englisch", "optionen": ["il", "lo", "la", "l'"], "loesung": "l'", "loesung_generiert": false, "quelle": "L2, S. 21, Nr. 5"},
+        {"id": "l2-69", "typ": "multiple_choice", "aufgabe": "Artikel: ___ tedesco (die Sprache)", "aufgabe_de": "Deutsch", "optionen": ["il", "lo", "la", "l'"], "loesung": "il", "loesung_generiert": false, "quelle": "L2, S. 21, Nr. 5"},
+        {"id": "gr-111", "typ": "multiple_choice", "aufgabe": "Parlo ___ svedese.", "aufgabe_de": "Ich spreche Schwedisch.", "optionen": ["il", "lo", "l'", "la"], "loesung": "lo", "loesung_generiert": false, "quelle": "Arbeitsblatt conoscersi"},
+        {"id": "gr-112", "typ": "multiple_choice", "aufgabe": "Parlo ___ russo.", "aufgabe_de": "Ich spreche Russisch.", "optionen": ["il", "lo", "l'", "la"], "loesung": "il", "loesung_generiert": false, "quelle": "Arbeitsblatt conoscersi"},
+        {"id": "l2-132", "typ": "multiple_choice", "aufgabe": "Monica non parla ___ spagnolo.", "aufgabe_de": "Monica spricht kein Spanisch.", "optionen": ["il", "lo", "la", "l'"], "loesung": "lo", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 3"},
+        {"id": "l2-133", "typ": "multiple_choice", "aufgabe": "Io non parlo bene ___ inglese.", "aufgabe_de": "Ich spreche nicht gut Englisch.", "optionen": ["il", "lo", "la", "l'"], "loesung": "l'", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 3"},
+        {"id": "l2-136", "typ": "multiple_choice", "aufgabe": "Simona parla ___ tedesco molto bene.", "aufgabe_de": "Simona spricht sehr gut Deutsch.", "optionen": ["il", "lo", "la", "l'"], "loesung": "il", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 3"},
+        {"id": "l2-78", "typ": "lueckentext", "aufgabe": "Sei inglese? – ___, sono americano.", "aufgabe_de": "Bist du Engländer? – ___, ich bin Amerikaner.", "loesung": "No", "loesung_de": "Nein", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-79", "typ": "lueckentext", "aufgabe": "Io ___ parlo il russo.", "aufgabe_de": "Ich spreche ___ Russisch.", "loesung": "non", "loesung_de": "nicht / kein", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-122", "typ": "uebersetzung", "aufgabe": "Trenne die Wörter und setze Satzzeichen: Paoloparlainglesesìmoltobene", "loesung": "Paolo parla inglese? Sì, molto bene.", "loesung_de": "Spricht Paolo Englisch? Ja, sehr gut.", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 150, Nr. 1"},
+        {"id": "l2-106", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich spreche kein Portugiesisch.", "loesung": "Non parlo il portoghese.", "alternativen": ["Io non parlo il portoghese.", "Non parlo portoghese."], "loesung_generiert": true, "quelle": "L2, S. 20"},
+        {"id": "l2-11", "typ": "multiple_choice", "aufgabe": "Susana ___ molto bene l'italiano.", "aufgabe_de": "Susana ___ sehr gut Italienisch.", "optionen": ["parlo", "parli", "parla", "parlano"], "loesung": "parla", "loesung_de": "spricht", "loesung_generiert": false, "quelle": "L2, S. 20 · Lösung: Lehrerhandbuch"}
+      ]
+    },
+    {
+      "id": "l2-e4",
+      "titel": "Che lavoro fai? – Berufe",
+      "emoji": "💼",
+      "ziel": "Du kannst nach dem Beruf fragen und sagen, wo jemand arbeitet.",
+      "verben": ["fare", "lavorare"],
+      "erklaerung": [
+        {
+          "titel": "Nach dem Beruf fragen",
+          "punkte": [
+            "Per du: Che lavoro fai?",
+            "Per Sie: Che lavoro fa?",
+            "Antwort, drei Möglichkeiten: Faccio l'insegnante. · Sono insegnante. · Lavoro come insegnante."
+          ],
+          "beispiele": [
+            {"it": "Che lavoro fai?", "de": "Was machst du beruflich?"},
+            {"it": "Faccio la segretaria.", "de": "Ich bin Sekretärin."},
+            {"it": "Lavoro in una scuola.", "de": "Ich arbeite in einer Schule."}
+          ]
+        },
+        {
+          "titel": "Berufe für Männer und Frauen",
+          "tabelle": [
+            ["Endung", "Mann", "Frau"],
+            ["-o → -a", "il cuoco", "la cuoca"],
+            ["-iere → -iera", "l'infermiere", "l'infermiera"],
+            ["-ista bleibt", "il farmacista", "la farmacista"],
+            ["-ante bleibt", "l'insegnante", "l'insegnante"]
+          ],
+          "merke": "Bei -ista und -ante zeigt nur der Artikel, ob Mann oder Frau."
+        },
+        {
+          "titel": "Ein, eine: der unbestimmte Artikel",
+          "tabelle": [
+            ["Wortanfang", "männlich", "weiblich"],
+            ["Konsonant", "un negozio", "una scuola"],
+            ["Vokal", "un ufficio", "un'agenzia"],
+            ["s + Konsonant, z", "uno studio", "una studentessa"]
+          ],
+          "merke": "Den Apostroph gibt es nur bei weiblichen Wörtern: un'amica, aber un amico."
+        }
+      ],
+      "vokabeln": [
+        {"it": "il lavoro", "de": "die Arbeit", "wortart": "Substantiv", "genus": "m"},
+        {"it": "Che lavoro fai?", "de": "Was machst du beruflich?", "wortart": "Wendung"},
+        {"it": "Che lavoro fa?", "de": "Was machen Sie beruflich?", "wortart": "Wendung"},
+        {"it": "fare", "de": "machen, tun", "wortart": "Verb"},
+        {"it": "lavorare", "de": "arbeiten", "wortart": "Verb"},
+        {"it": "cercare", "de": "suchen", "wortart": "Verb"},
+        {"it": "l'avvocato / l'avvocatessa", "de": "der Rechtsanwalt / die Rechtsanwältin", "wortart": "Substantiv", "genus": "m/f"},
+        {"it": "il giornalista / la giornalista", "de": "der Journalist / die Journalistin", "wortart": "Substantiv", "genus": "m/f"},
+        {"it": "il farmacista / la farmacista", "de": "der Apotheker / die Apothekerin", "wortart": "Substantiv", "genus": "m/f"},
+        {"it": "il commesso / la commessa", "de": "der Verkäufer / die Verkäuferin", "wortart": "Substantiv", "genus": "m/f"},
+        {"it": "l'infermiere / l'infermiera", "de": "der Krankenpfleger / die Krankenschwester", "wortart": "Substantiv", "genus": "m/f"},
+        {"it": "l'operaio / l'operaia", "de": "der Arbeiter / die Arbeiterin", "wortart": "Substantiv", "genus": "m/f"},
+        {"it": "il cuoco / la cuoca", "de": "der Koch / die Köchin", "wortart": "Substantiv", "genus": "m/f"},
+        {"it": "l'insegnante", "de": "der Lehrer / die Lehrerin", "wortart": "Substantiv", "genus": "m/f"},
+        {"it": "la segretaria", "de": "die Sekretärin", "wortart": "Substantiv", "genus": "f"},
+        {"it": "l'impiegato / l'impiegata", "de": "der / die Angestellte", "wortart": "Substantiv", "genus": "m/f"},
+        {"it": "il medico", "de": "der Arzt", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'architetto", "de": "der Architekt", "wortart": "Substantiv", "genus": "m"},
+        {"it": "lo studente", "de": "der Student", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la traduttrice", "de": "die Übersetzerin", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il cantante", "de": "der Sänger", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la cameriera", "de": "die Kellnerin", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la fabbrica", "de": "die Fabrik", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la farmacia", "de": "die Apotheke", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la scuola", "de": "die Schule", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la scuola di lingue", "de": "die Sprachschule", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il supermercato", "de": "der Supermarkt", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il negozio", "de": "das Geschäft, der Laden", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il ristorante", "de": "das Restaurant", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'ufficio", "de": "das Büro", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'agenzia pubblicitaria", "de": "die Werbeagentur", "wortart": "Substantiv", "genus": "f"},
+        {"it": "lo studio", "de": "das Studio, das Büro, die Praxis", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'ospedale", "de": "das Krankenhaus", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la banca", "de": "die Bank", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la libreria", "de": "die Buchhandlung", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la ditta", "de": "die Firma", "wortart": "Substantiv", "genus": "f"},
+        {"it": "Lavoro come cameriera.", "de": "Ich arbeite als Kellnerin.", "wortart": "Wendung"}
+      ],
+      "uebungen": [
+        {"id": "l2-50", "typ": "lueckentext", "aufgabe": "Francesco lavora in una fabbrica, fa ___.", "aufgabe_de": "Francesco arbeitet in einer Fabrik, er ist ___.", "loesung": "l'operaio", "loesung_de": "Arbeiter", "loesung_generiert": false, "quelle": "L2, S. 22, Nr. 9 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-51", "typ": "lueckentext", "aufgabe": "Carla lavora in una farmacia, fa ___.", "aufgabe_de": "Carla arbeitet in einer Apotheke, sie ist ___.", "loesung": "la farmacista", "loesung_de": "Apothekerin", "loesung_generiert": false, "quelle": "L2, S. 22, Nr. 9 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-52", "typ": "lueckentext", "aufgabe": "Patrizia lavora in una scuola, fa ___.", "aufgabe_de": "Patrizia arbeitet in einer Schule, sie ist ___.", "loesung": "l'insegnante", "loesung_de": "Lehrerin", "loesung_generiert": false, "quelle": "L2, S. 22, Nr. 9 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-53", "typ": "lueckentext", "aufgabe": "Luisa lavora in un supermercato, fa ___.", "aufgabe_de": "Luisa arbeitet in einem Supermarkt, sie ist ___.", "loesung": "la commessa", "loesung_de": "Verkäuferin", "loesung_generiert": false, "quelle": "L2, S. 22, Nr. 9 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-54", "typ": "lueckentext", "aufgabe": "Pino lavora in un ristorante, fa ___.", "aufgabe_de": "Pino arbeitet in einem Restaurant, er ist ___.", "loesung": "il cuoco", "loesung_de": "Koch", "loesung_generiert": false, "quelle": "L2, S. 22, Nr. 9 · Lösung: Lehrerhandbuch"},
+        {"id": "l2-60", "typ": "multiple_choice", "aufgabe": "Lavoro in ___ ufficio.", "aufgabe_de": "Ich arbeite in ___ Büro.", "optionen": ["un", "uno", "una", "un'"], "loesung": "un", "loesung_de": "einem", "hinweis": "Männlich + Vokal → un (ohne Apostroph).", "loesung_generiert": false, "quelle": "L2, S. 22"},
+        {"id": "l2-61", "typ": "multiple_choice", "aufgabe": "Lavoro in ___ studio fotografico.", "aufgabe_de": "Ich arbeite in ___ Fotostudio.", "optionen": ["un", "uno", "una", "un'"], "loesung": "uno", "loesung_de": "einem", "hinweis": "st… = s + Konsonant → uno", "loesung_generiert": false, "quelle": "L2, S. 22"},
+        {"id": "l2-62", "typ": "multiple_choice", "aufgabe": "Lavoro in ___ agenzia.", "aufgabe_de": "Ich arbeite in ___ Agentur.", "optionen": ["un", "uno", "una", "un'"], "loesung": "un'", "loesung_de": "einer", "hinweis": "Weiblich + Vokal → un'", "loesung_generiert": false, "quelle": "L2, S. 22"},
+        {"id": "l2-63", "typ": "multiple_choice", "aufgabe": "Lavoro in ___ scuola.", "aufgabe_de": "Ich arbeite in ___ Schule.", "optionen": ["un", "uno", "una", "un'"], "loesung": "una", "loesung_de": "einer", "loesung_generiert": false, "quelle": "L2, S. 22"},
+        {"id": "l2-160", "typ": "multiple_choice", "aufgabe": "___ amico", "aufgabe_de": "___ Freund", "optionen": ["un", "uno", "una", "un'"], "loesung": "un", "loesung_de": "ein", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 7"},
+        {"id": "l2-161", "typ": "multiple_choice", "aufgabe": "___ studente", "aufgabe_de": "___ Student", "optionen": ["un", "uno", "una", "un'"], "loesung": "uno", "loesung_de": "ein", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 7"},
+        {"id": "l2-162", "typ": "multiple_choice", "aufgabe": "___ amica", "aufgabe_de": "___ Freundin", "optionen": ["un", "uno", "una", "un'"], "loesung": "un'", "loesung_de": "eine", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 7"},
+        {"id": "l2-163", "typ": "multiple_choice", "aufgabe": "___ libreria", "aufgabe_de": "___ Buchhandlung", "optionen": ["un", "uno", "una", "un'"], "loesung": "una", "loesung_de": "eine", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 7"},
+        {"id": "l2-164", "typ": "multiple_choice", "aufgabe": "___ ospedale", "aufgabe_de": "___ Krankenhaus", "optionen": ["un", "uno", "una", "un'"], "loesung": "un", "loesung_de": "ein", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 7"},
+        {"id": "l2-165", "typ": "multiple_choice", "aufgabe": "___ operaia", "aufgabe_de": "___ Arbeiterin", "optionen": ["un", "uno", "una", "un'"], "loesung": "un'", "loesung_de": "eine", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 7"},
+        {"id": "l2-167", "typ": "multiple_choice", "aufgabe": "___ negozio", "aufgabe_de": "___ Geschäft", "optionen": ["un", "uno", "una", "un'"], "loesung": "un", "loesung_de": "ein", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 7"},
+        {"id": "l2-168", "typ": "multiple_choice", "aufgabe": "___ segretaria", "aufgabe_de": "___ Sekretärin", "optionen": ["un", "uno", "una", "un'"], "loesung": "una", "loesung_de": "eine", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 7"},
+        {"id": "l2-140", "typ": "lueckentext", "aufgabe": "Teresa ___ la segretaria in una scuola di lingue.", "aufgabe_de": "Teresa ___ Sekretärin in einer Sprachschule. (fare)", "loesung": "fa", "loesung_de": "ist (wörtlich: macht)", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 151, Nr. 5"},
+        {"id": "l2-141", "typ": "lueckentext", "aufgabe": "Maddalena ___ impiegata in un'agenzia pubblicitaria.", "aufgabe_de": "Maddalena ___ Angestellte in einer Werbeagentur.", "loesung": "è", "loesung_de": "ist", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 151, Nr. 5"},
+        {"id": "l2-142", "typ": "lueckentext", "aufgabe": "Piero invece lavora in ___ studio fotografico.", "aufgabe_de": "Piero arbeitet dagegen in ___ Fotostudio.", "loesung": "uno", "loesung_de": "einem", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 151, Nr. 5"},
+        {"id": "l2-175", "typ": "lueckentext", "aufgabe": "Io sono segretaria, ___ in una scuola. (lavorare)", "aufgabe_de": "Ich bin Sekretärin, ich ___ in einer Schule.", "loesung": "lavoro", "loesung_de": "arbeite", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 8"},
+        {"id": "l2-170", "typ": "multiple_choice", "aufgabe": "Che lavoro ___ Antonella?", "aufgabe_de": "Was ___ Antonella beruflich?", "optionen": ["fa", "sta", "lavora", "sono"], "loesung": "fa", "loesung_de": "macht", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 8"},
+        {"id": "l2-172", "typ": "multiple_choice", "aufgabe": "Elena ___ in un'agenzia pubblicitaria.", "aufgabe_de": "Elena ___ in einer Werbeagentur.", "optionen": ["lavoro", "lavora", "abitiamo", "sono"], "loesung": "lavora", "loesung_de": "arbeitet", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 8"},
+        {"id": "gr-113", "typ": "lueckentext", "aufgabe": "Che lavoro fai? – ___ la cameriera. (fare)", "aufgabe_de": "Was machst du beruflich? – ___ Kellnerin.", "loesung": "Faccio", "loesung_de": "Ich bin (wörtlich: ich mache)", "loesung_generiert": false, "quelle": "Arbeitsblatt conoscersi"},
+        {"id": "l2-180", "typ": "lueckentext", "aufgabe": "L'infermiera lavora in un ___.", "aufgabe_de": "Die Krankenschwester arbeitet in einem ___.", "loesung": "ospedale", "loesung_de": "Krankenhaus", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 153, Nr. 9"},
+        {"id": "l2-181", "typ": "lueckentext", "aufgabe": "Il cuoco lavora in un ___.", "aufgabe_de": "Der Koch arbeitet in einem ___.", "loesung": "ristorante", "loesung_de": "Restaurant", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 153, Nr. 9"},
+        {"id": "l2-182", "typ": "lueckentext", "aufgabe": "L'operaio lavora in una ___.", "aufgabe_de": "Der Arbeiter arbeitet in einer ___.", "loesung": "fabbrica", "loesung_de": "Fabrik", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 153, Nr. 9"},
+        {"id": "l2-183", "typ": "lueckentext", "aufgabe": "Il farmacista lavora in una ___.", "aufgabe_de": "Der Apotheker arbeitet in einer ___.", "loesung": "farmacia", "loesung_de": "Apotheke", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 153, Nr. 9"},
+        {"id": "l2-184", "typ": "lueckentext", "aufgabe": "L'insegnante lavora in una ___.", "aufgabe_de": "Die Lehrerin arbeitet in einer ___.", "loesung": "scuola", "loesung_de": "Schule", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 153, Nr. 9"},
+        {"id": "l2-185", "typ": "lueckentext", "aufgabe": "La commessa lavora in un ___.", "aufgabe_de": "Die Verkäuferin arbeitet in einem ___.", "loesung": "negozio", "alternativen": ["supermercato"], "loesung_de": "Geschäft", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 153, Nr. 9"},
+        {"id": "l2-102", "typ": "uebersetzung", "aufgabe": "Übersetze (per du): Was machst du beruflich?", "loesung": "Che lavoro fai?", "alternativen": ["Che cosa fai?", "Tu che lavoro fai?"], "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-107", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich arbeite in einem Büro.", "loesung": "Lavoro in un ufficio.", "alternativen": ["Io lavoro in un ufficio."], "loesung_generiert": true, "quelle": "L2, S. 22"},
+        {"id": "l2-12", "typ": "multiple_choice", "aufgabe": "Rita sucht eine Babysitterin. Wer bietet also eine Arbeit an?", "optionen": ["Werner", "Rita", "Silvia", "Elizabeth"], "loesung": "Rita", "loesung_generiert": false, "quelle": "L2, S. 24, Nr. 12 · Lösung: Lehrerhandbuch"}
+      ]
+    },
+    {
+      "id": "l2-e5",
+      "titel": "Dove abiti? – Wohnort, Alter, Fragen",
+      "emoji": "🏠",
+      "ziel": "Du kannst sagen, wo du wohnst und wie alt du bist – und danach fragen.",
+      "verben": ["abitare", "avere", "essere"],
+      "erklaerung": [
+        {
+          "titel": "a, in oder di?",
+          "tabelle": [
+            ["", "wofür", "Beispiel"],
+            ["a", "Stadt", "Abito a Bologna."],
+            ["in", "Land, Ort, Gebäude", "Abito in Italia. · Lavoro in banca."],
+            ["di", "Herkunft (Stadt)", "Sono di Napoli."]
+          ],
+          "beispiele": [
+            {"it": "Abito a Firenze.", "de": "Ich wohne in Florenz."},
+            {"it": "Lavoro in un ospedale.", "de": "Ich arbeite in einem Krankenhaus."}
+          ]
+        },
+        {
+          "titel": "Fragewörter",
+          "tabelle": [
+            ["italienisch", "deutsch"],
+            ["chi?", "wer?"],
+            ["che? / che cosa?", "was? welche?"],
+            ["dove?", "wo?"],
+            ["di dove?", "woher?"],
+            ["come?", "wie?"],
+            ["quanti? / quante?", "wie viele?"],
+            ["qual è?", "welche(r) ist? wie ist?"]
+          ]
+        },
+        {
+          "titel": "Wie alt bist du?",
+          "punkte": [
+            "Im Italienischen „hat“ man Jahre: Ho 22 anni.",
+            "Frage: Quanti anni hai? (du) / Quanti anni ha? (Sie)"
+          ],
+          "beispiele": [
+            {"it": "Quanti anni hai?", "de": "Wie alt bist du?"},
+            {"it": "Ho ventotto anni.", "de": "Ich bin 28 Jahre alt."}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "abitare", "de": "wohnen", "wortart": "Verb"},
+        {"it": "studiare", "de": "studieren, lernen", "wortart": "Verb"},
+        {"it": "conoscere", "de": "kennen, kennenlernen", "wortart": "Verb"},
+        {"it": "telefonare", "de": "anrufen, telefonieren", "wortart": "Verb"},
+        {"it": "Dove abiti?", "de": "Wo wohnst du?", "wortart": "Wendung"},
+        {"it": "Dove lavori?", "de": "Wo arbeitest du?", "wortart": "Wendung"},
+        {"it": "Dove studi?", "de": "Wo studierst du?", "wortart": "Wendung"},
+        {"it": "Che cosa studi?", "de": "Was studierst du?", "wortart": "Wendung"},
+        {"it": "Quanti anni hai?", "de": "Wie alt bist du?", "wortart": "Wendung"},
+        {"it": "Quanti anni ha?", "de": "Wie alt sind Sie? / Wie alt ist er/sie?", "wortart": "Wendung"},
+        {"it": "l'anno", "de": "das Jahr", "wortart": "Substantiv", "genus": "m"},
+        {"it": "chi", "de": "wer", "wortart": "Fragewort"},
+        {"it": "che / che cosa", "de": "was, welche(r/s)", "wortart": "Fragewort"},
+        {"it": "dove", "de": "wo", "wortart": "Fragewort"},
+        {"it": "c'è / ci sono", "de": "es gibt (Einzahl / Mehrzahl)", "wortart": "Wendung"},
+        {"it": "la città", "de": "die Stadt", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la camera", "de": "das Zimmer", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la stanza", "de": "das Zimmer, der Raum", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la famiglia", "de": "die Familie", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il figlio", "de": "der Sohn", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la figlia", "de": "die Tochter", "wortart": "Substantiv", "genus": "f"},
+        {"it": "lo zio", "de": "der Onkel", "wortart": "Substantiv", "genus": "m"},
+        {"it": "i soldi", "de": "das Geld", "wortart": "Substantiv", "genus": "m (Plural)"},
+        {"it": "l'annuncio", "de": "die Anzeige", "wortart": "Substantiv", "genus": "m"},
+        {"it": "piccolo", "de": "klein", "wortart": "Adjektiv"},
+        {"it": "libero", "de": "frei", "wortart": "Adjektiv"},
+        {"it": "strano", "de": "seltsam, komisch", "wortart": "Adjektiv"},
+        {"it": "vicino (a)", "de": "in der Nähe (von)", "wortart": "Adverb"},
+        {"it": "di qui", "de": "von hier", "wortart": "Wendung"},
+        {"it": "avere bisogno di", "de": "brauchen", "wortart": "Wendung"},
+        {"it": "l'economia", "de": "die Wirtschaft(swissenschaft)", "wortart": "Substantiv", "genus": "f"},
+        {"it": "Che coincidenza!", "de": "Was für ein Zufall!", "wortart": "Wendung"},
+        {"it": "Che sorpresa!", "de": "Was für eine Überraschung!", "wortart": "Wendung"}
+      ],
+      "uebungen": [
+        {"id": "l2-70", "typ": "multiple_choice", "aufgabe": "Abito ___ Bologna.", "aufgabe_de": "Ich wohne ___ Bologna.", "optionen": ["a", "in", "di"], "loesung": "a", "loesung_de": "in (bei Städten: a)", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-71", "typ": "multiple_choice", "aufgabe": "Abito ___ Italia.", "aufgabe_de": "Ich wohne ___ Italien.", "optionen": ["a", "in", "di"], "loesung": "in", "loesung_de": "in (bei Ländern: in)", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-72", "typ": "multiple_choice", "aufgabe": "Lavoro ___ banca.", "aufgabe_de": "Ich arbeite ___ einer Bank.", "optionen": ["a", "in", "di"], "loesung": "in", "loesung_de": "in", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-73", "typ": "multiple_choice", "aufgabe": "Siamo ___ Napoli, ma abitiamo a Bologna.", "aufgabe_de": "Wir sind ___ Neapel, aber wir wohnen in Bologna.", "optionen": ["a", "in", "di"], "loesung": "di", "loesung_de": "aus (Herkunft: di)", "loesung_generiert": false, "quelle": "L2, S. 22, Nr. 8"},
+        {"id": "gr-110", "typ": "multiple_choice", "aufgabe": "Lavoro ___ Chemnitz, in un supermercato.", "aufgabe_de": "Ich arbeite ___ Chemnitz, in einem Supermarkt.", "optionen": ["a", "in", "di", "da"], "loesung": "a", "loesung_de": "in (Stadt)", "loesung_generiert": false, "quelle": "Arbeitsblatt conoscersi"},
+        {"id": "l2-74", "typ": "lueckentext", "aufgabe": "___ anni hai?", "aufgabe_de": "___ alt bist du? (wörtlich: wie viele Jahre)", "loesung": "Quanti", "loesung_de": "Wie viele", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-75", "typ": "lueckentext", "aufgabe": "___ lavori? – In una scuola.", "aufgabe_de": "___ arbeitest du? – In einer Schule.", "loesung": "Dove", "loesung_de": "Wo", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-76", "typ": "lueckentext", "aufgabe": "___ lavoro fai? – Faccio la segretaria.", "aufgabe_de": "___ machst du beruflich? – Ich bin Sekretärin.", "loesung": "Che", "loesung_de": "Was / Welche", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-77", "typ": "lueckentext", "aufgabe": "___ è Pedro? – È un mio amico.", "aufgabe_de": "___ ist Pedro? – Er ist ein Freund von mir.", "loesung": "Chi", "loesung_de": "Wer", "loesung_generiert": false, "quelle": "L2, S. 27"},
+        {"id": "l2-210", "typ": "multiple_choice", "aufgabe": "___ è Igor? – Un mio amico di Mosca.", "aufgabe_de": "___ ist Igor? – Ein Freund von mir aus Moskau.", "optionen": ["Chi", "Che", "Dove", "Qual"], "loesung": "Chi", "loesung_de": "Wer", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 13"},
+        {"id": "l2-211", "typ": "multiple_choice", "aufgabe": "___ sei? – Di Palermo.", "aufgabe_de": "___ kommst du? – Aus Palermo.", "optionen": ["Dove", "Di dove", "Come", "Chi"], "loesung": "Di dove", "loesung_de": "Woher", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 13"},
+        {"id": "l2-212", "typ": "multiple_choice", "aufgabe": "___ lingue parli? – L'italiano e il greco.", "aufgabe_de": "___ Sprachen sprichst du? – Italienisch und Griechisch.", "optionen": ["Che", "Chi", "Quanti", "Come"], "loesung": "Che", "loesung_de": "Welche", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 13"},
+        {"id": "l2-213", "typ": "multiple_choice", "aufgabe": "___ stai? – Non c'è male, grazie.", "aufgabe_de": "___ geht es dir? – Nicht schlecht, danke.", "optionen": ["Come", "Dove", "Che", "Qual"], "loesung": "Come", "loesung_de": "Wie", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 13"},
+        {"id": "l2-214", "typ": "multiple_choice", "aufgabe": "___ lavorate? – In un'agenzia pubblicitaria.", "aufgabe_de": "___ arbeitet ihr? – In einer Werbeagentur.", "optionen": ["Dove", "Di dove", "Chi", "Quanti"], "loesung": "Dove", "loesung_de": "Wo", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 13"},
+        {"id": "l2-215", "typ": "multiple_choice", "aufgabe": "___ è il tuo indirizzo? – Via Verdi 17.", "aufgabe_de": "___ ist deine Adresse? – Via Verdi 17.", "optionen": ["Qual", "Che", "Come", "Dove"], "loesung": "Qual", "loesung_de": "Wie / Welche", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 13"},
+        {"id": "l2-216", "typ": "multiple_choice", "aufgabe": "„Quanti anni hai?“ – Welche Antwort passt?", "aufgabe_de": "„Wie alt bist du?“", "optionen": ["48.", "Via Verdi 17.", "Di Palermo.", "Giuseppe."], "loesung": "48.", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 13"},
+        {"id": "l2-173", "typ": "multiple_choice", "aufgabe": "Noi ___ a Torino.", "aufgabe_de": "Wir ___ in Turin.", "optionen": ["abitate", "abitiamo", "siete", "lavora"], "loesung": "abitiamo", "loesung_de": "wohnen", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 8"},
+        {"id": "l2-174", "typ": "multiple_choice", "aufgabe": "Voi ___ a Napoli?", "aufgabe_de": "___ ihr in Neapel?", "optionen": ["abitate", "abitiamo", "sono", "lavora"], "loesung": "abitate", "loesung_de": "Wohnt", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 8"},
+        {"id": "l2-176", "typ": "lueckentext", "aufgabe": "Floriana e Maddalena ___ di Palermo. (essere)", "aufgabe_de": "Floriana und Maddalena ___ aus Palermo.", "loesung": "sono", "loesung_de": "sind", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 8"},
+        {"id": "l2-177", "typ": "lueckentext", "aufgabe": "___ tedeschi? (essere – voi)", "aufgabe_de": "___ ihr Deutsche?", "loesung": "Siete", "loesung_de": "Seid", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 152, Nr. 8"},
+        {"id": "l2-186", "typ": "lueckentext", "aufgabe": "Mi chiamo Mario Baldini. ___ di Cagliari e lavoro in un ristorante.", "aufgabe_de": "Ich heiße Mario Baldini. ___ aus Cagliari und arbeite in einem Restaurant.", "loesung": "Sono", "loesung_de": "Ich bin", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 153, Nr. 10"},
+        {"id": "l2-189", "typ": "lueckentext", "aufgabe": "___ di Venezia e lavoriamo in una scuola. (essere)", "aufgabe_de": "___ aus Venedig und arbeiten in einer Schule.", "loesung": "Siamo", "loesung_de": "Wir sind", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 153, Nr. 10"},
+        {"id": "l2-190", "typ": "lueckentext", "aufgabe": "Marta Benelli è commessa e ha un ___ di 5 anni.", "aufgabe_de": "Marta Benelli ist Verkäuferin und hat einen ___ von 5 Jahren.", "loesung": "figlio", "loesung_de": "Sohn", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 153, Nr. 10"},
+        {"id": "l2-191", "typ": "lueckentext", "aufgabe": "Jodie e Albert ___ a Perugia. (studiare)", "aufgabe_de": "Jodie und Albert ___ in Perugia.", "loesung": "studiano", "loesung_de": "studieren", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 153, Nr. 10"},
+        {"id": "l2-103", "typ": "uebersetzung", "aufgabe": "Übersetze: Wo wohnst du?", "loesung": "Dove abiti?", "alternativen": ["Tu dove abiti?"], "loesung_generiert": true, "quelle": "L2, S. 27"},
+        {"id": "l2-104", "typ": "uebersetzung", "aufgabe": "Übersetze: Wie alt bist du?", "loesung": "Quanti anni hai?", "loesung_generiert": true, "quelle": "L2, S. 27"},
+        {"id": "l2-105", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich bin 28 Jahre alt.", "loesung": "Ho 28 anni.", "alternativen": ["Ho ventotto anni.", "Io ho 28 anni."], "loesung_generiert": true, "quelle": "L2, S. 29"},
+        {"id": "gr-102", "typ": "uebersetzung", "aufgabe": "Frag: Was studierst du?", "loesung": "Che cosa studi?", "alternativen": ["Cosa studi?", "Che studi?"], "loesung_generiert": false, "quelle": "Arbeitsblatt conoscersi"},
+        {"id": "gr-104", "typ": "uebersetzung", "aufgabe": "Frag: Wo studierst du?", "loesung": "Dove studi?", "loesung_generiert": false, "quelle": "Arbeitsblatt conoscersi"},
+        {"id": "gr-105", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich wohne in Mittweida.", "loesung": "Abito a Mittweida.", "alternativen": ["Io abito a Mittweida."], "loesung_generiert": false, "quelle": "Arbeitsblatt conoscersi"},
+        {"id": "gr-106", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich studiere an der Universität Mittweida.", "loesung": "Studio all'università di Mittweida.", "alternativen": ["Io studio all'università di Mittweida."], "loesung_generiert": false, "quelle": "Arbeitsblatt conoscersi"},
+        {"id": "gr-107", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich arbeite nicht, ich studiere.", "loesung": "Non lavoro, studio.", "loesung_generiert": false, "quelle": "Arbeitsblatt conoscersi"},
+        {"id": "gr-109", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich bin 22 Jahre alt.", "loesung": "Ho 22 anni.", "alternativen": ["Ho ventidue anni."], "loesung_generiert": false, "quelle": "Arbeitsblatt conoscersi"},
+        {"id": "l2-150", "typ": "multiple_choice", "aufgabe": "Carlo Mari · Torino · architetto. – Dove abita il signor Mari?", "aufgabe_de": "Wo wohnt Herr Mari?", "optionen": ["A Torino.", "A Parigi.", "A Liverpool.", "A Siviglia."], "loesung": "A Torino.", "loesung_de": "In Turin.", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 151, Nr. 6"},
+        {"id": "l2-151", "typ": "multiple_choice", "aufgabe": "Jane Taylor · Liverpool · segretaria. – La signora Taylor è insegnante?", "aufgabe_de": "Ist Frau Taylor Lehrerin?", "optionen": ["Sì, è insegnante.", "No, è segretaria.", "No, è studentessa."], "loesung": "No, è segretaria.", "loesung_de": "Nein, sie ist Sekretärin.", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 151, Nr. 6"},
+        {"id": "l2-154", "typ": "uebersetzung", "aufgabe": "Carlo Mari · Torino · architetto. – Antworte im ganzen Satz: Che lavoro fa il signor Mari?", "aufgabe_de": "Was macht Herr Mari beruflich?", "loesung": "Fa l'architetto.", "alternativen": ["È architetto.", "Il signor Mari fa l'architetto.", "Il signor Mari è architetto."], "loesung_de": "Er ist Architekt.", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 151, Nr. 6"}
+      ]
+    },
+    {
+      "id": "l2-e6",
+      "titel": "Zahlen bis 100",
+      "emoji": "💯",
+      "ziel": "Du kannst alle Zahlen bis 100 sagen und schreiben.",
+      "erklaerung": [
+        {
+          "titel": "Die Zehner",
+          "punkte": [
+            "20 venti · 30 trenta · 40 quaranta · 50 cinquanta",
+            "60 sessanta · 70 settanta · 80 ottanta · 90 novanta · 100 cento"
+          ]
+        },
+        {
+          "titel": "Zusammensetzen – andersherum als im Deutschen",
+          "punkte": [
+            "Erst der Zehner, dann die Einer: venti + due = ventidue (22).",
+            "Bei 1 und 8 fällt der letzte Vokal des Zehners weg: ventuno, ventotto.",
+            "Die 3 am Ende bekommt einen Akzent: ventitré, trentatré."
+          ],
+          "beispiele": [
+            {"it": "trentacinque", "de": "35"},
+            {"it": "quarantotto", "de": "48"},
+            {"it": "novantatré", "de": "93"}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "ventuno", "de": "21", "wortart": "Zahl"},
+        {"it": "ventidue", "de": "22", "wortart": "Zahl"},
+        {"it": "ventitré", "de": "23", "wortart": "Zahl"},
+        {"it": "ventotto", "de": "28", "wortart": "Zahl"},
+        {"it": "trenta", "de": "30", "wortart": "Zahl"},
+        {"it": "quaranta", "de": "40", "wortart": "Zahl"},
+        {"it": "cinquanta", "de": "50", "wortart": "Zahl"},
+        {"it": "sessanta", "de": "60", "wortart": "Zahl"},
+        {"it": "settanta", "de": "70", "wortart": "Zahl"},
+        {"it": "ottanta", "de": "80", "wortart": "Zahl"},
+        {"it": "novanta", "de": "90", "wortart": "Zahl"},
+        {"it": "cento", "de": "100", "wortart": "Zahl"},
+        {"it": "Indovina!", "de": "Rate mal!", "wortart": "Wendung"},
+        {"it": "di più", "de": "mehr", "wortart": "Wendung"},
+        {"it": "di meno", "de": "weniger", "wortart": "Wendung"}
+      ],
+      "uebungen": [
+        {"id": "l2-80", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 22", "loesung": "ventidue", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-81", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 24", "loesung": "ventiquattro", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-82", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 26", "loesung": "ventisei", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-83", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 27", "loesung": "ventisette", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-84", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 29", "loesung": "ventinove", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-85", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 35", "loesung": "trentacinque", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-86", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 46", "loesung": "quarantasei", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-87", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 57", "loesung": "cinquantasette", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-88", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 68", "loesung": "sessantotto", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-89", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 74", "loesung": "settantaquattro", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-90", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 81", "loesung": "ottantuno", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-91", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 93", "loesung": "novantatré", "loesung_generiert": true, "quelle": "L2, S. 25"},
+        {"id": "l2-202", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 78", "loesung": "settantotto", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 12"},
+        {"id": "l2-203", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 86", "loesung": "ottantasei", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 12"},
+        {"id": "l2-205", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 34", "loesung": "trentaquattro", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 12"},
+        {"id": "l2-206", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 52", "loesung": "cinquantadue", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 12"},
+        {"id": "l2-207", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 49", "loesung": "quarantanove", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 12"},
+        {"id": "l2-208", "typ": "lueckentext", "aufgabe": "Schreibe die Zahl aus: 70", "loesung": "settanta", "loesung_generiert": true, "quelle": "Wiederholung L2, S. 154, Nr. 12"},
+        {"id": "l2-92", "typ": "multiple_choice", "aufgabe": "Welche Zahl ist „sessantotto“?", "optionen": ["68", "86", "78", "58"], "loesung": "68", "loesung_generiert": true, "quelle": "eigene Übung zu L2, S. 25"},
+        {"id": "l2-93", "typ": "multiple_choice", "aufgabe": "Welche Zahl ist „ottantuno“?", "optionen": ["18", "71", "81", "91"], "loesung": "81", "loesung_generiert": true, "quelle": "eigene Übung zu L2, S. 25"}
+      ]
+    },
+    {
+      "id": "l2-e7",
+      "titel": "Test: Lektion 1 und 2",
+      "emoji": "📝",
+      "ziel": "Du prüfst dich selbst – wie im Zwischentest aus dem Kurs.",
+      "mix": true,
+      "erklaerung": [
+        {
+          "titel": "So funktioniert der Test",
+          "punkte": [
+            "Hier kommen Fragen aus dem Zwischentest und aus ganz Lektion 1 und 2.",
+            "Falsche Antworten kommen am Ende noch einmal.",
+            "Alles wird gespeichert – du kannst jederzeit aufhören."
+          ]
+        },
+        {
+          "titel": "Italien in Zahlen",
+          "punkte": [
+            "Italien hat etwa 59 Millionen Einwohner und 20 Regionen.",
+            "Die größten Städte: 1. Rom, 2. Mailand, 3. Neapel, 4. Turin."
+          ],
+          "beispiele": [
+            {"it": "Roma", "de": "Rom"},
+            {"it": "Milano", "de": "Mailand"},
+            {"it": "Napoli", "de": "Neapel"},
+            {"it": "Torino", "de": "Turin"}
+          ]
+        }
+      ],
+      "vokabeln": [],
+      "uebungen": [
+        {"id": "zt-01", "typ": "lueckentext", "aufgabe": "Io sono italiano, e tu, ___?", "aufgabe_de": "Ich bin Italiener, und du, ___?", "loesung": "di dove sei", "loesung_de": "woher kommst du", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 2"},
+        {"id": "zt-02", "typ": "lueckentext", "aufgabe": "Io sono argentino, e Lei, ___?", "aufgabe_de": "Ich bin Argentinier, und Sie, ___?", "loesung": "di dov'è", "alternativen": ["di dove è"], "loesung_de": "woher kommen Sie", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 2"},
+        {"id": "zt-10", "typ": "multiple_choice", "aufgabe": "Lei ___ italiano?", "aufgabe_de": "___ Sie Italiener?", "optionen": ["chiama", "è", "ha", "sono"], "loesung": "è", "loesung_de": "Sind", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 3"},
+        {"id": "zt-11", "typ": "multiple_choice", "aufgabe": "Sì sì, ___ italiano.", "aufgabe_de": "Ja, ja, ich ___ Italiener.", "optionen": ["chiamo", "è", "ha", "sono"], "loesung": "sono", "loesung_de": "bin", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 3"},
+        {"id": "zt-12", "typ": "multiple_choice", "aufgabe": "Come si ___? – Mi chiamo Carlo Ghisolfi.", "aufgabe_de": "Wie ___ Sie? – Ich heiße Carlo Ghisolfi.", "optionen": ["chiama", "chiamo", "scrive", "ha"], "loesung": "chiama", "loesung_de": "heißen", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 3"},
+        {"id": "zt-14", "typ": "multiple_choice", "aufgabe": "Come si ___? – Gi, acca, i, esse, o …", "aufgabe_de": "Wie ___ man das? – G, H, I, S, O …", "optionen": ["chiama", "chiamo", "scrive", "è"], "loesung": "scrive", "loesung_de": "schreibt", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 3"},
+        {"id": "zt-15", "typ": "multiple_choice", "aufgabe": "Qual ___ il Suo indirizzo?", "aufgabe_de": "Wie ___ Ihre Adresse?", "optionen": ["è", "ha", "sono", "chiama"], "loesung": "è", "loesung_de": "ist", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 3"},
+        {"id": "zt-16", "typ": "multiple_choice", "aufgabe": "Lei ___ un cellulare?", "aufgabe_de": "___ Sie ein Handy?", "optionen": ["è", "ha", "sono", "scrive"], "loesung": "ha", "loesung_de": "Haben", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 3"},
+        {"id": "zt-20", "typ": "multiple_choice", "aufgabe": "Chi è Luisa?", "aufgabe_de": "Wer ist Luisa?", "optionen": ["È una mia amica.", "In un ristorante.", "La farmacista.", "Ventisei."], "loesung": "È una mia amica.", "loesung_de": "Sie ist eine Freundin von mir.", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 4"},
+        {"id": "zt-21", "typ": "multiple_choice", "aufgabe": "Che lingue parli?", "aufgabe_de": "Welche Sprachen sprichst du?", "optionen": ["L'inglese e il francese.", "In un ristorante.", "La farmacista.", "Piazza Rovereto 7."], "loesung": "L'inglese e il francese.", "loesung_de": "Englisch und Französisch.", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 4"},
+        {"id": "zt-22", "typ": "multiple_choice", "aufgabe": "Che lavoro fai?", "aufgabe_de": "Was machst du beruflich?", "optionen": ["È una mia amica.", "In un ristorante.", "La farmacista.", "Ventisei."], "loesung": "La farmacista.", "loesung_de": "Apothekerin.", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 4"},
+        {"id": "zt-23", "typ": "multiple_choice", "aufgabe": "Dove lavori?", "aufgabe_de": "Wo arbeitest du?", "optionen": ["È una mia amica.", "In un ristorante.", "La farmacista.", "Ventisei."], "loesung": "In un ristorante.", "loesung_de": "In einem Restaurant.", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 4"},
+        {"id": "zt-25", "typ": "multiple_choice", "aufgabe": "Qual è il Suo indirizzo?", "aufgabe_de": "Wie ist Ihre Adresse?", "optionen": ["Piazza Rovereto 7.", "In un ristorante.", "È una mia amica.", "Ventisei."], "loesung": "Piazza Rovereto 7.", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 4"},
+        {"id": "zt-30", "typ": "uebersetzung", "aufgabe": "Wandle in die Sie-Form um: Tu sei di qui?", "aufgabe_de": "Bist du von hier?", "loesung": "Lei è di qui?", "loesung_de": "Sind Sie von hier?", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 5"},
+        {"id": "zt-31", "typ": "uebersetzung", "aufgabe": "Wandle in die Sie-Form um: E tu, di dove sei?", "aufgabe_de": "Und du, woher kommst du?", "loesung": "E Lei, di dov'è?", "loesung_de": "Und Sie, woher kommen Sie?", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 5"},
+        {"id": "zt-32", "typ": "uebersetzung", "aufgabe": "Wandle in die Sie-Form um: E cosa fai a Firenze?", "aufgabe_de": "Und was machst du in Florenz?", "loesung": "E cosa fa a Firenze?", "loesung_de": "Und was machen Sie in Florenz?", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 5"},
+        {"id": "zt-34", "typ": "uebersetzung", "aufgabe": "Wandle in die Sie-Form um: E tu dove lavori?", "aufgabe_de": "Und wo arbeitest du?", "loesung": "E Lei dove lavora?", "loesung_de": "Und wo arbeiten Sie?", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 5"},
+        {"id": "zt-42", "typ": "multiple_choice", "aufgabe": "___ mia famiglia è a Palermo.", "aufgabe_de": "Meine Familie ist in Palermo.", "optionen": ["Il", "Lo", "La", "L'"], "loesung": "La", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 6"},
+        {"id": "zt-43", "typ": "multiple_choice", "aufgabe": "Cerco ___ camera in affitto.", "aufgabe_de": "Ich suche ___ Zimmer zur Miete.", "optionen": ["un", "uno", "una", "un'"], "loesung": "una", "loesung_de": "ein (camera ist weiblich)", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 6"},
+        {"id": "zt-45", "typ": "multiple_choice", "aufgabe": "Ti invio ___ messaggio privato.", "aufgabe_de": "Ich schicke dir ___ private Nachricht.", "optionen": ["un", "uno", "una", "un'"], "loesung": "un", "loesung_de": "eine (messaggio ist männlich)", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 6"},
+        {"id": "zt-50", "typ": "lueckentext", "aufgabe": "Weibliche Form: avvocato → ___", "aufgabe_de": "Rechtsanwalt → ___", "loesung": "avvocatessa", "alternativen": ["avvocata", "avvocato"], "loesung_de": "Rechtsanwältin", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 7"},
+        {"id": "zt-53", "typ": "lueckentext", "aufgabe": "Männliche Form: commessa → ___", "aufgabe_de": "Verkäuferin → ___", "loesung": "commesso", "loesung_de": "Verkäufer", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 7"},
+        {"id": "zt-54", "typ": "lueckentext", "aufgabe": "Weibliche Form: infermiere → ___", "aufgabe_de": "Krankenpfleger → ___", "loesung": "infermiera", "loesung_de": "Krankenschwester", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 7"},
+        {"id": "zt-55", "typ": "lueckentext", "aufgabe": "Weibliche Form: cuoco → ___", "aufgabe_de": "Koch → ___", "loesung": "cuoca", "loesung_de": "Köchin", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 7"},
+        {"id": "zt-56", "typ": "lueckentext", "aufgabe": "Weibliche Form: insegnante → ___", "aufgabe_de": "Lehrer → ___", "loesung": "insegnante", "loesung_de": "Lehrerin (bleibt gleich)", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 7"},
+        {"id": "zt-57", "typ": "lueckentext", "aufgabe": "Weibliche Form: operaio → ___", "aufgabe_de": "Arbeiter → ___", "loesung": "operaia", "loesung_de": "Arbeiterin", "loesung_generiert": true, "quelle": "Zwischentest 1, Nr. 7"},
+        {"id": "l2-110", "typ": "multiple_choice", "aufgabe": "Wie viele Einwohner hat Italien ungefähr?", "optionen": ["32 milioni", "49 milioni", "59 milioni"], "loesung": "59 milioni", "loesung_de": "59 Millionen", "loesung_generiert": false, "quelle": "L2, S. 29, Caffè culturale · Lösung: Lehrerhandbuch"},
+        {"id": "l2-111", "typ": "multiple_choice", "aufgabe": "Wie viele Regionen hat Italien?", "optionen": ["15", "20", "27"], "loesung": "20", "loesung_generiert": false, "quelle": "L2, S. 29, Caffè culturale · Lösung: Lehrerhandbuch"},
+        {"id": "l2-112", "typ": "multiple_choice", "aufgabe": "Welche ist die größte Stadt Italiens?", "optionen": ["Milano", "Roma", "Napoli", "Torino"], "loesung": "Roma", "loesung_de": "Rom", "loesung_generiert": false, "quelle": "L2, S. 29, Caffè culturale · Lösung: Lehrerhandbuch"},
+        {"id": "l2-113", "typ": "multiple_choice", "aufgabe": "Welche ist die zweitgrößte Stadt Italiens?", "optionen": ["Napoli", "Milano", "Torino", "Firenze"], "loesung": "Milano", "loesung_de": "Mailand", "loesung_generiert": false, "quelle": "L2, S. 29, Caffè culturale · Lösung: Lehrerhandbuch"}
+      ]
+    }
+  ]
+}

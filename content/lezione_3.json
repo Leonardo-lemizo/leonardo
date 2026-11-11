@@ -1,0 +1,553 @@
+{
+  "kapitel_id": "lezione_3",
+  "nummer": 3,
+  "titel": "Lezione 3 – Buon appetito!",
+  "untertitel": "Bar, Restaurant, Mehrzahl, bestellen und reservieren",
+  "emoji": "🍝",
+  "quellen": ["NUOVO ESPRESSO L3.pdf", "articolo + sostantivo + aggettivo.pdf", "declinazione (articolo + sostantivo + aggettivo).pdf", "Lehrerhandbuch Nuovo Espresso 1 (Hueber, frei online)"],
+  "einheiten": [
+    {
+      "id": "l3-e1",
+      "titel": "Al bar – Frühstück und Getränke",
+      "emoji": "☕",
+      "ziel": "Du kannst in einer Bar Kaffee, Getränke und ein Frühstück bestellen.",
+      "verben": ["prendere", "bere"],
+      "erklaerung": [
+        {
+          "titel": "Bestellen in der Bar",
+          "punkte": [
+            "Prendo … = Ich nehme …",
+            "Vorrei … = Ich hätte gern … (sehr höflich)",
+            "Per me … = Für mich …"
+          ],
+          "beispiele": [
+            {"it": "Prendo un cappuccino.", "de": "Ich nehme einen Cappuccino."},
+            {"it": "Vorrei un cornetto alla crema.", "de": "Ich hätte gern ein Hörnchen mit Creme."},
+            {"it": "Per me un tè al limone.", "de": "Für mich einen Tee mit Zitrone."}
+          ]
+        },
+        {
+          "titel": "Kaffee auf Italienisch",
+          "punkte": [
+            "un caffè = ein Espresso.",
+            "un caffè macchiato = Espresso mit etwas Milch.",
+            "un caffè corretto = Espresso mit einem Schuss Alkohol.",
+            "Cappuccino trinkt man in Italien vor allem morgens."
+          ]
+        },
+        {
+          "titel": "Verben auf -ere: prendere",
+          "punkte": [
+            "Nimm prend- und häng die Endung an.",
+            "io prendo · tu prendi · lui/lei/Lei prende",
+            "noi prendiamo · voi prendete · loro prendono"
+          ],
+          "merke": "Bei -ere endet lui/lei auf -e (prende), bei -are auf -a (parla)."
+        }
+      ],
+      "vokabeln": [
+        {"it": "il bar", "de": "die Bar, das Café", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il caffè", "de": "der Espresso; das Café", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il cappuccino", "de": "der Cappuccino", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il caffè macchiato", "de": "der Espresso mit etwas Milch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il caffè corretto", "de": "der Espresso mit Schuss", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il cornetto", "de": "das Hörnchen, Croissant", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la crema", "de": "die Creme", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la marmellata", "de": "die Marmelade", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la pasta", "de": "das Gebäckstück; die Nudeln", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il panino", "de": "das belegte Brötchen", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il toast", "de": "der Toast", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il tramezzino", "de": "das Sandwich (Dreieck)", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la bevanda", "de": "das Getränk", "wortart": "Substantiv", "genus": "f"},
+        {"it": "l'aranciata", "de": "die Orangenlimonade", "wortart": "Substantiv", "genus": "f"},
+        {"it": "l'aperitivo", "de": "der Aperitif", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il latte", "de": "die Milch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il bicchiere di latte", "de": "das Glas Milch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "lo spumante", "de": "der Sekt", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la spremuta", "de": "der frisch gepresste Saft", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la spremuta di pompelmo", "de": "der frisch gepresste Grapefruitsaft", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la birra", "de": "das Bier", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il tè", "de": "der Tee", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il tè al limone", "de": "der Tee mit Zitrone", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la colazione", "de": "das Frühstück", "wortart": "Substantiv", "genus": "f"},
+        {"it": "prendere", "de": "nehmen", "wortart": "Verb"},
+        {"it": "bere", "de": "trinken", "wortart": "Verb"},
+        {"it": "vorrei", "de": "ich möchte, ich hätte gern", "wortart": "Wendung"},
+        {"it": "per me", "de": "für mich", "wortart": "Wendung"}
+      ],
+      "uebungen": [
+        {"id": "l3-90", "typ": "lueckentext", "aufgabe": "Io ___ un caffè e un cornetto. (prendere)", "aufgabe_de": "Ich ___ einen Espresso und ein Hörnchen.", "loesung": "prendo", "loesung_de": "nehme", "loesung_generiert": false, "quelle": "L3, S. 35, Nr. 4 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-91", "typ": "multiple_choice", "aufgabe": "Du möchtest dasselbe wie deine Freundin. Was sagst du?", "optionen": ["Anch'io vorrei un cappuccino.", "Per me invece un tè.", "Il conto, per favore."], "loesung": "Anch'io vorrei un cappuccino.", "loesung_de": "Ich hätte auch gern einen Cappuccino.", "loesung_generiert": false, "quelle": "L3, S. 35, Nr. 4 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-92", "typ": "multiple_choice", "aufgabe": "Du möchtest etwas anderes als die anderen. Was sagst du?", "optionen": ["Anch'io vorrei un caffè.", "Per me invece un tè al limone.", "Sì, dica!"], "loesung": "Per me invece un tè al limone.", "loesung_de": "Für mich dagegen einen Tee mit Zitrone.", "loesung_generiert": false, "quelle": "L3, S. 35, Nr. 4 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-93", "typ": "multiple_choice", "aufgabe": "Was ist ein „caffè macchiato“?", "optionen": ["Espresso mit etwas Milch", "Espresso mit Schuss Alkohol", "großer Milchkaffee", "Eiskaffee"], "loesung": "Espresso mit etwas Milch", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 34"},
+        {"id": "l3-94", "typ": "multiple_choice", "aufgabe": "Was bekommst du, wenn du in Italien „un caffè“ bestellst?", "optionen": ["einen Espresso", "einen Filterkaffee", "einen Cappuccino", "einen Latte macchiato"], "loesung": "einen Espresso", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 34"},
+        {"id": "l3-95", "typ": "multiple_choice", "aufgabe": "Was trinken Italiener vor allem zum Frühstück?", "optionen": ["il cappuccino", "lo spumante", "l'aperitivo", "la birra"], "loesung": "il cappuccino", "loesung_de": "den Cappuccino", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 46, Caffè culturale"},
+        {"id": "l3-96", "typ": "lueckentext", "aufgabe": "Cosa ___ da bere, signora? (prendere, Sie-Form)", "aufgabe_de": "Was ___ Sie zu trinken, Frau …?", "loesung": "prende", "loesung_de": "nehmen", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 35"},
+        {"id": "l3-97", "typ": "lueckentext", "aufgabe": "Noi ___ due spremute. (prendere)", "aufgabe_de": "Wir ___ zwei frisch gepresste Säfte.", "loesung": "prendiamo", "loesung_de": "nehmen", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 35"},
+        {"id": "l3-83", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich nehme ein Hörnchen und einen Espresso.", "loesung": "Prendo un cornetto e un caffè.", "alternativen": ["Io prendo un cornetto e un caffè."], "loesung_generiert": true, "quelle": "L3, S. 35"},
+        {"id": "l3-98", "typ": "uebersetzung", "aufgabe": "Übersetze: Für mich einen Tee mit Zitrone, bitte.", "loesung": "Per me un tè al limone, per favore.", "alternativen": ["Per me un tè al limone, per cortesia.", "Per me un tè al limone."], "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 35"}
+      ]
+    },
+    {
+      "id": "l3-e2",
+      "titel": "Eins, zwei, viele – die Mehrzahl",
+      "emoji": "🧮",
+      "ziel": "Du kannst Wörter, Artikel und Adjektive in die Mehrzahl setzen.",
+      "erklaerung": [
+        {
+          "titel": "Mehrzahl der Wörter",
+          "tabelle": [
+            ["Einzahl", "Mehrzahl", "Beispiel"],
+            ["-o", "-i", "un cornetto → due cornetti"],
+            ["-a", "-e", "una pizza → due pizze"],
+            ["-e", "-i", "un bicchiere → due bicchieri"],
+            ["Akzent am Ende / Konsonant", "bleibt gleich", "un caffè → due caffè · un toast → due toast"]
+          ]
+        },
+        {
+          "titel": "Der Artikel in der Mehrzahl",
+          "tabelle": [
+            ["Einzahl", "Mehrzahl", "Beispiel"],
+            ["il", "i", "il gelato → i gelati"],
+            ["lo / l' (männlich)", "gli", "lo spumante → gli spumanti · l'antipasto → gli antipasti"],
+            ["la / l' (weiblich)", "le", "la pizza → le pizze · l'insalata → le insalate"]
+          ],
+          "merke": "gli steht vor allem, wo in der Einzahl lo oder l' (männlich) steht."
+        },
+        {
+          "titel": "Adjektive passen sich an",
+          "punkte": [
+            "Das Adjektiv hat dieselbe Endung-Gruppe wie das Wort: la torre famosa → le torri famose.",
+            "Adjektive auf -e: Mehrzahl -i für beide: inglese → inglesi.",
+            "-co / -ca bekommen oft ein h: tedesco → tedeschi, tedesca → tedesche."
+          ],
+          "beispiele": [
+            {"it": "gli edifici alti", "de": "die hohen Gebäude"},
+            {"it": "delle mele rosse", "de": "(einige) rote Äpfel"}
+          ]
+        },
+        {
+          "titel": "bello – schön, aber wandelbar",
+          "punkte": [
+            "bello vor dem Wort verhält sich wie der Artikel.",
+            "il → bel tempo · lo → bello zaino · l' → bell'amico",
+            "i → bei tempi · gli → begli amici · le → belle amiche"
+          ]
+        },
+        {
+          "titel": "einige: dei, degli, delle",
+          "punkte": [
+            "Für „einige“ oder eine unbestimmte Menge: di + Artikel.",
+            "un gelato → dei gelati · uno svizzero → degli svizzeri · una pasta → delle paste"
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "l'edificio", "de": "das Gebäude", "wortart": "Substantiv", "genus": "m"},
+        {"it": "alto", "de": "hoch, groß", "wortart": "Adjektiv"},
+        {"it": "vecchio", "de": "alt", "wortart": "Adjektiv"},
+        {"it": "la torre", "de": "der Turm", "wortart": "Substantiv", "genus": "f"},
+        {"it": "famoso", "de": "berühmt", "wortart": "Adjektiv"},
+        {"it": "il telefonino", "de": "das Handy", "wortart": "Substantiv", "genus": "m"},
+        {"it": "grande", "de": "groß", "wortart": "Adjektiv"},
+        {"it": "antico", "de": "alt, antik", "wortart": "Adjektiv"},
+        {"it": "la mela", "de": "der Apfel", "wortart": "Substantiv", "genus": "f"},
+        {"it": "rosso", "de": "rot", "wortart": "Adjektiv"},
+        {"it": "bello", "de": "schön", "wortart": "Adjektiv"},
+        {"it": "il tempo", "de": "die Zeit; das Wetter", "wortart": "Substantiv", "genus": "m"},
+        {"it": "lo zaino", "de": "der Rucksack", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'università", "de": "die Universität", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il tram", "de": "die Straßenbahn", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'hobby", "de": "das Hobby", "wortart": "Substantiv", "genus": "m"},
+        {"it": "lo scherzo", "de": "der Scherz", "wortart": "Substantiv", "genus": "m"},
+        {"it": "lo gnomo", "de": "der Gnom, der Zwerg", "wortart": "Substantiv", "genus": "m"},
+        {"it": "lo yoga", "de": "das Yoga", "wortart": "Substantiv", "genus": "m"},
+        {"it": "turco", "de": "türkisch", "wortart": "Adjektiv"},
+        {"it": "australiano", "de": "australisch", "wortart": "Adjektiv"}
+      ],
+      "uebungen": [
+        {"id": "l3-30", "typ": "lueckentext", "aufgabe": "un cornetto → due ___", "aufgabe_de": "ein Hörnchen → zwei ___", "loesung": "cornetti", "loesung_de": "Hörnchen", "loesung_generiert": false, "quelle": "L3, S. 35"},
+        {"id": "l3-31", "typ": "lueckentext", "aufgabe": "un aperitivo → due ___", "aufgabe_de": "ein Aperitif → zwei ___", "loesung": "aperitivi", "loesung_generiert": false, "quelle": "L3, S. 35"},
+        {"id": "l3-32", "typ": "lueckentext", "aufgabe": "un caffè → due ___", "aufgabe_de": "ein Espresso → zwei ___", "loesung": "caffè", "hinweis": "Akzent am Ende → bleibt gleich.", "loesung_generiert": false, "quelle": "L3, S. 35"},
+        {"id": "l3-33", "typ": "lueckentext", "aufgabe": "un toast → due ___", "aufgabe_de": "ein Toast → zwei ___", "loesung": "toast", "hinweis": "Endet auf Konsonant → bleibt gleich.", "loesung_generiert": false, "quelle": "L3, S. 35"},
+        {"id": "l3-34", "typ": "lueckentext", "aufgabe": "una spremuta → due ___", "aufgabe_de": "ein frischer Saft → zwei ___", "loesung": "spremute", "loesung_generiert": false, "quelle": "L3, S. 35"},
+        {"id": "l3-35", "typ": "lueckentext", "aufgabe": "un'aranciata → due ___", "aufgabe_de": "eine Orangenlimonade → zwei ___", "loesung": "aranciate", "loesung_generiert": false, "quelle": "L3, S. 35"},
+        {"id": "l3-36", "typ": "lueckentext", "aufgabe": "Mehrzahl mit Artikel: il gelato → ___", "aufgabe_de": "das Eis → die Eis(sorten)", "loesung": "i gelati", "loesung_generiert": false, "quelle": "L3, S. 38"},
+        {"id": "l3-37", "typ": "lueckentext", "aufgabe": "Mehrzahl mit Artikel: lo spumante → ___", "aufgabe_de": "der Sekt → die Sekte", "loesung": "gli spumanti", "loesung_generiert": false, "quelle": "L3, S. 38"},
+        {"id": "l3-38", "typ": "lueckentext", "aufgabe": "Mehrzahl mit Artikel: l'antipasto → ___", "aufgabe_de": "die Vorspeise → die Vorspeisen", "loesung": "gli antipasti", "loesung_generiert": false, "quelle": "L3, S. 38"},
+        {"id": "l3-39", "typ": "lueckentext", "aufgabe": "Mehrzahl mit Artikel: la pizza → ___", "aufgabe_de": "die Pizza → die Pizzen", "loesung": "le pizze", "loesung_generiert": false, "quelle": "L3, S. 38"},
+        {"id": "l3-40", "typ": "lueckentext", "aufgabe": "Mehrzahl mit Artikel: l'insalata → ___", "aufgabe_de": "der Salat → die Salate", "loesung": "le insalate", "loesung_generiert": false, "quelle": "L3, S. 38"},
+        {"id": "l3-41", "typ": "lueckentext", "aufgabe": "Mehrzahl mit Artikel: il bicchiere → ___", "aufgabe_de": "das Glas → die Gläser", "loesung": "i bicchieri", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-42", "typ": "lueckentext", "aufgabe": "Mehrzahl mit Artikel: la bevanda → ___", "aufgabe_de": "das Getränk → die Getränke", "loesung": "le bevande", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-44", "typ": "lueckentext", "aufgabe": "Mehrzahl mit Artikel: il tè → ___", "aufgabe_de": "der Tee → die Tees", "loesung": "i tè", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-45", "typ": "lueckentext", "aufgabe": "Mehrzahl mit Artikel: la specialità → ___", "aufgabe_de": "die Spezialität → die Spezialitäten", "loesung": "le specialità", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-46", "typ": "multiple_choice", "aufgabe": "Wie bilden männliche Wörter auf -o und -e die Mehrzahl?", "optionen": ["auf -i", "auf -e", "auf -a", "unverändert"], "loesung": "auf -i", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-47", "typ": "multiple_choice", "aufgabe": "Welche Wörter bleiben in der Mehrzahl gleich?", "optionen": ["Wörter auf -a", "Wörter mit Akzent am Ende oder auf Konsonant", "Wörter auf -o", "alle weiblichen Wörter"], "loesung": "Wörter mit Akzent am Ende oder auf Konsonant", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "gr-01", "typ": "lueckentext", "aufgabe": "Mehrzahl: il cane → ___", "aufgabe_de": "der Hund → die Hunde", "loesung": "i cani", "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-02", "typ": "lueckentext", "aufgabe": "Mehrzahl: la chitarra → ___", "aufgabe_de": "die Gitarre → die Gitarren", "loesung": "le chitarre", "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-03", "typ": "lueckentext", "aufgabe": "Mehrzahl: il portoghese → ___", "aufgabe_de": "der Portugiese → die Portugiesen", "loesung": "i portoghesi", "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-05", "typ": "lueckentext", "aufgabe": "Mehrzahl: l'amico → ___", "aufgabe_de": "der Freund → die Freunde", "loesung": "gli amici", "hinweis": "amico → amici (ohne h, Sonderfall)", "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-06", "typ": "lueckentext", "aufgabe": "Mehrzahl: l'amica → ___", "aufgabe_de": "die Freundin → die Freundinnen", "loesung": "le amiche", "hinweis": "-ca → -che: das h hält das c hart.", "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-08", "typ": "lueckentext", "aufgabe": "Mehrzahl: l'insegnante (m.) → ___", "aufgabe_de": "der Lehrer → die Lehrer", "loesung": "gli insegnanti", "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-09", "typ": "lueckentext", "aufgabe": "Mehrzahl: l'insegnante (f.) → ___", "aufgabe_de": "die Lehrerin → die Lehrerinnen", "loesung": "le insegnanti", "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-10", "typ": "lueckentext", "aufgabe": "Mehrzahl: il giornalista → ___", "aufgabe_de": "der Journalist → die Journalisten", "loesung": "i giornalisti", "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-11", "typ": "lueckentext", "aufgabe": "Mehrzahl: la giornalista → ___", "aufgabe_de": "die Journalistin → die Journalistinnen", "loesung": "le giornaliste", "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-16", "typ": "lueckentext", "aufgabe": "Mehrzahl: lo svedese → ___", "aufgabe_de": "der Schwede → die Schweden", "loesung": "gli svedesi", "loesung_generiert": false, "quelle": "Arbeitsblatt articolo + sostantivo, S. 1"},
+        {"id": "gr-17", "typ": "lueckentext", "aufgabe": "einige: un gelato → ___", "aufgabe_de": "ein Eis → einige Eis", "loesung": "dei gelati", "alternativen": ["gelati"], "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-18", "typ": "lueckentext", "aufgabe": "einige: uno svizzero → ___", "aufgabe_de": "ein Schweizer → einige Schweizer", "loesung": "degli svizzeri", "alternativen": ["svizzeri"], "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-21", "typ": "lueckentext", "aufgabe": "einige: un aperitivo → ___", "aufgabe_de": "ein Aperitif → einige Aperitifs", "loesung": "degli aperitivi", "alternativen": ["aperitivi"], "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-23", "typ": "lueckentext", "aufgabe": "einige: una spremuta → ___", "aufgabe_de": "ein frischer Saft → einige frische Säfte", "loesung": "delle spremute", "alternativen": ["spremute"], "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-26", "typ": "lueckentext", "aufgabe": "einige: una pasta → ___", "aufgabe_de": "ein Gebäckstück → einige Gebäckstücke", "loesung": "delle paste", "alternativen": ["paste"], "loesung_generiert": true, "quelle": "Arbeitsblatt articolo + sostantivo, S. 2"},
+        {"id": "gr-30", "typ": "multiple_choice", "aufgabe": "Artikel: ___ zaino", "aufgabe_de": "___ Rucksack", "optionen": ["il", "lo", "l'", "la"], "loesung": "lo", "loesung_de": "der", "hinweis": "z am Anfang → lo", "loesung_generiert": true, "quelle": "Arbeitsblatt declinazione, S. 1"},
+        {"id": "gr-31", "typ": "multiple_choice", "aufgabe": "Artikel: ___ scherzo", "aufgabe_de": "___ Scherz", "optionen": ["il", "lo", "l'", "la"], "loesung": "lo", "loesung_de": "der", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 1"},
+        {"id": "gr-32", "typ": "multiple_choice", "aufgabe": "Artikel: ___ gnomo", "aufgabe_de": "___ Zwerg", "optionen": ["il", "lo", "l'", "la"], "loesung": "lo", "loesung_de": "der", "hinweis": "gn am Anfang → lo", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 1"},
+        {"id": "gr-34", "typ": "multiple_choice", "aufgabe": "Artikel: ___ edificio", "aufgabe_de": "___ Gebäude", "optionen": ["il", "lo", "l'", "la"], "loesung": "l'", "loesung_de": "das", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 3"},
+        {"id": "gr-35", "typ": "multiple_choice", "aufgabe": "Mehrzahl-Artikel: ___ italiani", "aufgabe_de": "___ Italiener", "optionen": ["i", "gli", "le"], "loesung": "gli", "loesung_de": "die", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 1"},
+        {"id": "gr-36", "typ": "multiple_choice", "aufgabe": "Mehrzahl-Artikel: ___ gatti", "aufgabe_de": "___ Katzen", "optionen": ["i", "gli", "le"], "loesung": "i", "loesung_de": "die", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 1"},
+        {"id": "gr-37", "typ": "multiple_choice", "aufgabe": "Mehrzahl-Artikel: ___ infermiere", "aufgabe_de": "___ Krankenschwestern", "optionen": ["i", "gli", "le"], "loesung": "le", "loesung_de": "die", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 2"},
+        {"id": "gr-38", "typ": "multiple_choice", "aufgabe": "Vor welchem Wortanfang steht „lo“?", "optionen": ["s + Konsonant, z, gn, ps, y", "jedem Vokal", "jedem Konsonanten", "nur vor h"], "loesung": "s + Konsonant, z, gn, ps, y", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 1"},
+        {"id": "gr-46", "typ": "lueckentext", "aufgabe": "Mehrzahl des Adjektivs: tedesca → ___", "aufgabe_de": "deutsch (weiblich) → Mehrzahl", "loesung": "tedesche", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 3"},
+        {"id": "gr-45", "typ": "lueckentext", "aufgabe": "Mehrzahl des Adjektivs: tedesco → ___", "aufgabe_de": "deutsch (männlich) → Mehrzahl", "loesung": "tedeschi", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 3"},
+        {"id": "gr-49", "typ": "lueckentext", "aufgabe": "Mehrzahl des Adjektivs: inglese → ___", "aufgabe_de": "englisch → Mehrzahl", "loesung": "inglesi", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 3"},
+        {"id": "gr-50", "typ": "lueckentext", "aufgabe": "Mehrzahl: l'edificio alto → ___", "aufgabe_de": "das hohe Gebäude → die hohen Gebäude", "loesung": "gli edifici alti", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 3"},
+        {"id": "gr-52", "typ": "lueckentext", "aufgabe": "Mehrzahl: una torre famosa → (delle) ___", "aufgabe_de": "ein berühmter Turm → (einige) berühmte Türme", "loesung": "torri famose", "alternativen": ["delle torri famose"], "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 3"},
+        {"id": "gr-54", "typ": "lueckentext", "aufgabe": "Mehrzahl: un ristorante antico → (dei) ___", "aufgabe_de": "ein altes Restaurant → (einige) alte Restaurants", "loesung": "ristoranti antichi", "alternativen": ["dei ristoranti antichi"], "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 3"},
+        {"id": "gr-56", "typ": "lueckentext", "aufgabe": "Mehrzahl: una mela rossa → (delle) ___", "aufgabe_de": "ein roter Apfel → (einige) rote Äpfel", "loesung": "mele rosse", "alternativen": ["delle mele rosse"], "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 4"},
+        {"id": "gr-57", "typ": "multiple_choice", "aufgabe": "Form von „bello“: ___ tempo", "aufgabe_de": "schönes Wetter", "optionen": ["bel", "bello", "bell'", "bei"], "loesung": "bel", "hinweis": "wie il → bel", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 4"},
+        {"id": "gr-58", "typ": "multiple_choice", "aufgabe": "Form von „bello“: ___ zaino", "aufgabe_de": "schöner Rucksack", "optionen": ["bel", "bello", "bell'", "begli"], "loesung": "bello", "hinweis": "wie lo → bello", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 4"},
+        {"id": "gr-59", "typ": "multiple_choice", "aufgabe": "Form von „bello“: ___ amico", "aufgabe_de": "schöner Freund", "optionen": ["bel", "bello", "bell'", "bella"], "loesung": "bell'", "hinweis": "wie l' → bell'", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 4"},
+        {"id": "gr-60", "typ": "multiple_choice", "aufgabe": "Form von „bello“: ___ amici", "aufgabe_de": "schöne Freunde", "optionen": ["bei", "begli", "belle", "belli"], "loesung": "begli", "hinweis": "wie gli → begli", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 4"},
+        {"id": "gr-62", "typ": "multiple_choice", "aufgabe": "Form von „bello“: ___ amiche", "aufgabe_de": "schöne Freundinnen", "optionen": ["bei", "begli", "belle", "bella"], "loesung": "belle", "hinweis": "wie le → belle", "loesung_generiert": false, "quelle": "Arbeitsblatt declinazione, S. 4"}
+      ]
+    },
+    {
+      "id": "l3-e3",
+      "titel": "Il menù – die Speisekarte",
+      "emoji": "🍽️",
+      "ziel": "Du verstehst eine italienische Speisekarte und kennst die Gänge.",
+      "erklaerung": [
+        {
+          "titel": "Die Gänge eines italienischen Essens",
+          "tabelle": [
+            ["Gang", "was?", "Beispiel"],
+            ["l'antipasto", "Vorspeise", "prosciutto e formaggio"],
+            ["il primo", "erster Gang: Pasta, Reis, Suppe", "risotto ai funghi"],
+            ["il secondo", "Hauptgang: Fleisch oder Fisch", "cotoletta alla milanese"],
+            ["il contorno", "Beilage, extra bestellt", "insalata mista"],
+            ["il dessert", "Nachtisch", "tiramisù, macedonia"]
+          ],
+          "merke": "Niemand muss alle Gänge essen. Ein primo allein ist völlig normal."
+        },
+        {
+          "titel": "Gerichte lesen",
+          "punkte": [
+            "al / alla / ai … = mit … oder nach … Art.",
+            "spaghetti al pomodoro = Spaghetti mit Tomatensoße.",
+            "cotoletta alla milanese = Schnitzel nach Mailänder Art.",
+            "al forno = aus dem Ofen · alla griglia = gegrillt"
+          ],
+          "beispiele": [
+            {"it": "le lasagne al forno", "de": "die Lasagne aus dem Ofen"},
+            {"it": "i peperoni alla griglia", "de": "die gegrillten Paprika"}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "il menù", "de": "die Speisekarte, das Menü", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il piatto", "de": "der Teller; das Gericht", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'antipasto", "de": "die Vorspeise", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il primo (piatto)", "de": "der erste Gang", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il secondo (piatto)", "de": "der Hauptgang", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il contorno", "de": "die Beilage", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il dessert", "de": "der Nachtisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la carne", "de": "das Fleisch", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il pesce", "de": "der Fisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la pizza", "de": "die Pizza", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il prosciutto", "de": "der Schinken", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il pomodoro", "de": "die Tomate", "wortart": "Substantiv", "genus": "m"},
+        {"it": "i pomodori ripieni", "de": "die gefüllten Tomaten", "wortart": "Substantiv", "genus": "m (Plural)"},
+        {"it": "l'insalata di mare", "de": "der Meeresfrüchtesalat", "wortart": "Substantiv", "genus": "f"},
+        {"it": "l'insalata mista", "de": "der gemischte Salat", "wortart": "Substantiv", "genus": "f"},
+        {"it": "i tortellini in brodo", "de": "die Tortellini in Brühe", "wortart": "Substantiv", "genus": "m (Plural)"},
+        {"it": "le tagliatelle ai porcini", "de": "die Bandnudeln mit Steinpilzen", "wortart": "Substantiv", "genus": "f (Plural)"},
+        {"it": "le lasagne al forno", "de": "die Lasagne aus dem Ofen", "wortart": "Substantiv", "genus": "f (Plural)"},
+        {"it": "il risotto ai funghi", "de": "das Pilzrisotto", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il minestrone", "de": "die Gemüsesuppe", "wortart": "Substantiv", "genus": "m"},
+        {"it": "gli spaghetti ai frutti di mare", "de": "die Spaghetti mit Meeresfrüchten", "wortart": "Substantiv", "genus": "m (Plural)"},
+        {"it": "la cotoletta alla milanese", "de": "das Schnitzel Mailänder Art", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la braciola di maiale", "de": "das Schweinekotelett", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il pollo allo spiedo", "de": "das Hähnchen vom Spieß", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'arrosto di vitello", "de": "der Kalbsbraten", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la trota", "de": "die Forelle", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la sogliola", "de": "die Seezunge", "wortart": "Substantiv", "genus": "f"},
+        {"it": "le patatine fritte", "de": "die Pommes frites", "wortart": "Substantiv", "genus": "f (Plural)"},
+        {"it": "il purè di patate", "de": "das Kartoffelpüree", "wortart": "Substantiv", "genus": "m"},
+        {"it": "gli spinaci", "de": "der Spinat", "wortart": "Substantiv", "genus": "m (Plural)"},
+        {"it": "i peperoni alla griglia", "de": "die gegrillten Paprika", "wortart": "Substantiv", "genus": "m (Plural)"},
+        {"it": "la frutta fresca", "de": "das frische Obst", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la macedonia", "de": "der Obstsalat", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la fragola", "de": "die Erdbeere", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la carota", "de": "die Karotte", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la zucchina", "de": "die Zucchini", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il riso", "de": "der Reis", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il pollo", "de": "das Hähnchen", "wortart": "Substantiv", "genus": "m"},
+        {"it": "vegetariano", "de": "vegetarisch", "wortart": "Adjektiv"},
+        {"it": "tipico", "de": "typisch", "wortart": "Adjektiv"},
+        {"it": "la specialità", "de": "die Spezialität", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la cucina", "de": "die Küche", "wortart": "Substantiv", "genus": "f"},
+        {"it": "mangiare", "de": "essen", "wortart": "Verb"},
+        {"it": "cucinare", "de": "kochen", "wortart": "Verb"},
+        {"it": "amare", "de": "lieben", "wortart": "Verb"}
+      ],
+      "uebungen": [
+        {"id": "l3-66", "typ": "multiple_choice", "aufgabe": "Zu welchem Gang gehören „patatine fritte“ und „insalata mista“?", "aufgabe_de": "Pommes frites und gemischter Salat", "optionen": ["antipasti", "primi piatti", "contorni", "dessert"], "loesung": "contorni", "loesung_de": "Beilagen", "loesung_generiert": false, "quelle": "L3, S. 36, Nr. 6"},
+        {"id": "l3-67", "typ": "multiple_choice", "aufgabe": "Zu welchem Gang gehören „risotto ai funghi“ und „minestrone“?", "aufgabe_de": "Pilzrisotto und Gemüsesuppe", "optionen": ["antipasti", "primi piatti", "secondi piatti", "contorni"], "loesung": "primi piatti", "loesung_de": "erste Gänge", "loesung_generiert": false, "quelle": "L3, S. 36, Nr. 6"},
+        {"id": "l3-68", "typ": "multiple_choice", "aufgabe": "Zu welchem Gang gehört „cotoletta alla milanese“?", "aufgabe_de": "Schnitzel Mailänder Art", "optionen": ["antipasti", "primi piatti", "secondi piatti", "dessert"], "loesung": "secondi piatti", "loesung_de": "Hauptgänge", "loesung_generiert": false, "quelle": "L3, S. 36, Nr. 6"},
+        {"id": "l3-69", "typ": "multiple_choice", "aufgabe": "Zu welchem Gang gehören „bruschette“ und „prosciutto e formaggio“?", "aufgabe_de": "geröstetes Brot und Schinken mit Käse", "optionen": ["antipasti", "primi piatti", "secondi piatti", "contorni"], "loesung": "antipasti", "loesung_de": "Vorspeisen", "loesung_generiert": false, "quelle": "L3, S. 36, Nr. 6"},
+        {"id": "l3-100", "typ": "multiple_choice", "aufgabe": "Zu welchem Gang gehört „la trota al forno“?", "aufgabe_de": "die Forelle aus dem Ofen", "optionen": ["antipasti", "primi piatti", "secondi piatti", "dessert"], "loesung": "secondi piatti", "loesung_de": "Hauptgänge (Fisch)", "loesung_generiert": false, "quelle": "L3, S. 36, Nr. 6 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-101", "typ": "multiple_choice", "aufgabe": "Zu welchem Gang gehört „la macedonia“?", "aufgabe_de": "der Obstsalat", "optionen": ["antipasti", "primi piatti", "contorni", "dessert"], "loesung": "dessert", "loesung_de": "Nachtisch", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 36"},
+        {"id": "l3-102", "typ": "multiple_choice", "aufgabe": "Zu welchem Gang gehören „le lasagne al forno“?", "aufgabe_de": "die Lasagne aus dem Ofen", "optionen": ["antipasti", "primi piatti", "secondi piatti", "contorni"], "loesung": "primi piatti", "loesung_de": "erste Gänge (Pasta)", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 36"},
+        {"id": "l3-103", "typ": "multiple_choice", "aufgabe": "Was ist ein „contorno“?", "optionen": ["eine Beilage", "eine Vorspeise", "ein Nachtisch", "ein Getränk"], "loesung": "eine Beilage", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 36"},
+        {"id": "l3-104", "typ": "multiple_choice", "aufgabe": "Was bedeutet „alla griglia“?", "optionen": ["gegrillt", "aus dem Ofen", "frittiert", "roh"], "loesung": "gegrillt", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 36"},
+        {"id": "l3-105", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich esse keinen Fisch.", "loesung": "Non mangio il pesce.", "alternativen": ["Io non mangio il pesce.", "Non mangio pesce."], "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 40"}
+      ]
+    },
+    {
+      "id": "l3-e4",
+      "titel": "Al ristorante – bestellen",
+      "emoji": "🧑‍🍳",
+      "ziel": "Du kannst im Restaurant bestellen und sagen, was du lieber magst.",
+      "verben": ["volere", "preferire"],
+      "erklaerung": [
+        {
+          "titel": "volere und preferire",
+          "punkte": [
+            "volere = wollen. io voglio, tu vuoi, lui vuole – unregelmäßig.",
+            "preferire = lieber mögen. Es bekommt ein -isc- dazwischen: preferisco.",
+            "Bei noi und voi gibt es kein -isc-: preferiamo, preferite."
+          ],
+          "beispiele": [
+            {"it": "Voglio una pizza.", "de": "Ich will eine Pizza."},
+            {"it": "Preferisco il pesce.", "de": "Ich esse lieber Fisch."}
+          ]
+        },
+        {
+          "titel": "bene oder buono?",
+          "punkte": [
+            "buono = gut, lecker. Es beschreibt eine Sache: Il caffè è buono.",
+            "bene = gut. Es beschreibt, wie man etwas tut: Qui si mangia bene.",
+            "Faustregel: buono passt zu einem Nomen, bene zu einem Verb."
+          ],
+          "beispiele": [
+            {"it": "Il tiramisù è molto buono.", "de": "Das Tiramisu ist sehr lecker."},
+            {"it": "In questo ristorante si mangia bene.", "de": "In diesem Restaurant isst man gut."}
+          ]
+        },
+        {
+          "titel": "Fragen des Kellners",
+          "punkte": [
+            "Cosa desidera? = Was wünschen Sie?",
+            "E da bere? = Und zu trinken?",
+            "Acqua gasata o naturale? = Mit oder ohne Kohlensäure?"
+          ],
+          "beispiele": [
+            {"it": "Che cosa avete oggi?", "de": "Was haben Sie heute?"},
+            {"it": "Vorrei solo un primo.", "de": "Ich möchte nur einen ersten Gang."}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "volere", "de": "wollen", "wortart": "Verb"},
+        {"it": "preferire", "de": "bevorzugen, lieber mögen", "wortart": "Verb"},
+        {"it": "desiderare", "de": "wünschen", "wortart": "Verb"},
+        {"it": "Cosa desidera?", "de": "Was wünschen Sie?", "wortart": "Wendung"},
+        {"it": "Che cosa avete oggi?", "de": "Was haben Sie heute?", "wortart": "Wendung"},
+        {"it": "E da bere?", "de": "Und zu trinken?", "wortart": "Wendung"},
+        {"it": "il cameriere", "de": "der Kellner", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'acqua minerale", "de": "das Mineralwasser", "wortart": "Substantiv", "genus": "f"},
+        {"it": "gasata", "de": "mit Kohlensäure", "wortart": "Adjektiv"},
+        {"it": "naturale", "de": "still, ohne Kohlensäure", "wortart": "Adjektiv"},
+        {"it": "il vino rosso", "de": "der Rotwein", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il vino bianco", "de": "der Weißwein", "wortart": "Substantiv", "genus": "m"},
+        {"it": "un quarto", "de": "ein Viertel(liter)", "wortart": "Wendung"},
+        {"it": "mezza minerale", "de": "eine halbe Flasche Mineralwasser", "wortart": "Wendung"},
+        {"it": "il litro", "de": "der Liter", "wortart": "Substantiv", "genus": "m"},
+        {"it": "buono", "de": "gut, lecker (Adjektiv)", "wortart": "Adjektiv"},
+        {"it": "caldo", "de": "warm, heiß", "wortart": "Adjektiv"},
+        {"it": "avere fame", "de": "Hunger haben", "wortart": "Wendung"},
+        {"it": "quali", "de": "welche (Mehrzahl)", "wortart": "Fragewort"},
+        {"it": "quante", "de": "wie viele (weiblich)", "wortart": "Fragewort"},
+        {"it": "solo", "de": "nur", "wortart": "Adverb"},
+        {"it": "magari", "de": "vielleicht", "wortart": "Adverb"},
+        {"it": "certo", "de": "sicher, natürlich", "wortart": "Adverb"},
+        {"it": "d'accordo", "de": "einverstanden", "wortart": "Wendung"},
+        {"it": "allora", "de": "also, dann", "wortart": "Adverb"},
+        {"it": "dai!", "de": "komm schon!", "wortart": "Wendung"}
+      ],
+      "uebungen": [
+        {"id": "l3-20", "typ": "lueckentext", "aufgabe": "La signora e il ragazzo non ___ l'antipasto. (volere)", "aufgabe_de": "Die Frau und der Junge ___ keine Vorspeise.", "loesung": "vogliono", "loesung_de": "wollen", "loesung_generiert": false, "quelle": "L3, S. 38 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-21", "typ": "lueckentext", "aufgabe": "Lei ___ solo un primo. (preferire)", "aufgabe_de": "Sie ___ nur einen ersten Gang.", "loesung": "preferisce", "loesung_de": "möchte lieber", "loesung_generiert": false, "quelle": "L3, S. 38 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-22", "typ": "lueckentext", "aufgabe": "Lei ___ gli spaghetti ai frutti di mare. (prendere)", "aufgabe_de": "Sie ___ die Spaghetti mit Meeresfrüchten.", "loesung": "prende", "loesung_de": "nimmt", "loesung_generiert": false, "quelle": "L3, S. 38 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-23", "typ": "lueckentext", "aufgabe": "Lui invece ___ una cotoletta. (volere)", "aufgabe_de": "Er dagegen ___ ein Schnitzel.", "loesung": "vuole", "loesung_de": "will", "loesung_generiert": false, "quelle": "L3, S. 38 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-24", "typ": "lueckentext", "aufgabe": "Da bere ___ una coca e un quarto di vino rosso. (prendere, sie Mehrzahl)", "aufgabe_de": "Zu trinken ___ sie eine Cola und einen Viertel Rotwein.", "loesung": "prendono", "loesung_de": "nehmen", "loesung_generiert": false, "quelle": "L3, S. 38 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-50", "typ": "multiple_choice", "aufgabe": "Qui il caffè è molto ___.", "aufgabe_de": "Hier ist der Kaffee sehr ___.", "optionen": ["bene", "buono"], "loesung": "buono", "loesung_de": "gut / lecker", "hinweis": "Es beschreibt den Kaffee (ein Nomen) → buono.", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-51", "typ": "multiple_choice", "aufgabe": "In questo ristorante si mangia ___.", "aufgabe_de": "In diesem Restaurant isst man ___.", "optionen": ["bene", "buono"], "loesung": "bene", "loesung_de": "gut", "hinweis": "Es beschreibt, wie man isst (ein Verb) → bene.", "loesung_generiert": true, "quelle": "L3, S. 43"},
+        {"id": "l3-52", "typ": "multiple_choice", "aufgabe": "Il tiramisù è molto ___.", "aufgabe_de": "Das Tiramisu ist sehr ___.", "optionen": ["bene", "buono"], "loesung": "buono", "loesung_de": "lecker", "loesung_generiert": true, "quelle": "L3, S. 40"},
+        {"id": "l3-53", "typ": "lueckentext", "aufgabe": "Che ___ avete oggi?", "aufgabe_de": "Was ___ haben Sie heute?", "loesung": "cosa", "loesung_de": "(was)", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-54", "typ": "lueckentext", "aufgabe": "___ piatti conoscete?", "aufgabe_de": "___ Gerichte kennt ihr?", "loesung": "Quali", "loesung_de": "Welche", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-63", "typ": "multiple_choice", "aufgabe": "Der Kellner fragt: „Gasata o naturale?“ Worum geht es?", "aufgabe_de": "„Mit oder ohne Kohlensäure?“", "optionen": ["Mineralwasser", "Wein", "Kaffee", "Bier"], "loesung": "Mineralwasser", "loesung_generiert": false, "quelle": "L3, S. 37, Nr. 7"},
+        {"id": "l3-80", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich möchte nur einen ersten Gang.", "loesung": "Vorrei solo un primo.", "loesung_generiert": false, "quelle": "L3, S. 33"},
+        {"id": "l3-82", "typ": "uebersetzung", "aufgabe": "Übersetze: Was haben Sie heute?", "loesung": "Che cosa avete oggi?", "alternativen": ["Cosa avete oggi?"], "loesung_generiert": false, "quelle": "L3, S. 33"},
+        {"id": "l3-84", "typ": "uebersetzung", "aufgabe": "Übersetze: Und zu trinken?", "loesung": "E da bere?", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-86", "typ": "uebersetzung", "aufgabe": "Übersetze: Ich esse lieber Fisch. (preferire)", "loesung": "Preferisco il pesce.", "alternativen": ["Io preferisco il pesce."], "loesung_generiert": true, "quelle": "L3, S. 38, Nr. 8"},
+        {"id": "l3-106", "typ": "multiple_choice", "aufgabe": "Tu ___ il vino rosso o il vino bianco?", "aufgabe_de": "___ du lieber Rotwein oder Weißwein?", "optionen": ["preferisco", "preferisci", "preferisce", "preferite"], "loesung": "preferisci", "loesung_de": "Magst (du lieber)", "loesung_generiert": false, "quelle": "L3, S. 37 · Lösung: Lehrerhandbuch"}
+      ]
+    },
+    {
+      "id": "l3-e5",
+      "titel": "Tisch, Rechnung, Reservierung",
+      "emoji": "🧾",
+      "ziel": "Du kannst um etwas bitten, die Rechnung verlangen und einen Tisch reservieren.",
+      "erklaerung": [
+        {
+          "titel": "Es fehlt etwas",
+          "punkte": [
+            "Den Kellner rufen: Scusi!",
+            "Er antwortet: Sì, dica! = Ja, bitte?",
+            "Bitten: Mi porta ancora …? = Bringen Sie mir noch …?"
+          ],
+          "beispiele": [
+            {"it": "Scusi, mi porta ancora un po' di pane?", "de": "Entschuldigung, bringen Sie mir noch etwas Brot?"},
+            {"it": "Manca il coltello.", "de": "Das Messer fehlt."}
+          ]
+        },
+        {
+          "titel": "Bezahlen",
+          "punkte": [
+            "Il conto, per favore. = Die Rechnung, bitte.",
+            "Desidera ancora qualcosa? – No, grazie, va bene così."
+          ],
+          "merke": "per favore, per piacere und per cortesia heißen alle „bitte“."
+        },
+        {
+          "titel": "Einen Tisch reservieren",
+          "punkte": [
+            "È possibile prenotare un tavolo? = Kann man einen Tisch reservieren?",
+            "Per quante persone? = Für wie viele Personen?",
+            "A che nome? = Auf welchen Namen?",
+            "Auf Danke antwortet man: Prego, si figuri!"
+          ],
+          "beispiele": [
+            {"it": "Per quattro persone, per le otto.", "de": "Für vier Personen, für acht Uhr."},
+            {"it": "Grazie mille!", "de": "Tausend Dank!"}
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "il coltello", "de": "das Messer", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la forchetta", "de": "die Gabel", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il cucchiaio", "de": "der Löffel", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il cucchiaino", "de": "der Teelöffel", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il tovagliolo", "de": "die Serviette", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il bicchiere", "de": "das Glas", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il pane", "de": "das Brot", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'olio", "de": "das Öl", "wortart": "Substantiv", "genus": "m"},
+        {"it": "l'aceto", "de": "der Essig", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il pepe", "de": "der Pfeffer", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il sale", "de": "das Salz", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la bottiglia", "de": "die Flasche", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il tavolo", "de": "der Tisch", "wortart": "Substantiv", "genus": "m"},
+        {"it": "Sì, dica!", "de": "Ja, bitte? (Sagen Sie!)", "wortart": "Wendung"},
+        {"it": "Mi porta ancora …?", "de": "Bringen Sie mir noch …?", "wortart": "Wendung"},
+        {"it": "un po' di pane", "de": "etwas Brot", "wortart": "Wendung"},
+        {"it": "mancare", "de": "fehlen", "wortart": "Verb"},
+        {"it": "portare", "de": "bringen", "wortart": "Verb"},
+        {"it": "il conto", "de": "die Rechnung", "wortart": "Substantiv", "genus": "m"},
+        {"it": "Il conto, per favore.", "de": "Die Rechnung, bitte.", "wortart": "Wendung"},
+        {"it": "per favore / per piacere / per cortesia", "de": "bitte", "wortart": "Wendung"},
+        {"it": "qualcos'altro", "de": "etwas anderes, noch etwas", "wortart": "Wendung"},
+        {"it": "Va bene così.", "de": "Das ist gut so.", "wortart": "Wendung"},
+        {"it": "ancora", "de": "noch", "wortart": "Adverb"},
+        {"it": "prenotare", "de": "reservieren", "wortart": "Verb"},
+        {"it": "la prenotazione", "de": "die Reservierung", "wortart": "Substantiv", "genus": "f"},
+        {"it": "È possibile prenotare un tavolo?", "de": "Kann man einen Tisch reservieren?", "wortart": "Wendung"},
+        {"it": "Per quante persone?", "de": "Für wie viele Personen?", "wortart": "Wendung"},
+        {"it": "A che nome?", "de": "Auf welchen Namen?", "wortart": "Wendung"},
+        {"it": "per le otto", "de": "für acht Uhr", "wortart": "Wendung"},
+        {"it": "la persona", "de": "die Person", "wortart": "Substantiv", "genus": "f"},
+        {"it": "forse", "de": "vielleicht", "wortart": "Adverb"},
+        {"it": "Grazie mille!", "de": "Tausend Dank!", "wortart": "Wendung"},
+        {"it": "Prego, si figuri!", "de": "Bitte, gern geschehen!", "wortart": "Wendung"},
+        {"it": "A più tardi.", "de": "Bis später.", "wortart": "Wendung"},
+        {"it": "senza", "de": "ohne", "wortart": "Präposition"},
+        {"it": "con", "de": "mit", "wortart": "Präposition"}
+      ],
+      "uebungen": [
+        {"id": "l3-60", "typ": "multiple_choice", "aufgabe": "Du möchtest die Rechnung. Was sagst du?", "optionen": ["Il conto, per cortesia.", "Il contorno, per cortesia.", "Vuole il menù?", "A che nome?"], "loesung": "Il conto, per cortesia.", "loesung_de": "Die Rechnung, bitte.", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-61", "typ": "multiple_choice", "aufgabe": "Du rufst den Kellner höflich. Was sagst du?", "optionen": ["Scusi!", "Dai!", "Prego, si figuri!", "D'accordo."], "loesung": "Scusi!", "loesung_de": "Entschuldigen Sie!", "loesung_generiert": false, "quelle": "L3, S. 40, Nr. 11 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-107", "typ": "multiple_choice", "aufgabe": "Du rufst „Scusi!“. Was antwortet der Kellner?", "optionen": ["Sì, dica!", "Piacere!", "Ciao!", "Buonanotte!"], "loesung": "Sì, dica!", "loesung_de": "Ja, bitte?", "loesung_generiert": false, "quelle": "L3, S. 40, Nr. 11 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-62", "typ": "multiple_choice", "aufgabe": "Jemand sagt „Grazie mille!“. Was antwortest du?", "aufgabe_de": "„Tausend Dank!“", "optionen": ["Prego, si figuri!", "Sì, dica!", "Va bene così.", "Per favore."], "loesung": "Prego, si figuri!", "loesung_de": "Bitte, gern geschehen!", "loesung_generiert": false, "quelle": "L3, S. 42 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-64", "typ": "multiple_choice", "aufgabe": "Reservierung: „Per quante persone?“ – Was antwortest du?", "aufgabe_de": "„Für wie viele Personen?“", "optionen": ["Sei, forse sette.", "Lochmann.", "Grazie mille.", "Arrivederci."], "loesung": "Sei, forse sette.", "loesung_de": "Sechs, vielleicht sieben.", "loesung_generiert": true, "quelle": "L3, S. 42"},
+        {"id": "l3-65", "typ": "multiple_choice", "aufgabe": "Reservierung: „E a che nome?“ – Was antwortest du?", "aufgabe_de": "„Und auf welchen Namen?“", "optionen": ["Sei, forse sette.", "Lochmann.", "Arrivederci.", "Per le otto."], "loesung": "Lochmann.", "loesung_generiert": true, "quelle": "L3, S. 42"},
+        {"id": "l3-108", "typ": "lueckentext", "aufgabe": "Zum Schneiden fehlt dir etwas: Scusi, manca il ___.", "aufgabe_de": "Entschuldigung, es fehlt das ___.", "loesung": "coltello", "loesung_de": "Messer", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 39, Nr. 10"},
+        {"id": "l3-109", "typ": "lueckentext", "aufgabe": "Für die Spaghetti fehlt dir: Scusi, manca la ___.", "aufgabe_de": "Entschuldigung, es fehlt die ___.", "loesung": "forchetta", "loesung_de": "Gabel", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 39, Nr. 10"},
+        {"id": "l3-110", "typ": "lueckentext", "aufgabe": "Für den Mund nach dem Essen: Mi porta un ___?", "aufgabe_de": "Bringen Sie mir eine ___?", "loesung": "tovagliolo", "loesung_de": "Serviette", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 39, Nr. 10"},
+        {"id": "l3-111", "typ": "multiple_choice", "aufgabe": "Was fehlt auf dem Tisch, wenn das Essen zu fade ist?", "optionen": ["il sale", "il tovagliolo", "il cucchiaino", "il bicchiere"], "loesung": "il sale", "loesung_de": "das Salz", "loesung_generiert": true, "quelle": "eigene Übung zu L3, S. 39, Nr. 10"},
+        {"id": "l3-81", "typ": "uebersetzung", "aufgabe": "Übersetze: Die Rechnung, bitte.", "loesung": "Il conto, per cortesia.", "alternativen": ["Il conto, per favore.", "Il conto, per piacere."], "loesung_generiert": false, "quelle": "L3, S. 33"},
+        {"id": "l3-85", "typ": "uebersetzung", "aufgabe": "Übersetze: Nein danke, das ist gut so.", "loesung": "No, grazie, va bene così.", "loesung_generiert": false, "quelle": "L3, S. 43"},
+        {"id": "l3-87", "typ": "uebersetzung", "aufgabe": "Übersetze: Entschuldigen Sie, bringen Sie mir noch etwas Brot?", "loesung": "Scusi, mi porta ancora un po' di pane?", "loesung_generiert": false, "quelle": "L3, S. 33"},
+        {"id": "l3-112", "typ": "uebersetzung", "aufgabe": "Übersetze: Kann man einen Tisch reservieren?", "loesung": "È possibile prenotare un tavolo?", "loesung_generiert": false, "quelle": "L3, S. 42"}
+      ]
+    },
+    {
+      "id": "l3-e6",
+      "titel": "Wo isst man in Italien?",
+      "emoji": "🇮🇹",
+      "ziel": "Du kennst die typischen Lokale und wählst das passende aus.",
+      "mix": true,
+      "erklaerung": [
+        {
+          "titel": "Lokale in Italien",
+          "tabelle": [
+            ["Lokal", "was gibt es?"],
+            ["il bar", "Kaffee, Frühstück, kleine Snacks – schnell im Stehen"],
+            ["la trattoria", "wie ein Restaurant, aber einfacher und oft günstiger"],
+            ["il ristorante", "ein ganzes Essen mit allen Gängen"],
+            ["la pizzeria", "Pizza"],
+            ["la rosticceria", "warme fertige Gerichte zum Mitnehmen, günstig"],
+            ["la gelateria", "Eis"],
+            ["il chiosco", "Kiosk mit Getränken und Snacks"]
+          ]
+        }
+      ],
+      "vokabeln": [
+        {"it": "il ristorante", "de": "das Restaurant", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la trattoria", "de": "das (einfache) Gasthaus", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la pizzeria", "de": "die Pizzeria", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la rosticceria", "de": "der Imbiss mit warmen Speisen", "wortart": "Substantiv", "genus": "f"},
+        {"it": "la gelateria", "de": "die Eisdiele", "wortart": "Substantiv", "genus": "f"},
+        {"it": "il chiosco", "de": "der Kiosk, der Imbissstand", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il locale", "de": "das Lokal", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il pasto", "de": "die Mahlzeit", "wortart": "Substantiv", "genus": "m"},
+        {"it": "il pranzo", "de": "das Mittagessen", "wortart": "Substantiv", "genus": "m"},
+        {"it": "la cena", "de": "das Abendessen", "wortart": "Substantiv", "genus": "f"},
+        {"it": "economico", "de": "günstig, preiswert", "wortart": "Adjektiv"},
+        {"it": "semplice", "de": "einfach", "wortart": "Adjektiv"},
+        {"it": "veloce", "de": "schnell", "wortart": "Adjektiv"},
+        {"it": "aperto", "de": "geöffnet", "wortart": "Adjektiv"},
+        {"it": "chiuso", "de": "geschlossen", "wortart": "Adjektiv"},
+        {"it": "avere tempo", "de": "Zeit haben", "wortart": "Wendung"},
+        {"it": "malato", "de": "krank", "wortart": "Adjektiv"}
+      ],
+      "uebungen": [
+        {"id": "l3-70", "typ": "multiple_choice", "aufgabe": "Teresa mag am liebsten Meeresküche. Welches Lokal passt?", "optionen": ["La zucca magica", "Ristorante del pescatore", "Trattoria Zia Caterina", "Ristorante Sale e pepe"], "loesung": "Ristorante del pescatore", "loesung_generiert": false, "quelle": "L3, S. 41, Nr. 13 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-71", "typ": "multiple_choice", "aufgabe": "Emilio isst kein Fleisch. Welches Lokal passt?", "optionen": ["La zucca magica", "Ristorante del pescatore", "Trattoria Zia Caterina", "Ristorante Sale e pepe"], "loesung": "La zucca magica", "hinweis": "Dort gibt es vegetarische Küche.", "loesung_generiert": false, "quelle": "L3, S. 41, Nr. 13 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-72", "typ": "multiple_choice", "aufgabe": "Andrea liebt typische regionale Gerichte. Welches Lokal passt?", "optionen": ["La zucca magica", "Ristorante del pescatore", "Trattoria Zia Caterina", "Ristorante Sale e pepe"], "loesung": "Trattoria Zia Caterina", "loesung_generiert": false, "quelle": "L3, S. 41, Nr. 13 · Lösung: Lehrerhandbuch"},
+        {"id": "l3-73", "typ": "multiple_choice", "aufgabe": "Wo isst man ein ganzes Essen mit primo, secondo und contorno?", "optionen": ["Bar", "Chiosco", "Ristorante", "Gelateria"], "loesung": "Ristorante", "loesung_generiert": false, "quelle": "L3, S. 46, Caffè culturale"},
+        {"id": "l3-74", "typ": "multiple_choice", "aufgabe": "Wo trinkt man schnell einen Kaffee oder frühstückt?", "optionen": ["Bar", "Trattoria", "Rosticceria", "Pizzeria"], "loesung": "Bar", "loesung_generiert": false, "quelle": "L3, S. 46, Caffè culturale"},
+        {"id": "l3-75", "typ": "multiple_choice", "aufgabe": "Welches Lokal ist wie ein Restaurant, nur einfacher?", "optionen": ["Trattoria", "Chiosco", "Gelateria", "Bar"], "loesung": "Trattoria", "loesung_generiert": false, "quelle": "L3, S. 46, Caffè culturale"},
+        {"id": "l3-76", "typ": "multiple_choice", "aufgabe": "Welches Lokal ist günstig und hat warme, fertige Gerichte?", "optionen": ["Rosticceria", "Gelateria", "Ristorante", "Bar"], "loesung": "Rosticceria", "loesung_generiert": false, "quelle": "L3, S. 46, Caffè culturale"}
+      ]
+    }
+  ]
+}
