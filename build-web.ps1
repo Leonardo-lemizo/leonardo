@@ -27,6 +27,10 @@ $schriftAus = Join-Path $aus 'fonts'
 New-Item -ItemType Directory -Force $schriftAus | Out-Null
 Copy-Item -Path ([IO.Path]::Combine($wurzel, 'app', 'src', 'main', 'res', 'font', '*.ttf')) -Destination $schriftAus
 
+# 3b. Aufnahmen (von tools/make-audio.ps1), falls vorhanden
+$audio = Join-Path $wurzel 'audio'
+if (Test-Path (Join-Path $audio 'index.json')) { Copy-Item -Path $audio -Destination $aus -Recurse }
+
 # 4. Version für den Service Worker (neue Version = Handys laden die Inhalte neu)
 $version = if ($env:GITHUB_SHA) { $env:GITHUB_SHA.Substring(0, 8) } else { Get-Date -Format 'yyyyMMddHHmmss' }
 $sw = Join-Path $aus 'sw.js'

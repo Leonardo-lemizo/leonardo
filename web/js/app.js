@@ -69,15 +69,42 @@ function spracheFreischalten() {
   }
 }
 
+// Aufnahmen (Google-Stimme, audio/index.json): klingen viel natürlicher als die Gerätestimme.
+// Der Service Worker speichert sie im Hintergrund für offline.
+let aufnahmen = null; // { "ciao, anna!": "ciao-anna.mp3", … }
+const spieler = new Audio();
+spieler.preload = 'auto';
+
+const vorlesbar = () => !!aufnahmen || sprache.verfuegbar;
+
+// Klammern, Schrägstriche und Lücken stören beim Vorlesen (gleich wie tools/make-audio.ps1).
+const bereinige = (text) => text.replace(/\(.*?\)/g, ' ').replace(/\//g, ', ').replace(/…/g, ' ').replace(/_+/g, ' ').replace(/\s+/g, ' ').trim();
+
+function stillAlles() {
+  spieler.pause();
+  if (sprache.verfuegbar) speechSynthesis.cancel();
+}
+
 function sprich(text) {
+  if (!text) return;
+  const sauber = bereinige(text);
+  const datei = aufnahmen?.[sauber.toLowerCase()];
+  if (datei) {
+    stillAlles();
+    spieler.src = `audio/${datei}`;
+    spieler.play().catch(() => sprichMitGeraet(sauber));
+    return;
+  }
+  sprichMitGeraet(sauber);
+}
+
+function sprichMitGeraet(text) {
   if (!sprache.verfuegbar || !text) return;
   try {
     // Nach dem Wechsel in den Hintergrund hängt Safari manchmal auf „pausiert“.
     speechSynthesis.resume();
     if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel();
-    const satz = new SpeechSynthesisUtterance(
-      text.replace(/\(.*?\)/g, ' ').replace(/\//g, ', ').replace(/…/g, ' ').replace(/_+/g, ' ').trim(),
-    );
+    const satz = new SpeechSynthesisUtterance(text);
     satz.lang = 'it-IT';
     if (sprache.stimme) satz.voice = sprache.stimme;
     satz.rate = 0.9;
@@ -129,7 +156,7 @@ const balken = (anteil, schluessel) =>
 const emojiKreis = (emoji, klasse = '') => `<span class="emoji-kreis ${klasse}">${emoji}</span>`;
 const etikett = (text, klasse = '') => `<span class="etikett ${klasse}">${esc(text)}</span>`;
 const lautsprecher = (text) =>
-  sprache.verfuegbar && text ? `<button class="laut" data-a="sprich" data-v="${esc(text)}" aria-label="Anhören">🔊</button>` : '';
+  vorlesbar() && text ? `<button class="laut" data-a="sprich" data-v="${esc(text)}" aria-label="Anhören">🔊</button>` : '';
 
 function genusEtikett(v) {
   if (!v.genus) return v.wortart ? etikett(v.wortart) : '';
@@ -385,7 +412,7 @@ function viewAufgabe(r) {
     <div class="aufgabe-zeile"><h2 class="aufgabe">${esc(u.aufgabe)}</h2>
       ${u.aufgabeDe ? `<button class="de-knopf haelt-fokus ${r.deHilfe ? 'an' : ''}" data-a="deHilfe" aria-label="Deutsche Hilfe">DE</button>` : ''}</div>
     ${r.deHilfe && u.aufgabeDe ? `<p class="de-hilfe pop">🇩🇪 ${esc(u.aufgabeDe)}</p>` : ''}
-    ${u.typ === 'hoeren' && sprache.verfuegbar ? '<button class="knopf tonal" data-a="hoerenNochmal">🔊 Nochmal anhören</button>' : ''}
+    ${u.typ === 'hoeren' && vorlesbar() ? '<button class="knopf tonal" data-a="hoerenNochmal">🔊 Nochmal anhören</button>' : ''}
     ${antwort}${tipps}
     ${beantwortet ? `${rueckmeldung(u, r.bewertung)}<button class="knopf" data-a="weiter">Weiter</button>` : ''}`;
 }
@@ -457,9 +484,10 @@ function viewEinstellungen() {
     </section>
     <section class="karte gruppe"><h2>Lesen und Hören</h2>
       ${schalter('grosseSchrift', 'Größere Schrift', 'Alle Texte werden etwas größer.')}
-      ${sprache.verfuegbar ? `${schalter('autoVorlesen', 'Automatisch vorlesen', 'Italienische Wörter und Lösungen werden vorgelesen.')}
+      ${vorlesbar() ? `${schalter('autoVorlesen', 'Automatisch vorlesen', 'Italienische Wörter und Lösungen werden vorgelesen.')}
         <button class="text-knopf" data-a="sprich" data-v="Ciao! Come stai?">🔊 Stimme testen</button>
-        <small class="leise">Nichts zu hören? Lautstärke hochdrehen und auf dem iPhone den Stummschalter prüfen.${sprache.stimme ? ` Stimme: ${esc(sprache.stimme.name)}` : ''}</small>`
+        ${aufnahmen ? `<small class="leise" id="audioStand">🎧 Aussprache: echte Aufnahmen${audioStand.gesamt ? ` · ${audioStandText()}` : ''}</small>` : ''}
+        <small class="leise">Nichts zu hören? Lautstärke hochdrehen.${!aufnahmen && sprache.stimme ? ` Stimme: ${esc(sprache.stimme.name)}` : ''}</small>`
         : '<small class="leise">Vorlesen ist auf diesem Gerät gerade nicht möglich (keine italienische Stimme gefunden).</small>'}
     </section>
     <section class="karte gruppe"><h2>Dein Lernstand</h2>
@@ -514,7 +542,7 @@ function render({ neu = false } = {}) {
 }
 
 function zeige(neu) {
-  if (sprache.verfuegbar) speechSynthesis.cancel();
+  stillAlles();
   screen = neu;
   render({ neu: true });
   window.scrollTo(0, 0);
@@ -544,13 +572,13 @@ function starteErklaerung(e) {
 }
 
 function starteUeben(e) {
-  const fragen = L.fragenFuerEinheit(inhalt, e, stand, anzahlFragen(), sprache.verfuegbar);
+  const fragen = L.fragenFuerEinheit(inhalt, e, stand, anzahlFragen(), vorlesbar());
   zeige({ name: 'ueben', zurueck: { name: 'einheit', id: e.id }, runde: new L.UebenRunde(fragen, e.titel, e.id, speichereErgebnis, speichereWort) });
   frageBeginnt();
 }
 
 function starteWiederholung() {
-  const fragen = L.fragenWiederholung(inhalt, stand, anzahlFragen(), sprache.verfuegbar);
+  const fragen = L.fragenWiederholung(inhalt, stand, anzahlFragen(), vorlesbar());
   if (!fragen.length) return aktionen.weiterLernen();
   zeige({ name: 'ueben', zurueck: { name: 'start' }, runde: new L.UebenRunde(fragen, 'Wiederholen', null, speichereErgebnis, speichereWort) });
   frageBeginnt();
@@ -813,8 +841,8 @@ async function starte() {
     stimmeSuchen();
     speechSynthesis.addEventListener?.('voiceschanged', stimmeSuchen);
     document.addEventListener('pointerdown', spracheFreischalten, { once: true, capture: true });
-    document.addEventListener('visibilitychange', () => { if (document.hidden) speechSynthesis.cancel(); });
   }
+  document.addEventListener('visibilitychange', () => { if (document.hidden) stillAlles(); });
   document.documentElement.classList.toggle('gross', stand.einstellungen.grosseSchrift);
   try {
     const liste = await (await fetch('content/index.json')).json();
@@ -824,8 +852,37 @@ async function starte() {
     app.innerHTML = '<main class="seite mitte"><h2>Ups</h2><p class="leise mittig">Die Inhalte konnten nicht geladen werden. Öffne die App einmal mit Internet, danach geht sie offline.</p></main>';
     return;
   }
+  try {
+    aufnahmen = (await (await fetch('audio/index.json')).json()).dateien;
+  } catch {
+    aufnahmen = null; // keine Aufnahmen → Gerätestimme
+  }
   render({ neu: true });
+  if (aufnahmen) audioOfflineSpeichern();
 }
+
+// ---------------------------------------------------------------------------
+// Aufnahmen offline speichern (macht der Service Worker im Hintergrund)
+// ---------------------------------------------------------------------------
+
+const audioStand = { fertig: 0, gesamt: 0 };
+const audioStandText = () => (audioStand.fertig >= audioStand.gesamt
+  ? '✓ offline gespeichert'
+  : `wird gespeichert … ${audioStand.fertig} von ${audioStand.gesamt}`);
+
+async function audioOfflineSpeichern() {
+  if (!('serviceWorker' in navigator)) return;
+  const reg = await navigator.serviceWorker.ready;
+  reg.active?.postMessage('audio-speichern');
+}
+
+navigator.serviceWorker?.addEventListener('message', (e) => {
+  if (e.data?.art !== 'audio') return;
+  audioStand.fertig = e.data.fertig;
+  audioStand.gesamt = e.data.gesamt;
+  const zeile = document.getElementById('audioStand');
+  if (zeile) zeile.textContent = `🎧 Aussprache: echte Aufnahmen · ${audioStandText()}`;
+});
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js', { scope: './' }).catch(() => {});

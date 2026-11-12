@@ -20,3 +20,7 @@ local.properties
 *.iml
 .DS_Store
 Thumbs.db
+
+# Google-API-Schlüssel und Hörproben
+*tts-key*.txt
+audio-proben/

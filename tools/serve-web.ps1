@@ -6,7 +6,7 @@ $ordner = (Resolve-Path $Ordner).Path
 $typen = @{
     '.html' = 'text/html; charset=utf-8'; '.js' = 'text/javascript; charset=utf-8'; '.css' = 'text/css; charset=utf-8'
     '.json' = 'application/json; charset=utf-8'; '.webmanifest' = 'application/manifest+json'; '.png' = 'image/png'
-    '.ttf' = 'font/ttf'; '.svg' = 'image/svg+xml'; '.txt' = 'text/plain; charset=utf-8'
+    '.ttf' = 'font/ttf'; '.mp3' = 'audio/mpeg'; '.svg' = 'image/svg+xml'; '.txt' = 'text/plain; charset=utf-8'
 }
 $server = New-Object System.Net.HttpListener
 $server.Prefixes.Add("http://localhost:$Port/")

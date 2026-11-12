@@ -28,6 +28,20 @@ die Seite und veröffentlicht sie über GitHub Pages unter `https://<konto>.gith
 Auf dem iPhone: Seite in **Safari** öffnen → Teilen-Symbol → **Zum Home-Bildschirm**.
 Danach läuft die App ohne Internet.
 
+### Aussprache (Aufnahmen)
+
+Alle italienischen Wörter und Sätze liegen als MP3 in [`audio/`](audio/) – aufgenommen mit der freien,
+lokal laufenden Sprach-KI [Piper](https://github.com/rhasspy/piper) und der Stimme
+[it_IT-paola-medium](https://huggingface.co/rhasspy/piper-voices/tree/main/it/it_IT/paola/medium)
+(Datensatz: CC0). Die Web-App speichert sie beim ersten Öffnen automatisch für offline;
+fehlt eine Aufnahme, liest die Stimme des Geräts vor.
+
+Nach neuen Inhalten einfach nachaufnehmen (nur neue Texte werden erzeugt):
+
+```powershell
+./tools/make-audio.ps1 -Piper <pfad>\piper.exe -Stimme <pfad>\it_IT-paola-medium.onnx
+```
+
 ## Android-App
 
 ```powershell
