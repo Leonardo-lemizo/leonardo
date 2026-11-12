@@ -42,16 +42,39 @@ function aendern(aenderung) {
 
 const sprache = { verfuegbar: 'speechSynthesis' in window, stimme: null };
 
+// Beste italienische Stimme: it-IT vor anderen it-Varianten, „Premium/Erweitert“ vor einfachen,
+// Stimmen auf dem Gerät (offline) vor Online-Stimmen.
+function stimmenWert(s) {
+  return (s.lang.replace('_', '-').toLowerCase() === 'it-it' ? 4 : 0) +
+    (/premium|enhanced|erweitert|verbessert/i.test(s.name) ? 2 : 0) + (s.localService ? 1 : 0);
+}
+
 function stimmeSuchen() {
-  const stimmen = speechSynthesis.getVoices();
-  sprache.stimme = stimmen.find((s) => s.lang.toLowerCase().startsWith('it')) || null;
-  if (stimmen.length && !sprache.stimme) sprache.verfuegbar = false;
+  const italienisch = speechSynthesis.getVoices().filter((s) => s.lang.toLowerCase().startsWith('it'));
+  const vorher = sprache.verfuegbar;
+  sprache.stimme = italienisch.sort((a, b) => stimmenWert(b) - stimmenWert(a))[0] || null;
+  // Safari liefert die Stimmen oft erst später (oder nie) – ohne Liste versuchen wir es trotzdem mit „it-IT“.
+  sprache.verfuegbar = speechSynthesis.getVoices().length === 0 || !!sprache.stimme;
+  if (vorher !== sprache.verfuegbar && inhalt) render();
+}
+
+// iOS spielt Sprache erst nach einer Berührung ab: beim ersten Tippen einmal „leer“ sprechen.
+function spracheFreischalten() {
+  try {
+    const leer = new SpeechSynthesisUtterance(' ');
+    leer.volume = 0;
+    speechSynthesis.speak(leer);
+  } catch {
+    /* egal */
+  }
 }
 
 function sprich(text) {
   if (!sprache.verfuegbar || !text) return;
   try {
-    speechSynthesis.cancel();
+    // Nach dem Wechsel in den Hintergrund hängt Safari manchmal auf „pausiert“.
+    speechSynthesis.resume();
+    if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel();
     const satz = new SpeechSynthesisUtterance(
       text.replace(/\(.*?\)/g, ' ').replace(/\//g, ', ').replace(/…/g, ' ').replace(/_+/g, ' ').trim(),
     );
@@ -435,7 +458,8 @@ function viewEinstellungen() {
     <section class="karte gruppe"><h2>Lesen und Hören</h2>
       ${schalter('grosseSchrift', 'Größere Schrift', 'Alle Texte werden etwas größer.')}
       ${sprache.verfuegbar ? `${schalter('autoVorlesen', 'Automatisch vorlesen', 'Italienische Wörter und Lösungen werden vorgelesen.')}
-        <button class="text-knopf" data-a="sprich" data-v="Ciao! Come stai?">🔊 Stimme testen</button>`
+        <button class="text-knopf" data-a="sprich" data-v="Ciao! Come stai?">🔊 Stimme testen</button>
+        <small class="leise">Nichts zu hören? Lautstärke hochdrehen und auf dem iPhone den Stummschalter prüfen.${sprache.stimme ? ` Stimme: ${esc(sprache.stimme.name)}` : ''}</small>`
         : '<small class="leise">Vorlesen ist auf diesem Gerät gerade nicht möglich (keine italienische Stimme gefunden).</small>'}
     </section>
     <section class="karte gruppe"><h2>Dein Lernstand</h2>
@@ -788,6 +812,8 @@ async function starte() {
   if (sprache.verfuegbar) {
     stimmeSuchen();
     speechSynthesis.addEventListener?.('voiceschanged', stimmeSuchen);
+    document.addEventListener('pointerdown', spracheFreischalten, { once: true, capture: true });
+    document.addEventListener('visibilitychange', () => { if (document.hidden) speechSynthesis.cancel(); });
   }
   document.documentElement.classList.toggle('gross', stand.einstellungen.grosseSchrift);
   try {
